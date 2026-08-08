@@ -1,0 +1,755 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Job Radar</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,800&family=Public+Sans:wght@400;500;600&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+<style>
+:root{
+  --bg:#E6E4DE; --surface:#FFF; --sunk:#F3F1EC;
+  --ink:#16171A; --muted:#6E7178; --line:#CFCCC4;
+  --accent:#1B34C7; --hit:#0B6E4F; --warn:#B4531C;
+  --r:3px; --tap:44px;
+  --display:"Bricolage Grotesque",-apple-system,Segoe UI,sans-serif;
+  --body:"Public Sans",-apple-system,Segoe UI,sans-serif;
+  --mono:"JetBrains Mono",ui-monospace,Menlo,monospace;
+}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--body);
+  font-size:15px;line-height:1.5;-webkit-font-smoothing:antialiased;overscroll-behavior-y:contain}
+button,input,textarea,select{font:inherit;color:inherit}
+a{color:var(--accent)}
+:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+
+.shell{max-width:1180px;margin:0 auto;padding:0 14px 90px}
+
+.top{position:sticky;top:0;z-index:20;background:var(--bg);padding-top:14px}
+.brand{display:flex;align-items:baseline;gap:10px;flex-wrap:wrap;
+  padding-bottom:10px;border-bottom:2px solid var(--ink)}
+.brand h1{font-family:var(--display);font-weight:800;font-size:24px;letter-spacing:-.03em;margin:0}
+.brand h1 span{color:var(--accent)}
+.stamp{font-family:var(--mono);font-size:10.5px;color:var(--muted);
+  text-transform:uppercase;letter-spacing:.08em;width:100%}
+
+.tabs{display:flex;gap:2px;overflow-x:auto;-webkit-overflow-scrolling:touch;
+  scrollbar-width:none;padding-top:8px}
+.tabs::-webkit-scrollbar{display:none}
+.tab{flex:0 0 auto;min-height:var(--tap);background:transparent;border:1px solid transparent;
+  border-bottom:none;padding:0 14px;cursor:pointer;font-weight:600;font-size:14px;
+  color:var(--muted);border-radius:var(--r) var(--r) 0 0;white-space:nowrap}
+.tab[aria-selected=true]{background:var(--surface);border-color:var(--line);color:var(--ink)}
+.tab b{font-family:var(--mono);font-size:11px;font-weight:400;margin-left:5px;color:var(--muted)}
+
+.board{background:var(--surface);border:1px solid var(--line);
+  border-radius:0 var(--r) var(--r) var(--r);padding:12px}
+
+.bar{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:12px}
+.bar input,.bar select{min-height:var(--tap);padding:0 11px;background:var(--sunk);
+  border:1px solid var(--line);border-radius:var(--r)}
+.bar input{flex:1 1 100%;min-width:0}
+
+/* ---- karta nabidky ---- */
+.karta{display:flex;gap:12px;padding:14px 0;border-top:1px solid var(--line);
+  touch-action:pan-y;background:var(--surface)}
+.karta:first-child{border-top:none}
+.karta.zvednuta{position:relative;z-index:10;border-radius:var(--r);
+  box-shadow:0 6px 20px rgba(0,0,0,.16);border-top-color:transparent;padding-left:8px;padding-right:8px}
+.karta.tazeni{opacity:.55}
+
+.uchyt{display:none;flex-direction:column;align-items:center;justify-content:center;
+  gap:4px;min-width:26px;color:var(--muted);cursor:grab}
+.serazene .uchyt{display:flex}
+.uchyt span{font-family:var(--mono);font-size:11px}
+.uchyt i{display:block;width:14px;height:2px;background:currentColor;border-radius:1px}
+
+.pruh{width:4px;flex:0 0 4px;border-radius:2px;background:var(--sunk);
+  display:flex;align-items:flex-end;min-height:52px}
+.pruh b{display:block;width:100%;border-radius:2px;background:var(--muted)}
+.pruh.dobre b{background:var(--hit)}
+.pruh.stredne b{background:var(--accent)}
+
+.telo{flex:1;min-width:0}
+.role{font-family:var(--display);font-weight:600;font-size:17px;letter-spacing:-.02em;margin:0 0 4px}
+.role a{color:var(--ink);text-decoration:none}
+.role a:hover{color:var(--accent)}
+
+.fakta{display:flex;flex-wrap:wrap;gap:4px 8px;font-size:13px;color:var(--muted);margin-bottom:8px}
+.fakta .silne{color:var(--ink)}
+.fakta .penize{font-family:var(--mono);font-size:12px;color:var(--ink)}
+.fakta .prepocet{font-family:var(--mono);font-size:12px;color:var(--muted)}
+.fakta a{min-height:24px;display:inline-flex;align-items:center;text-decoration:none}
+
+.duvod{margin:0 0 10px;font-size:14px;color:var(--muted);max-width:62ch}
+.termin{display:inline-block;font-family:var(--mono);font-size:11px;padding:3px 8px;
+  border-radius:var(--r);background:#F7E6DA;color:var(--warn);margin-bottom:8px}
+
+.akce{display:flex;flex-wrap:wrap;gap:8px;align-items:center}
+.hvezdy{display:flex}
+.hvezda{width:var(--tap);height:var(--tap);display:flex;align-items:center;justify-content:center;
+  background:none;border:none;cursor:pointer;padding:0;color:var(--line);font-size:21px;line-height:1}
+.hvezda.plna{color:#C8901A}
+.stav{min-height:var(--tap);padding:0 10px;background:var(--sunk);
+  border:1px solid var(--line);border-radius:var(--r);max-width:100%}
+.zdroje{display:flex;flex-wrap:wrap;gap:8px;font-size:12px;font-family:var(--mono);width:100%}
+
+/* ---- prihlasky ---- */
+.spis{border:1px solid var(--line);border-radius:var(--r);padding:12px;margin-bottom:10px}
+.spis h3{font-family:var(--display);font-size:16px;font-weight:600;margin:0 0 2px}
+.spis .kdo{font-size:13px;color:var(--muted);margin-bottom:10px}
+.mrizka{display:grid;grid-template-columns:1fr;gap:8px}
+.pole label{display:block;font-family:var(--mono);font-size:10.5px;text-transform:uppercase;
+  letter-spacing:.08em;color:var(--muted);margin-bottom:3px}
+.pole input,.pole select,.pole textarea{width:100%;min-height:var(--tap);padding:8px 10px;
+  background:var(--sunk);border:1px solid var(--line);border-radius:var(--r)}
+.pole textarea{min-height:70px;resize:vertical}
+.odezva{font-family:var(--mono);font-size:12px;color:var(--muted);margin-top:8px}
+.odezva.dlouho{color:var(--warn)}
+
+/* ---- katalog ---- */
+.chipy{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:14px}
+.chip{min-height:36px;display:inline-flex;align-items:center;gap:6px;padding:0 11px;
+  border-radius:var(--r);border:1px solid var(--line);background:transparent;
+  cursor:pointer;font-size:13px;color:var(--muted)}
+.chip.on{background:var(--accent);border-color:var(--accent);color:#fff}
+.chip u{font-family:var(--mono);font-size:11px;text-decoration:none;opacity:.75}
+.chip .x{font-size:16px;opacity:.6}
+.navrh{background:var(--sunk);border-radius:var(--r);padding:10px 12px;font-size:13px;margin-bottom:14px}
+
+/* ---- nastaveni ---- */
+.usek{margin-bottom:20px}
+.usek>label{display:block;font-family:var(--mono);font-size:10.5px;text-transform:uppercase;
+  letter-spacing:.08em;color:var(--muted);margin-bottom:6px}
+.usek textarea,.usek input,.usek select{width:100%;min-height:var(--tap);padding:9px 11px;
+  background:var(--sunk);border:1px solid var(--line);border-radius:var(--r)}
+.usek textarea{min-height:150px;resize:vertical;line-height:1.55}
+.napoveda{font-size:13px;color:var(--muted);margin:5px 0 0}
+.trojice{display:grid;grid-template-columns:1fr;gap:12px}
+.zdroj{display:flex;gap:10px;align-items:center;flex-wrap:wrap;
+  padding:10px 0;border-top:1px solid var(--line)}
+.zdroj:first-of-type{border-top:none}
+.zdroj input[type=checkbox]{width:22px;height:22px;flex:0 0 22px}
+.zdroj .jm{flex:1 1 140px;font-weight:500}
+.zdroj .ty{font-family:var(--mono);font-size:11px;color:var(--muted)}
+
+.lista{position:sticky;bottom:0;display:flex;gap:8px;align-items:center;flex-wrap:wrap;
+  background:var(--surface);border-top:1px solid var(--line);
+  margin:16px -12px -12px;padding:10px 12px calc(10px + env(safe-area-inset-bottom))}
+.cta,.duch{min-height:var(--tap);padding:0 16px;border-radius:var(--r);cursor:pointer;font-weight:600}
+.cta{background:var(--accent);color:#fff;border:none}
+.duch{background:transparent;border:1px solid var(--line)}
+.cta[disabled]{background:var(--muted)}
+.hlas{font-family:var(--mono);font-size:12px;color:var(--muted)}
+.hlas.ok{color:var(--hit)} .hlas.zle{color:var(--warn)}
+
+.prazdno{padding:40px 8px;text-align:center;color:var(--muted)}
+.prazdno b{display:block;font-family:var(--display);font-size:17px;color:var(--ink);margin-bottom:6px}
+.skryto{display:none!important}
+
+@media (min-width:640px){
+  .shell{padding:0 20px 90px}
+  .brand h1{font-size:29px}
+  .stamp{width:auto;margin-left:auto}
+  .bar input{flex:1 1 220px}
+  .mrizka{grid-template-columns:1fr 1fr}
+  .trojice{grid-template-columns:repeat(3,1fr)}
+  .board{padding:16px}
+  .lista{margin:20px -16px -16px;padding-left:16px;padding-right:16px}
+}
+@media (min-width:1000px){ .mrizka{grid-template-columns:repeat(3,1fr)} }
+@media (prefers-reduced-motion:reduce){*{transition:none!important;animation:none!important}}
+</style>
+</head>
+<body>
+<div class="shell">
+
+<div class="top">
+  <div class="brand">
+    <h1>Job<span>&#8226;</span>Radar</h1>
+    <div class="stamp" id="stamp">načítám</div>
+  </div>
+  <nav class="tabs" role="tablist">
+    <button class="tab" role="tab" data-v="nove" aria-selected="true">Nové <b id="p-nove"></b></button>
+    <button class="tab" role="tab" data-v="zajimave" aria-selected="false">Zajímavé <b id="p-zajimave"></b></button>
+    <button class="tab" role="tab" data-v="prihlasky" aria-selected="false">Přihlášky <b id="p-prihlasky"></b></button>
+    <button class="tab" role="tab" data-v="katalog" aria-selected="false">Katalog</button>
+    <button class="tab" role="tab" data-v="nastaveni" aria-selected="false">Nastavení</button>
+  </nav>
+</div>
+
+<main class="board">
+
+  <section id="pane-seznam">
+    <div class="bar" id="filtry">
+      <input id="q" type="search" placeholder="Hledat v názvu, firmě nebo popisu">
+      <select id="razeni">
+        <option value="skore">Řadit podle skóre</option>
+        <option value="datum">Řadit podle data</option>
+        <option value="mzda">Řadit podle mzdy</option>
+      </select>
+      <select id="prah">
+        <option value="prah">Jen nad prahem</option>
+        <option value="0">Vše bez ohledu na skóre</option>
+      </select>
+    </div>
+    <div id="seznam"></div>
+  </section>
+
+  <section id="pane-prihlasky" class="skryto"></section>
+
+  <section id="pane-katalog" class="skryto">
+    <div id="navrhy"></div>
+    <div class="usek">
+      <label>Katalog výrazů</label>
+      <div class="chipy" id="katalog"></div>
+      <div class="bar">
+        <input id="novyVyraz" type="text" placeholder="Přidat výraz, například head of brand">
+        <button class="duch" id="pridatVyraz">Přidat</button>
+      </div>
+      <p class="napoveda">Čísla u výrazu znamenají, kolik nabídek přinesl a kolik z nich jsi ohodnotila čtyřkou nebo pětkou.</p>
+    </div>
+    <div class="usek">
+      <label for="proZdroj">Výběr výrazů pro zdroj</label>
+      <select id="proZdroj"></select>
+      <div class="chipy" id="vyberZdroje" style="margin-top:10px"></div>
+      <p class="napoveda">Zaškrtnutím vybíráš, které výrazy se u tohoto zdroje hledají. Odškrtnutí výraz z katalogu nesmaže.</p>
+    </div>
+  </section>
+
+  <section id="pane-nastaveni" class="skryto">
+    <div class="usek">
+      <label for="zadani">Zadání</label>
+      <textarea id="zadani" placeholder="Napiš běžnou češtinou, co hledáš a co tě nezajímá."></textarea>
+      <p class="napoveda">Tohle čte model u každé nabídky. Konkrétní věty fungují líp než klíčová slova. Klidně piš i to, co nechceš.</p>
+    </div>
+    <div class="trojice">
+      <div class="usek">
+        <label for="prahSkore">Práh skóre</label>
+        <input id="prahSkore" type="number" min="0" max="100" step="5">
+        <p class="napoveda">Pod ním se nabídky nezobrazí v Nové.</p>
+      </div>
+      <div class="usek">
+        <label for="archiv">Archiv ve dnech</label>
+        <input id="archiv" type="number" min="7" max="365" step="7">
+        <p class="napoveda">Jak dlouho držet staré nabídky.</p>
+      </div>
+      <div class="usek">
+        <label for="model">Model</label>
+        <select id="model">
+          <option value="claude-sonnet-5">Sonnet 5 (přesnější)</option>
+          <option value="claude-haiku-4-5-20251001">Haiku 4.5 (levnější)</option>
+          <option value="claude-opus-5">Opus 5 (nejdražší)</option>
+        </select>
+        <p class="napoveda">Sonnet je dobrý kompromis.</p>
+      </div>
+    </div>
+    <div class="usek">
+      <label for="vylucit">Vyloučená slova</label>
+      <input id="vylucit" type="text" placeholder="brigáda, praktikant, stážista">
+      <p class="napoveda">Odděl čárkou. Filtruje ještě před hodnocením, takže šetří kredit.</p>
+    </div>
+    <div class="usek">
+      <label>Zdroje</label>
+      <div id="zdroje"></div>
+    </div>
+    <div class="usek">
+      <label for="novyTyp">Přidat zdroj</label>
+      <div class="bar">
+        <select id="novyTyp" style="flex:0 1 170px">
+          <option value="jobscz">Jobs.cz</option>
+          <option value="pracecz">Prace.cz</option>
+          <option value="startupjobs">StartupJobs</option>
+          <option value="hzm">Holky z marketingu</option>
+          <option value="euremotejobs">EU Remote Jobs</option>
+          <option value="tribee">Tribee</option>
+          <option value="greenhouse">Greenhouse</option>
+          <option value="lever">Lever</option>
+          <option value="recruitee">Recruitee</option>
+          <option value="rss">RSS</option>
+        </select>
+        <input id="novyKlic" type="text" placeholder="Název boardu nebo URL, u boardů nech prázdné">
+        <button class="duch" id="pridatZdroj">Přidat</button>
+      </div>
+    </div>
+    <div class="usek">
+      <label for="token">GitHub token</label>
+      <input id="token" type="password" placeholder="github_pat_...">
+      <p class="napoveda">Bez něj si dashboard jen čte. S ním ukládá hodnocení i nastavení zpátky do repozitáře. Fine-grained token s právem Contents: Read and write jen pro tenhle repozitář.</p>
+    </div>
+    <div class="usek">
+      <label for="repo">Repozitář</label>
+      <input id="repo" type="text" placeholder="uzivatel/job-radar">
+    </div>
+  </section>
+
+  <div class="lista">
+    <button class="cta" id="ulozit">Uložit změny</button>
+    <button class="duch" id="znovu">Načíst znovu</button>
+    <span class="hlas" id="hlas"></span>
+  </div>
+</main>
+</div>
+
+<script>
+(function(){
+"use strict";
+
+var pamet={};
+var box={get:function(k){try{return localStorage.getItem(k)}catch(e){return pamet[k]||null}},
+         set:function(k,v){try{localStorage.setItem(k,v)}catch(e){pamet[k]=v}}};
+var $=function(s){return document.querySelector(s)};
+var S={cfg:{},jobs:{nabidky:[]},hod:{},firmy:{},view:"nove",spinavy:false};
+
+var STAVY=[["","bez stavu"],["zajima","zajímá mě"],["prihlasena","přihlášena"],
+  ["pozvanka","pozvánka"],["po_pohovoru","po pohovoru"],["nabidka","nabídka"],
+  ["zamitnuto","zamítnuto"],["odpadlo","odpadlo"]];
+var VE_SPISU=["prihlasena","pozvanka","po_pohovoru","nabidka","zamitnuto"];
+
+function esc(t){return String(t==null?"":t).replace(/[&<>"]/g,function(c){
+  return {"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]})}
+function cislo(n){return Math.round(n).toLocaleString("cs-CZ")}
+function zaznam(id){return S.hod[id]||{}}
+function spinave(){S.spinavy=true;hlas("neuloženo","zle")}
+function hlas(t,d){var e=$("#hlas");e.textContent=t;e.className="hlas"+(d?" "+d:"")}
+
+/* ---------- data ---------- */
+function cti(f,z){return fetch("data/"+f+"?t="+Date.now())
+  .then(function(r){return r.ok?r.json():z}).catch(function(){return z})}
+
+function nacti(){
+  hlas("načítám","");
+  return Promise.all([cti("config.json",{}),cti("jobs.json",{nabidky:[]}),
+                      cti("ratings.json",{}),cti("companies.json",{})])
+  .then(function(v){
+    S.cfg=v[0];S.jobs=v[1];S.hod=v[2];S.firmy=v[3];S.spinavy=false;
+    $("#repo").value=box.get("jr_repo")||odhadRepo();
+    $("#token").value=box.get("jr_token")||"";
+    naplnNastaveni();vykresli();
+    var k=S.jobs.posledni_beh;
+    $("#stamp").textContent=(k?"poslední sken "+new Date(k).toLocaleString("cs-CZ",
+      {day:"numeric",month:"numeric",hour:"2-digit",minute:"2-digit"}):"zatím žádný sken")
+      +" · "+Object.keys(S.hod).length+" hodnocení";
+    hlas("","");
+  });
+}
+
+/* ---------- mzda ---------- */
+function mzdaText(m){
+  if(!m)return '<span class="penize" style="color:var(--muted)">mzda neuvedena</span>';
+  var org=m.text||"";
+  var out='<span class="penize">'+esc(org)+'</span>';
+  if(m.prepocteno&&m.czk_mesic_min){
+    var r=cislo(m.czk_mesic_min)+(m.czk_mesic_max?" až "+cislo(m.czk_mesic_max):"");
+    out+='<span class="prepocet" title="Kurz ČNB '+esc(m.kurz_datum)+'">≈ '+r+' Kč/měs</span>';
+  }
+  return out;
+}
+function mzdaCislo(n){var m=n.mzda;return m&&m.czk_mesic_min?m.czk_mesic_min:-1}
+
+/* ---------- vyber ---------- */
+function vyber(){
+  var prah=(S.view==="nove"&&$("#prah").value==="prah")?(S.cfg.prah_skore||0):0;
+  var q=($("#q").value||"").toLowerCase().trim();
+  var out=(S.jobs.nabidky||[]).filter(function(n){
+    var z=zaznam(n.id),st=z.stav||"";
+    if(S.view==="nove"&&(st||(n.skore||0)<prah))return false;
+    if(S.view==="zajimave"&&st!=="zajima")return false;
+    if(q&&((n.nazev+" "+n.firma+" "+n.lokalita+" "+n.popis).toLowerCase().indexOf(q)===-1))return false;
+    return true;
+  });
+  if(S.view==="zajimave"){
+    out.sort(function(a,b){
+      var pa=zaznam(a.id).poradi,pb=zaznam(b.id).poradi;
+      if(pa==null&&pb==null)return (b.skore||0)-(a.skore||0);
+      if(pa==null)return 1; if(pb==null)return -1; return pa-pb;
+    });
+  }else{
+    var r=$("#razeni").value;
+    out.sort(r==="datum"?function(a,b){return (b.nalezeno||"").localeCompare(a.nalezeno||"")}
+      :r==="mzda"?function(a,b){return mzdaCislo(b)-mzdaCislo(a)}
+      :function(a,b){return (b.skore||0)-(a.skore||0)});
+  }
+  return out;
+}
+
+/* ---------- karta ---------- */
+function karta(n,poradi){
+  var z=zaznam(n.id),s=n.skore||0;
+  var tr=s>=75?"dobre":s>=50?"stredne":"";
+  var f=[];
+  if(n.firma)f.push('<span class="silne">'+esc(n.firma)+'</span>');
+  if(n.web)f.push('<a href="'+esc(n.web)+'" target="_blank" rel="noopener" title="Web firmy">web</a>');
+  if(n.kariera)f.push('<a href="'+esc(n.kariera)+'" target="_blank" rel="noopener" title="Kariérní stránka">kariéra</a>');
+  if(n.lokalita)f.push('<span>'+esc(n.lokalita)+'</span>');
+  f.push(mzdaText(n.mzda));
+
+  var hv="";
+  for(var i=1;i<=5;i++)hv+='<button class="hvezda'+((z.hvezdy||0)>=i?" plna":"")+
+    '" data-hv="'+i+'" aria-label="Hodnotit '+i+' z 5">★</button>';
+
+  var opt=STAVY.map(function(p){return '<option value="'+p[0]+'"'+
+    ((z.stav||"")===p[0]?" selected":"")+'>'+p[1]+'</option>'}).join("");
+
+  var odk=(n.odkazy||[]).map(function(o){return '<a href="'+esc(o.url)+
+    '" target="_blank" rel="noopener">'+esc(o.zdroj||"odkaz")+'</a>'}).join("");
+
+  return '<article class="karta" data-id="'+n.id+'">'
+    +'<div class="uchyt" aria-hidden="true"><i></i><i></i><span>'+(poradi+1)+'</span></div>'
+    +'<div class="pruh '+tr+'" title="Skóre '+s+' ze 100"><b style="height:'+Math.max(s,2)+'%"></b></div>'
+    +'<div class="telo">'
+      +'<h2 class="role"><a href="'+esc((n.odkazy&&n.odkazy[0]||{}).url||"#")+'" target="_blank" rel="noopener">'+esc(n.nazev||"Bez názvu")+'</a></h2>'
+      +'<div class="fakta">'+f.join("")+'</div>'
+      +(n.deadline?'<div class="termin">přihlášky do '+esc(n.deadline)+'</div>':"")
+      +'<p class="duvod">'+esc(n.duvod||"Zatím bez hodnocení.")+'</p>'
+      +'<div class="akce"><div class="hvezdy">'+hv+'</div>'
+      +'<select class="stav" aria-label="Stav">'+opt+'</select>'
+      +'<div class="zdroje">'+odk+'</div></div>'
+    +'</div></article>';
+}
+
+function vykresli(){
+  var vse=S.jobs.nabidky||[],prah=S.cfg.prah_skore||0;
+  var poc=function(f){return vse.filter(f).length};
+  $("#p-nove").textContent=poc(function(n){return !zaznam(n.id).stav&&(n.skore||0)>=prah});
+  $("#p-zajimave").textContent=poc(function(n){return zaznam(n.id).stav==="zajima"});
+  $("#p-prihlasky").textContent=poc(function(n){return VE_SPISU.indexOf(zaznam(n.id).stav)>-1});
+
+  if(S.view==="prihlasky")return vykresliPrihlasky();
+  if(S.view==="katalog")return vykresliKatalog();
+  if(S.view==="nastaveni")return;
+
+  var p=vyber(),el=$("#seznam");
+  el.className=S.view==="zajimave"?"serazene":"";
+  $("#filtry").classList.toggle("skryto",S.view==="zajimave");
+  el.innerHTML=p.length?p.map(karta).join("")
+    :'<div class="prazdno"><b>Tady zatím nic není</b>'
+     +(S.view==="nove"?"Buď ještě neproběhl sken, nebo nic neprošlo prahem. Zkus přepnout na Vše bez ohledu na skóre."
+       :"Označ nabídku stavem zajímá mě a objeví se tady. Pak ji můžeš přetáhnout, kam patří.")+'</div>';
+}
+
+/* ---------- prihlasky ---------- */
+function vykresliPrihlasky(){
+  var vse=(S.jobs.nabidky||[]).filter(function(n){return VE_SPISU.indexOf(zaznam(n.id).stav)>-1});
+  $("#pane-prihlasky").innerHTML=vse.length?vse.map(spis).join("")
+    :'<div class="prazdno"><b>Zatím žádné přihlášky</b>Až u nabídky přepneš stav na přihlášena, otevře se tady spis.</div>';
+}
+
+function spis(n){
+  var z=zaznam(n.id),p=z.prihlaska||{};
+  var dny=odezvaDnu(p);
+  return '<div class="spis" data-id="'+n.id+'">'
+    +'<h3>'+esc(n.nazev)+'</h3><div class="kdo">'+esc(n.firma||"")+
+      (n.lokalita?" · "+esc(n.lokalita):"")+" · "+esc(stavPopisek(z.stav))+'</div>'
+    +'<div class="mrizka">'
+      +polePr("odeslano","Odesláno","date",p.odeslano)
+      +polePr("cv","Verze CV","text",p.cv)
+      +polePr("dopis","Motivační dopis","text",p.dopis)
+      +polePr("kontakt","Kontaktní osoba","text",p.kontakt)
+      +polePr("mzda","Mzda, o kterou jsem řekla","text",p.mzda)
+      +polePr("odpoved","První odpověď","date",p.odpoved)
+    +'</div>'
+    +'<div class="pole" style="margin-top:8px"><label>Poznámky z komunikace</label>'
+      +'<textarea data-pr="poznamky">'+esc(p.poznamky||"")+'</textarea></div>'
+    +(dny==null?"":'<div class="odezva'+(dny>10&&!p.odpoved?" dlouho":"")+'">'
+       +(p.odpoved?"odpověď za "+dny+" "+sklonujDny(dny)
+         :"čekáš "+dny+" "+sklonujDny(dny)+(dny>10?", možná je čas se ozvat":""))+'</div>')
+    +'</div>';
+}
+function polePr(k,l,t,v){return '<div class="pole"><label>'+l+'</label>'
+  +'<input type="'+t+'" data-pr="'+k+'" value="'+esc(v||"")+'"></div>'}
+function stavPopisek(s){for(var i=0;i<STAVY.length;i++)if(STAVY[i][0]===s)return STAVY[i][1];return ""}
+function sklonujDny(d){return d===1?"den":(d>=2&&d<=4)?"dny":"dní"}
+function odezvaDnu(p){
+  if(!p.odeslano)return null;
+  var od=new Date(p.odeslano),do_=p.odpoved?new Date(p.odpoved):new Date();
+  if(isNaN(od))return null;
+  return Math.max(0,Math.round((do_-od)/864e5));
+}
+
+/* ---------- katalog ---------- */
+function statistikaVyrazu(){
+  var st={};
+  (S.cfg.katalog||[]).forEach(function(p){st[p.vyraz]={celkem:0,dobre:0}});
+  return st;
+}
+function vykresliKatalog(){
+  var st=statistikaVyrazu();
+  (S.jobs.nabidky||[]).forEach(function(n){
+    var text=(n.nazev+" "+n.popis).toLowerCase(),h=zaznam(n.id).hvezdy||0;
+    Object.keys(st).forEach(function(v){
+      if(text.indexOf(v.toLowerCase())>-1){st[v].celkem++;if(h>=4)st[v].dobre++}
+    });
+  });
+
+  $("#katalog").innerHTML=(S.cfg.katalog||[]).map(function(p,i){
+    var s=st[p.vyraz]||{celkem:0,dobre:0};
+    return '<span class="chip on" data-vyraz="'+esc(p.vyraz)+'">'+esc(p.vyraz)
+      +'<u>'+s.dobre+"/"+s.celkem+'</u><span class="x" data-smaz="'+i+'" role="button" aria-label="Smazat výraz">×</span></span>';
+  }).join("")||'<p class="napoveda">Katalog je prázdný. Přidej první výraz.</p>';
+
+  var nv=S.jobs.navrhy_vyrazu||[];
+  $("#navrhy").innerHTML=nv.length?'<div class="navrh">Navrhuji přidat: '
+    +nv.map(function(p){return '<button class="chip" data-navrh="'+esc(p.vyraz)+'">'+esc(p.vyraz)+' +</button>'}).join(" ")
+    +'</div>':"";
+
+  var zdroje=(S.cfg.zdroje||[]).filter(function(z){
+    return ["jobscz","pracecz","startupjobs"].indexOf(z.typ)>-1});
+  var sel=$("#proZdroj");
+  if(sel.options.length!==zdroje.length){
+    sel.innerHTML=zdroje.map(function(z){return '<option value="'+esc(z.id)+'">'+esc(z.nazev)+'</option>'}).join("");
+  }
+  var akt=zdroje.filter(function(z){return z.id===sel.value})[0]||zdroje[0];
+  $("#vyberZdroje").innerHTML=akt?(S.cfg.katalog||[]).map(function(p){
+    var on=(akt.vyrazy||[]).indexOf(p.vyraz)>-1;
+    return '<button class="chip'+(on?" on":"")+'" data-pro="'+esc(p.vyraz)+'">'+esc(p.vyraz)+'</button>';
+  }).join(""):'<p class="napoveda">Žádný zdroj, který by výrazy používal.</p>';
+}
+
+/* ---------- nastaveni ---------- */
+function naplnNastaveni(){
+  var c=S.cfg;
+  $("#zadani").value=c.zadani||"";
+  $("#prahSkore").value=c.prah_skore!=null?c.prah_skore:50;
+  $("#archiv").value=c.archiv_dnu||90;
+  $("#model").value=c.model||"claude-sonnet-5";
+  $("#vylucit").value=(c.vylucit_klicova_slova||[]).join(", ");
+  vykresliZdroje();
+}
+function vykresliZdroje(){
+  $("#zdroje").innerHTML=(S.cfg.zdroje||[]).map(function(z,i){
+    return '<div class="zdroj" data-i="'+i+'">'
+      +'<input type="checkbox" '+(z.aktivni!==false?"checked":"")+' aria-label="Zapnout '+esc(z.nazev)+'">'
+      +'<span class="jm">'+esc(z.nazev)+'</span><span class="ty">'+esc(z.typ)+'</span>'
+      +'<button class="duch" data-smaz-zdroj="'+i+'" style="padding:0 12px;min-height:36px">Smazat</button></div>';
+  }).join("")||'<p class="napoveda">Žádný zdroj. Přidej alespoň jeden.</p>';
+}
+function sesbirej(){
+  var c=S.cfg;
+  c.zadani=$("#zadani").value.trim();
+  c.prah_skore=parseInt($("#prahSkore").value,10)||0;
+  c.archiv_dnu=parseInt($("#archiv").value,10)||90;
+  c.model=$("#model").value;
+  c.vylucit_klicova_slova=$("#vylucit").value.split(",").map(function(s){return s.trim()}).filter(Boolean);
+  Array.prototype.forEach.call(document.querySelectorAll(".zdroj"),function(el){
+    var z=c.zdroje[parseInt(el.dataset.i,10)];
+    if(z)z.aktivni=el.querySelector("input[type=checkbox]").checked;
+  });
+  return c;
+}
+
+/* ---------- zapis do GitHubu ---------- */
+function odhadRepo(){
+  var h=location.hostname,c=location.pathname.split("/").filter(Boolean);
+  if(h.indexOf(".github.io")===-1)return "";
+  var u=h.split(".")[0];
+  return c.length?u+"/"+c[0]:u+"/"+h;
+}
+function b64(t){var b=new TextEncoder().encode(t),s="";b.forEach(function(x){s+=String.fromCharCode(x)});return btoa(s)}
+function uloz(cesta,obsah,repo,tok){
+  var api="https://api.github.com/repos/"+repo+"/contents/"+cesta;
+  var h={Authorization:"Bearer "+tok,Accept:"application/vnd.github+json"};
+  return fetch(api+"?ref=HEAD",{headers:h}).then(function(r){return r.ok?r.json():{}})
+    .then(function(m){return fetch(api,{method:"PUT",headers:h,body:JSON.stringify({
+      message:"Dashboard: "+cesta,content:b64(JSON.stringify(obsah,null,2)),sha:m.sha})})})
+    .then(function(r){if(!r.ok)return r.json().then(function(e){throw new Error(e.message||r.status)})});
+}
+
+/* ---------- prehazovani prstem ---------- */
+var D={el:null,startY:0,pressY:0,timer:null,aktivni:false,raf:null,x:0,y:0};
+
+function zrus(){
+  clearTimeout(D.timer);
+  if(D.raf)cancelAnimationFrame(D.raf);
+  if(D.el){D.el.classList.remove("zvednuta","tazeni");D.el.style.transform="";D.el.style.pointerEvents=""}
+  D.el=null;D.aktivni=false;D.raf=null;
+}
+function spust(el,y){
+  D.aktivni=true;D.el=el;D.startY=y;D.scrollY=window.scrollY;
+  el.classList.add("zvednuta");el.style.pointerEvents="none";
+  D.raf=requestAnimationFrame(krok);
+}
+function krok(){
+  if(!D.aktivni)return;
+  var okraj=90,rychlost=0;
+  if(D.y<okraj)rychlost=-12; else if(D.y>window.innerHeight-okraj)rychlost=12;
+  if(rychlost){window.scrollBy(0,rychlost);D.startY-=rychlost}
+  D.raf=requestAnimationFrame(krok);
+}
+
+document.addEventListener("pointerdown",function(e){
+  if(S.view!=="zajimave")return;
+  var el=e.target.closest(".karta");
+  if(!el||e.target.closest("button,select,a,input"))return;
+  D.x=e.clientX;D.y=e.clientY;D.pressY=e.clientY;
+  var start=e.clientY;
+  D.timer=setTimeout(function(){
+    el.setPointerCapture&&el.setPointerCapture(e.pointerId);
+    spust(el,start);
+  },350);
+});
+
+document.addEventListener("pointermove",function(e){
+  D.x=e.clientX;D.y=e.clientY;
+  if(!D.aktivni){
+    if(D.timer&&Math.abs(e.clientY-D.pressY)>10){clearTimeout(D.timer);D.timer=null}
+    return;
+  }
+  e.preventDefault();
+  D.el.style.transform="translateY("+(e.clientY-D.startY)+"px)";
+
+  var pod=document.elementFromPoint(e.clientX,e.clientY);
+  var cil=pod&&pod.closest?pod.closest(".karta"):null;
+  if(!cil||cil===D.el)return;
+  var r=cil.getBoundingClientRect();
+  var pred=e.clientY<r.top+r.height/2;
+  cil.parentNode.insertBefore(D.el,pred?cil:cil.nextSibling);
+  D.startY=e.clientY;D.el.style.transform="translateY(0px)";
+  precisluj();
+},{passive:false});
+
+document.addEventListener("touchmove",function(e){if(D.aktivni)e.preventDefault()},{passive:false});
+
+function konec(){
+  clearTimeout(D.timer);D.timer=null;
+  if(!D.aktivni)return;
+  var poradi=Array.prototype.map.call(document.querySelectorAll("#seznam .karta"),
+    function(el){return el.dataset.id});
+  poradi.forEach(function(id,i){
+    S.hod[id]=S.hod[id]||{};S.hod[id].poradi=i;S.hod[id].kdy=new Date().toISOString();
+  });
+  zrus();spinave();
+}
+document.addEventListener("pointerup",konec);
+document.addEventListener("pointercancel",konec);
+
+function precisluj(){
+  Array.prototype.forEach.call(document.querySelectorAll("#seznam .karta"),function(el,i){
+    var s=el.querySelector(".uchyt span");if(s)s.textContent=i+1;
+  });
+}
+
+/* ---------- udalosti ---------- */
+document.addEventListener("click",function(e){
+  var t=e.target;
+
+  var tab=t.closest(".tab");
+  if(tab){
+    S.view=tab.dataset.v;
+    Array.prototype.forEach.call(document.querySelectorAll(".tab"),function(x){
+      x.setAttribute("aria-selected",x===tab?"true":"false")});
+    $("#pane-seznam").classList.toggle("skryto",["nove","zajimave"].indexOf(S.view)===-1);
+    $("#pane-prihlasky").classList.toggle("skryto",S.view!=="prihlasky");
+    $("#pane-katalog").classList.toggle("skryto",S.view!=="katalog");
+    $("#pane-nastaveni").classList.toggle("skryto",S.view!=="nastaveni");
+    vykresli();return;
+  }
+
+  var hv=t.closest(".hvezda");
+  if(hv){
+    var id=hv.closest(".karta").dataset.id,v=+hv.dataset.hv;
+    S.hod[id]=S.hod[id]||{};
+    S.hod[id].hvezdy=S.hod[id].hvezdy===v?null:v;
+    S.hod[id].kdy=new Date().toISOString();
+    spinave();vykresli();return;
+  }
+
+  var sm=t.closest("[data-smaz]");
+  if(sm){S.cfg.katalog.splice(+sm.dataset.smaz,1);spinave();vykresliKatalog();return}
+
+  var nav=t.closest("[data-navrh]");
+  if(nav){
+    (S.cfg.katalog=S.cfg.katalog||[]).push({vyraz:nav.dataset.navrh,jazyk:"cs"});
+    S.jobs.navrhy_vyrazu=(S.jobs.navrhy_vyrazu||[]).filter(function(p){return p.vyraz!==nav.dataset.navrh});
+    spinave();vykresliKatalog();return;
+  }
+
+  var pro=t.closest("[data-pro]");
+  if(pro){
+    var zd=(S.cfg.zdroje||[]).filter(function(z){return z.id===$("#proZdroj").value})[0];
+    if(zd){
+      zd.vyrazy=zd.vyrazy||[];
+      var k=zd.vyrazy.indexOf(pro.dataset.pro);
+      if(k>-1)zd.vyrazy.splice(k,1);else zd.vyrazy.push(pro.dataset.pro);
+      spinave();vykresliKatalog();
+    }
+    return;
+  }
+
+  if(t.id==="pridatVyraz"){
+    var v=$("#novyVyraz").value.trim();
+    if(!v)return hlas("napiš výraz","zle");
+    (S.cfg.katalog=S.cfg.katalog||[]).push({vyraz:v,jazyk:/[ěščřžýáíéúůňť]/i.test(v)?"cs":"en"});
+    $("#novyVyraz").value="";spinave();vykresliKatalog();return;
+  }
+
+  var sz=t.closest("[data-smaz-zdroj]");
+  if(sz){S.cfg.zdroje.splice(+sz.dataset.smazZdroj,1);spinave();vykresliZdroje();return}
+
+  if(t.id==="pridatZdroj"){
+    var typ=$("#novyTyp").value,klic=$("#novyKlic").value.trim();
+    var nutny=["greenhouse","lever","recruitee","rss"].indexOf(typ)>-1;
+    if(nutny&&!klic)return hlas("doplň název boardu nebo URL","zle");
+    var z={id:typ+"-"+Date.now(),typ:typ,nazev:typ+(klic?": "+klic:""),aktivni:true};
+    if(typ==="rss")z.url=klic; else if(nutny)z.board=klic; else z.vyrazy=[];
+    (S.cfg.zdroje=S.cfg.zdroje||[]).push(z);
+    $("#novyKlic").value="";spinave();vykresliZdroje();return;
+  }
+
+  if(t.id==="znovu"){
+    if(S.spinavy&&!confirm("Máš neuložené změny. Zahodit je?"))return;
+    nacti();return;
+  }
+
+  if(t.id==="ulozit"){
+    var repo=$("#repo").value.trim(),tok=$("#token").value.trim();
+    if(!repo||!tok)return hlas("doplň repozitář a token v Nastavení","zle");
+    box.set("jr_repo",repo);box.set("jr_token",tok);
+    t.disabled=true;hlas("ukládám","");
+    Promise.all([uloz("data/config.json",sesbirej(),repo,tok),
+                 uloz("data/ratings.json",S.hod,repo,tok)])
+      .then(function(){S.spinavy=false;hlas("uloženo, příští sken to zohlední","ok")})
+      .catch(function(err){hlas("uložení selhalo: "+err.message,"zle")})
+      .then(function(){t.disabled=false});
+  }
+});
+
+document.addEventListener("change",function(e){
+  if(e.target.id==="razeni"||e.target.id==="prah")return vykresli();
+  if(e.target.id==="proZdroj")return vykresliKatalog();
+
+  var st=e.target.closest(".stav");
+  if(st){
+    var id=st.closest(".karta").dataset.id;
+    S.hod[id]=S.hod[id]||{};
+    S.hod[id].stav=st.value;
+    S.hod[id].kdy=new Date().toISOString();
+    if(st.value==="prihlasena"){
+      S.hod[id].prihlaska=S.hod[id].prihlaska||{odeslano:new Date().toISOString().slice(0,10)};
+    }
+    spinave();vykresli();return;
+  }
+  if(e.target.closest("#pane-nastaveni"))spinave();
+});
+
+document.addEventListener("input",function(e){
+  if(e.target.id==="q")return vykresli();
+  var pr=e.target.closest("[data-pr]");
+  if(pr){
+    var id=pr.closest(".spis").dataset.id;
+    S.hod[id]=S.hod[id]||{};
+    S.hod[id].prihlaska=S.hod[id].prihlaska||{};
+    S.hod[id].prihlaska[pr.dataset.pr]=pr.value;
+    spinave();
+  }
+});
+
+window.addEventListener("beforeunload",function(e){if(S.spinavy){e.preventDefault();e.returnValue=""}});
+
+nacti();
+})();
+</script>
+</body>
+</html>
