@@ -1,1 +1,26 @@
-{}
+{
+  "high salary executive": {
+    "nazev": "High Salary Executive",
+    "web": "",
+    "kariera": "",
+    "ats": ""
+  },
+  "high salary nior": {
+    "nazev": "High Salary Senior",
+    "web": "",
+    "kariera": "",
+    "ats": ""
+  },
+  "high salary director": {
+    "nazev": "High Salary Director,",
+    "web": "",
+    "kariera": "",
+    "ats": ""
+  },
+  "nior demand generation": {
+    "nazev": "Senior Demand Generation",
+    "web": "",
+    "kariera": "",
+    "ats": ""
+  }
+}
