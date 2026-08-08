@@ -1,0 +1,148 @@
+{
+  "zadani": "Hledám seniorní marketingovou roli v Praze nebo remote. Nejvíc mě zajímá product marketing manager, senior marketing specialist, content lead nebo brand manager. Baví mě B2B a produktové firmy, technologie, retail a e-commerce. Chci roli, kde budu mít vliv na strategii, ne jen exekuci. Nezajímá mě junior nebo absolventská pozice, čistý performance nebo PPC specialista, práce v personální agentuře a pozice mimo Prahu bez možnosti remote.",
+  "prah_skore": 50,
+  "archiv_dnu": 90,
+  "model": "claude-sonnet-5",
+  "vylucit_klicova_slova": [
+    "brigáda",
+    "praktikant",
+    "stážista",
+    "internship"
+  ],
+  "katalog": [
+    {
+      "vyraz": "product marketing",
+      "jazyk": "cs"
+    },
+    {
+      "vyraz": "produktový marketing",
+      "jazyk": "cs"
+    },
+    {
+      "vyraz": "brand manager",
+      "jazyk": "en"
+    },
+    {
+      "vyraz": "vedoucí značky",
+      "jazyk": "cs"
+    },
+    {
+      "vyraz": "marketing manager",
+      "jazyk": "en"
+    },
+    {
+      "vyraz": "marketingový manažer",
+      "jazyk": "cs"
+    },
+    {
+      "vyraz": "senior marketing",
+      "jazyk": "cs"
+    },
+    {
+      "vyraz": "content lead",
+      "jazyk": "en"
+    },
+    {
+      "vyraz": "obsahový marketing",
+      "jazyk": "cs"
+    },
+    {
+      "vyraz": "go to market",
+      "jazyk": "en"
+    },
+    {
+      "vyraz": "head of marketing",
+      "jazyk": "en"
+    },
+    {
+      "vyraz": "komunikace",
+      "jazyk": "cs"
+    }
+  ],
+  "zdroje": [
+    {
+      "id": "jobscz",
+      "typ": "jobscz",
+      "nazev": "Jobs.cz",
+      "aktivni": true,
+      "lokalita": "",
+      "vyrazy": [
+        "product marketing",
+        "produktový marketing",
+        "brand manager",
+        "vedoucí značky",
+        "marketing manager",
+        "marketingový manažer",
+        "senior marketing",
+        "content lead"
+      ]
+    },
+    {
+      "id": "pracecz",
+      "typ": "pracecz",
+      "nazev": "Prace.cz",
+      "aktivni": true,
+      "lokalita": "praha",
+      "vyrazy": [
+        "marketingový manažer",
+        "brand manager",
+        "senior marketing",
+        "obsahový marketing"
+      ]
+    },
+    {
+      "id": "startupjobs",
+      "typ": "startupjobs",
+      "nazev": "StartupJobs",
+      "aktivni": true,
+      "vyrazy": [
+        "product marketing",
+        "marketing manager",
+        "content lead",
+        "go to market"
+      ]
+    },
+    {
+      "id": "hzm",
+      "typ": "hzm",
+      "nazev": "Holky z marketingu",
+      "aktivni": true,
+      "stranek": 3
+    },
+    {
+      "id": "euremote",
+      "typ": "euremotejobs",
+      "nazev": "EU Remote Jobs",
+      "aktivni": true,
+      "kategorie": "remote-marketing-jobs"
+    },
+    {
+      "id": "tribee",
+      "typ": "tribee",
+      "nazev": "Tribee",
+      "aktivni": true
+    },
+    {
+      "id": "gh-priklad",
+      "typ": "greenhouse",
+      "nazev": "Příklad Greenhouse",
+      "board": "notion",
+      "aktivni": false
+    },
+    {
+      "id": "lv-priklad",
+      "typ": "lever",
+      "nazev": "Příklad Lever",
+      "board": "figma",
+      "aktivni": false
+    },
+    {
+      "id": "rc-priklad",
+      "typ": "recruitee",
+      "nazev": "Příklad Recruitee",
+      "board": "productboard",
+      "aktivni": false
+    }
+  ],
+  "sledovane_firmy": []
+}

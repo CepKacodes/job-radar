@@ -1,0 +1,90 @@
+{
+  "nabidky": [
+    {
+      "id": "ukazka1",
+      "nazev": "Product marketing manager",
+      "firma": "Ukázková firma",
+      "lokalita": "Praha, hybridně",
+      "popis": "Ukázka, zmizí po prvním skenu.",
+      "odkazy": [
+        {
+          "zdroj": "Ukázka",
+          "url": "https://www.example.com/"
+        }
+      ],
+      "mzda": {
+        "text": "75 000 až 95 000 Kč",
+        "mena": "CZK",
+        "obdobi": "mesic",
+        "min": 75000,
+        "max": 95000,
+        "czk_mesic_min": 75000,
+        "czk_mesic_max": 95000,
+        "kurz_datum": "",
+        "prepocteno": false
+      },
+      "skore": 84,
+      "duvod": "Seniorní PMM role v produktové firmě, přesně podle zadání.",
+      "deadline": "",
+      "nalezeno": "2020-01-01T06:00:00+00:00"
+    },
+    {
+      "id": "ukazka2",
+      "nazev": "Head of content",
+      "firma": "Ukázka zahraniční",
+      "lokalita": "Remote, EU",
+      "popis": "Ukázka přepočtu měny.",
+      "odkazy": [
+        {
+          "zdroj": "Ukázka",
+          "url": "https://www.example.com/"
+        }
+      ],
+      "mzda": {
+        "text": "€90,000 per year",
+        "mena": "EUR",
+        "obdobi": "rok",
+        "min": 90000,
+        "max": null,
+        "czk_mesic_min": 183800,
+        "czk_mesic_max": null,
+        "kurz_datum": "08.08.2026",
+        "prepocteno": true
+      },
+      "skore": 61,
+      "duvod": "Sedí seniorita i remote, ale role je spíš exekutivní.",
+      "deadline": "2026-09-15",
+      "nalezeno": "2020-01-01T06:00:00+00:00"
+    },
+    {
+      "id": "ukazka3",
+      "nazev": "PPC specialista",
+      "firma": "Ukázková agentura",
+      "lokalita": "Brno",
+      "popis": "Ukázka, zmizí po prvním skenu.",
+      "odkazy": [
+        {
+          "zdroj": "Ukázka",
+          "url": "https://www.example.com/"
+        }
+      ],
+      "skore": 22,
+      "duvod": "Čistý performance v agentuře, to jsi vyloučila.",
+      "deadline": "",
+      "nalezeno": "2020-01-01T06:00:00+00:00"
+    }
+  ],
+  "posledni_beh": null,
+  "novych_dnes": 0,
+  "navrhy_vyrazu": [
+    {
+      "vyraz": "go to market",
+      "jazyk": "en"
+    },
+    {
+      "vyraz": "head of brand",
+      "jazyk": "en"
+    }
+  ],
+  "chyby": []
+}
