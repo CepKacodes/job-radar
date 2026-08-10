@@ -1,6 +1,436 @@
 {
   "nabidky": [
     {
+      "id": "d5fe2a574444f1ae",
+      "odkazy": [
+        {
+          "zdroj": "Prace.cz",
+          "url": "https://randstad.jobs.cz/pd/2001364940"
+        }
+      ],
+      "nazev": "Brand Retail Store Manager pro IQOS (m/ž). Mzda až 60000 Kč měsíčně.",
+      "firma": "",
+      "lokalita": "",
+      "popis": "Brand Retail Store Manager pro IQOS (m/ž). Mzda až 60000 Kč měsíčně. Lokalita : Praha Název firmy : Randstad HR Solutions s.r.o. Typ úvazku : Plný úvazek Plat : 42 000 – 60 000 Kč/měsíc Nová nabídka",
+      "mzda_text": "",
+      "zverejneno": "",
+      "nalezeno": "2026-08-10T06:19:42.663346+00:00",
+      "mzda": {
+        "text": "Mzda až 60000 Kč měsíčně.",
+        "mena": "CZK",
+        "obdobi": "mesic",
+        "min": 60000.0,
+        "max": null,
+        "czk_mesic_min": 60000,
+        "czk_mesic_max": null,
+        "kurz_datum": "07.08.2026",
+        "prepocteno": false
+      },
+      "skore": 5,
+      "duvod": "Jde o operativní roli retail store managera přes personální agenturu Randstad, obojí uživatelka výslovně odmítá.",
+      "deadline": ""
+    },
+    {
+      "id": "b29e6a21991dee30",
+      "odkazy": [
+        {
+          "zdroj": "Jobs.cz",
+          "url": "https://www.jobs.cz/rpd/2001364887/"
+        }
+      ],
+      "nazev": "Group Senior Advertising Specialist",
+      "firma": "",
+      "lokalita": "",
+      "popis": "Group Senior Advertising Specialist 7. srpna Fortuna Group Praha – Vinohrady 444 hodnocení na Atmoskopu",
+      "mzda_text": "",
+      "zverejneno": "",
+      "nalezeno": "2026-08-10T06:19:37.384452+00:00",
+      "skore": 25,
+      "duvod": "Pozice je zaměřená na advertising specialistu, což je blízké performance marketingu, který uživatelka nechce.",
+      "deadline": ""
+    },
+    {
+      "id": "c798ad60ca7557e1",
+      "odkazy": [
+        {
+          "zdroj": "Jobs.cz",
+          "url": "https://www.jobs.cz/rpd/2001329318/"
+        }
+      ],
+      "nazev": "Senior Project Manager – Kvantitativní výzkum",
+      "firma": "",
+      "lokalita": "",
+      "popis": "Senior Project Manager – Kvantitativní výzkum 29. července 60 000 ‍–‍ 80 000 Kč Možnost občasné práce z domova CONFESS Research s.r.o. Praha – Karlín",
+      "mzda_text": "",
+      "zverejneno": "",
+      "nalezeno": "2026-08-10T06:19:37.382888+00:00",
+      "mzda": {
+        "text": "července 60 000 ‍–‍ 80 000 Kč Možnost občasné práce z domova CONFESS Research s.r.o.",
+        "mena": "CZK",
+        "obdobi": "mesic",
+        "min": 60000.0,
+        "max": 80000.0,
+        "czk_mesic_min": 60000,
+        "czk_mesic_max": 80000,
+        "kurz_datum": "07.08.2026",
+        "prepocteno": false
+      },
+      "skore": 15,
+      "duvod": "Jde o roli v kvantitativním výzkumu, nikoli o marketingovou strategickou pozici, kterou uživatelka hledá.",
+      "deadline": ""
+    },
+    {
+      "id": "cc68f031b8b35a42",
+      "odkazy": [
+        {
+          "zdroj": "Jobs.cz",
+          "url": "https://www.atmoskop.cz/nazory-na-zamestnavatele/2952405-student-agency-k-s"
+        }
+      ],
+      "nazev": "117 hodnocení na Atmoskopu",
+      "firma": "",
+      "lokalita": "",
+      "popis": "117 hodnocení na Atmoskopu",
+      "mzda_text": "",
+      "zverejneno": "",
+      "nalezeno": "2026-08-10T06:19:35.683375+00:00",
+      "skore": 0,
+      "duvod": "Toto není pracovní nabídka, jde jen o fragment hodnocení firmy na Atmoskopu.",
+      "deadline": ""
+    },
+    {
+      "id": "436f71d7bf733720",
+      "odkazy": [
+        {
+          "zdroj": "Jobs.cz",
+          "url": "https://www.jobs.cz/rpd/2001365769/"
+        }
+      ],
+      "nazev": "Marketingová ředitelka (f/m)",
+      "firma": "",
+      "lokalita": "",
+      "popis": "Marketingová ředitelka (f/m) 8. srpna Odpověď do 2 týdnů STUDENT AGENCY k.s. Brno – Brno-město 117 hodnocení na Atmoskopu",
+      "mzda_text": "",
+      "zverejneno": "",
+      "nalezeno": "2026-08-10T06:19:35.682710+00:00",
+      "skore": 15,
+      "duvod": "Pozice je v Brně bez zmínky o remote, což uživatelka výslovně odmítá.",
+      "deadline": ""
+    },
+    {
+      "id": "c4e56771f827864d",
+      "odkazy": [
+        {
+          "zdroj": "Jobs.cz",
+          "url": "https://www.jobs.cz/rpd/2001348106/"
+        }
+      ],
+      "nazev": "Marketing Manager Reinsberg Group a.s.",
+      "firma": "",
+      "lokalita": "",
+      "popis": "Marketing Manager Reinsberg Group a.s. 4. srpna BHM group a.s. Praha – Staré Město",
+      "mzda_text": "",
+      "zverejneno": "",
+      "nalezeno": "2026-08-10T06:19:33.907011+00:00",
+      "skore": 40,
+      "duvod": "Pozice Marketing Manager v Praze zní zajímavě, ale popis je příliš stručný a nedává jistotu o strategické roli ani oboru firmy.",
+      "deadline": ""
+    },
+    {
+      "id": "561135ffaa6abbe4",
+      "odkazy": [
+        {
+          "zdroj": "Jobs.cz",
+          "url": "https://www.jobs.cz/rpd/2001366748/"
+        }
+      ],
+      "nazev": "Influencer Marketing Manager",
+      "firma": "",
+      "lokalita": "",
+      "popis": "Influencer Marketing Manager Přidáno před 34 minutami 50 000 ‍–‍ 60 000 Kč Odpověď do 2 týdnů Možnost občasné práce z domova Odpovězte teď a budete mezi prvními Liftor s.r.o. Plzeň – Severní Předměstí",
+      "mzda_text": "",
+      "zverejneno": "",
+      "nalezeno": "2026-08-10T06:19:33.896023+00:00",
+      "mzda": {
+        "text": "Influencer Marketing Manager Přidáno před 34 minutami 50 000 ‍–‍ 60 000 Kč Odpověď do 2 týdnů Možnost občasné práce z do",
+        "mena": "CZK",
+        "obdobi": "mesic",
+        "min": 50000.0,
+        "max": 60000.0,
+        "czk_mesic_min": 50000,
+        "czk_mesic_max": 60000,
+        "kurz_datum": "07.08.2026",
+        "prepocteno": false
+      },
+      "skore": 30,
+      "duvod": "Pozice je v Plzni a úzce zaměřená na influencer marketing, což neodpovídá preferovaným rolím jako product marketing manager nebo brand manager.",
+      "deadline": ""
+    },
+    {
+      "id": "1486dc76afc4b514",
+      "odkazy": [
+        {
+          "zdroj": "Jobs.cz",
+          "url": "https://www.jobs.cz/rpd/2001365860/"
+        }
+      ],
+      "nazev": "Marketing Manager – Real Estate Development",
+      "firma": "",
+      "lokalita": "",
+      "popis": "Marketing Manager – Real Estate Development 8. srpna 100 000 ‍–‍ 110 000 Kč Možnost občasné práce z domova Heat & Lark s.r.o. Praha",
+      "mzda_text": "",
+      "zverejneno": "",
+      "nalezeno": "2026-08-10T06:19:33.881806+00:00",
+      "mzda": {
+        "text": "srpna 100 000 ‍–‍ 110 000 Kč Možnost občasné práce z domova Heat & Lark s.r.o.",
+        "mena": "CZK",
+        "obdobi": "mesic",
+        "min": 100000.0,
+        "max": 110000.0,
+        "czk_mesic_min": 100000,
+        "czk_mesic_max": 110000,
+        "kurz_datum": "07.08.2026",
+        "prepocteno": false
+      },
+      "skore": 75,
+      "duvod": "Seniorní marketingová pozice v Praze s dobrým platem a možností home office, odpovídá zaměření na strategii i preferovanému typu role.",
+      "deadline": ""
+    },
+    {
+      "id": "b42da35a9105fc64",
+      "odkazy": [
+        {
+          "zdroj": "Jobs.cz",
+          "url": "https://www.jobs.cz/rpd/2001358395/"
+        }
+      ],
+      "nazev": "🌟 Vedoucí zákaznického servisu pro e-commerce (m/ž)",
+      "firma": "",
+      "lokalita": "",
+      "popis": "🌟 Vedoucí zákaznického servisu pro e-commerce (m/ž) 4. srpna 40 000 ‍–‍ 50 000 Kč Odpověď do 2 týdnů RIGHT INDICADA s.r.o. Ostrava",
+      "mzda_text": "",
+      "zverejneno": "",
+      "nalezeno": "2026-08-10T06:19:31.991541+00:00",
+      "mzda": {
+        "text": "srpna 40 000 ‍–‍ 50 000 Kč Odpověď do 2 týdnů RIGHT INDICADA s.r.o.",
+        "mena": "CZK",
+        "obdobi": "mesic",
+        "min": 40000.0,
+        "max": 50000.0,
+        "czk_mesic_min": 40000,
+        "czk_mesic_max": 50000,
+        "kurz_datum": "07.08.2026",
+        "prepocteno": false
+      },
+      "skore": 5,
+      "duvod": "Role vedoucího zákaznického servisu nemá nic společného s marketingovou strategií ani obsahem, navíc je v Ostravě.",
+      "deadline": ""
+    },
+    {
+      "id": "b5e1bfcd3b27f2c4",
+      "odkazy": [
+        {
+          "zdroj": "Jobs.cz",
+          "url": "https://www.jobs.cz/rpd/2001358837/"
+        }
+      ],
+      "nazev": "Obchodní ředitel | Prémiová okna a dveře",
+      "firma": "",
+      "lokalita": "",
+      "popis": "Obchodní ředitel | Prémiová okna a dveře 4. srpna Odpověď do 2 týdnů Možnost občasné práce z domova mBlue Czech, s.r.o. Hlavní město Praha + 1 další lokalita",
+      "mzda_text": "",
+      "zverejneno": "",
+      "nalezeno": "2026-08-10T06:19:31.990196+00:00",
+      "skore": 5,
+      "duvod": "Jedná se o obchodní/sales roli, nikoliv o marketingovou pozici, takže neodpovídá zadání vůbec.",
+      "deadline": ""
+    },
+    {
+      "id": "89d270a0c8ab467d",
+      "odkazy": [
+        {
+          "zdroj": "Jobs.cz",
+          "url": "https://www.jobs.cz/rpd/2001351932/"
+        }
+      ],
+      "nazev": "Vedoucí mezinárodní spolupráce s influencery a tvůrci (Ostrava/hybrid)",
+      "firma": "",
+      "lokalita": "",
+      "popis": "Vedoucí mezinárodní spolupráce s influencery a tvůrci (Ostrava/hybrid) 6. srpna Odpověď do 2 týdnů Možnost občasné práce z domova Odpovězte teď a budete mezi prvními BEWIT Natural Medicine, s.r.o. Moravskoslezský kraj",
+      "mzda_text": "",
+      "zverejneno": "",
+      "nalezeno": "2026-08-10T06:19:31.988813+00:00",
+      "skore": 35,
+      "duvod": "Souvisí s marketingem a obsahem, ale je to v Ostravě jen s občasným home office a zaměřuje se úzce na influencery, ne na product marketing či brand strategii.",
+      "deadline": ""
+    },
+    {
+      "id": "fd9b983c23b90e6e",
+      "odkazy": [
+        {
+          "zdroj": "Jobs.cz",
+          "url": "https://www.jobs.cz/rpd/2001364941/"
+        }
+      ],
+      "nazev": "Brand Retail Store Manager pro IQOS (m/ž). Mzda až 60000 Kč měsíčně.",
+      "firma": "",
+      "lokalita": "",
+      "popis": "Brand Retail Store Manager pro IQOS (m/ž). Mzda až 60000 Kč měsíčně. Přidáno před 41 minutami 42 000 ‍–‍ 60 000 Kč Randstad HR Solutions s.r.o. Cheb",
+      "mzda_text": "",
+      "zverejneno": "",
+      "nalezeno": "2026-08-10T06:19:30.177060+00:00",
+      "mzda": {
+        "text": "Mzda až 60000 Kč měsíčně.",
+        "mena": "CZK",
+        "obdobi": "mesic",
+        "min": 60000.0,
+        "max": null,
+        "czk_mesic_min": 60000,
+        "czk_mesic_max": null,
+        "kurz_datum": "07.08.2026",
+        "prepocteno": false
+      },
+      "skore": 8,
+      "duvod": "Jde o operativní roli manažera prodejny v Chebu přes personální agenturu, ne o strategickou marketingovou pozici v Praze/remote.",
+      "deadline": ""
+    },
+    {
+      "id": "b9ca7ab377a5d551",
+      "odkazy": [
+        {
+          "zdroj": "Jobs.cz",
+          "url": "https://www.jobs.cz/rpd/2001364940/"
+        }
+      ],
+      "nazev": "Brand Retail Store Manager pro IQOS (m/ž). Mzda až 60000 Kč měsíčně.",
+      "firma": "",
+      "lokalita": "",
+      "popis": "Brand Retail Store Manager pro IQOS (m/ž). Mzda až 60000 Kč měsíčně. Přidáno před 39 minutami 42 000 ‍–‍ 60 000 Kč Randstad HR Solutions s.r.o. Praha",
+      "mzda_text": "",
+      "zverejneno": "",
+      "nalezeno": "2026-08-10T06:19:30.175638+00:00",
+      "mzda": {
+        "text": "Mzda až 60000 Kč měsíčně.",
+        "mena": "CZK",
+        "obdobi": "mesic",
+        "min": 60000.0,
+        "max": null,
+        "czk_mesic_min": 60000,
+        "czk_mesic_max": null,
+        "kurz_datum": "07.08.2026",
+        "prepocteno": false
+      },
+      "skore": 8,
+      "duvod": "Jde o operativní pozici Store Managera přes personální agenturu Randstad, což uživatelka výslovně odmítá.",
+      "deadline": ""
+    },
+    {
+      "id": "f538917f808a3d38",
+      "odkazy": [
+        {
+          "zdroj": "Jobs.cz",
+          "url": "https://www.atmoskop.cz/nazory-na-zamestnavatele/2939853-btl-medical-development-a-s"
+        }
+      ],
+      "nazev": "57 hodnocení na Atmoskopu",
+      "firma": "",
+      "lokalita": "",
+      "popis": "57 hodnocení na Atmoskopu",
+      "mzda_text": "",
+      "zverejneno": "",
+      "nalezeno": "2026-08-10T06:19:28.512905+00:00",
+      "skore": 0,
+      "duvod": "Nejde o skutečnou pracovní nabídku, pouze o fragment textu s hodnocením firmy.",
+      "deadline": ""
+    },
+    {
+      "id": "75630d4ca9896b96",
+      "odkazy": [
+        {
+          "zdroj": "Jobs.cz",
+          "url": "https://www.jobs.cz/rpd/2001333320/"
+        }
+      ],
+      "nazev": "Product Manager (Medical Devices - Elektrofyziologie)",
+      "firma": "",
+      "lokalita": "",
+      "popis": "Product Manager (Medical Devices - Elektrofyziologie) 20. července Odpověď do 2 týdnů BTL Medical Development a.s. Praha – Vokovice 57 hodnocení na Atmoskopu",
+      "mzda_text": "",
+      "zverejneno": "",
+      "nalezeno": "2026-08-10T06:19:28.512267+00:00",
+      "skore": 20,
+      "duvod": "Jde o Product Managera ve zdravotnických prostředcích v Praze, ale role není marketingová a obor neodpovídá preferovaným odvětvím.",
+      "deadline": ""
+    },
+    {
+      "id": "3dbc5272c6a11e4e",
+      "odkazy": [
+        {
+          "zdroj": "Jobs.cz",
+          "url": "https://www.jobs.cz/rpd/2001318433/"
+        }
+      ],
+      "nazev": "Produktový specialista",
+      "firma": "",
+      "lokalita": "",
+      "popis": "Produktový specialista Přidáno před 59 minutami Alcadrain s.r.o. Břeclav",
+      "mzda_text": "",
+      "zverejneno": "",
+      "nalezeno": "2026-08-10T06:19:28.507168+00:00",
+      "skore": 5,
+      "duvod": "Produktový specialista v Břeclavi nemá nic společného s marketingem ani strategickou rolí a lokalita nevyhovuje.",
+      "deadline": ""
+    },
+    {
+      "id": "aa67fdb18834ed93",
+      "odkazy": [
+        {
+          "zdroj": "Jobs.cz",
+          "url": "https://www.jobs.cz/rpd/2001364143/"
+        }
+      ],
+      "nazev": "Product Data & Systems Specialist",
+      "firma": "",
+      "lokalita": "",
+      "popis": "Product Data & Systems Specialist 7. srpna Možnost občasné práce z domova Odpovězte teď a budete mezi prvními VAFO PRODUCTION Chrášťany",
+      "mzda_text": "",
+      "zverejneno": "",
+      "nalezeno": "2026-08-10T06:19:26.532323+00:00",
+      "skore": 5,
+      "duvod": "Jde o datovou/systémovou specializaci ve výrobní firmě, nikoli o marketingovou roli s vlivem na strategii.",
+      "deadline": ""
+    },
+    {
+      "id": "6a3f31839105d038",
+      "odkazy": [
+        {
+          "zdroj": "Jobs.cz",
+          "url": "https://www.jobs.cz/rpd/2001366434/"
+        }
+      ],
+      "nazev": "Marketing manager",
+      "firma": "",
+      "lokalita": "",
+      "popis": "Marketing manager Přidáno včera 70 000 ‍–‍ 100 000 Kč Odpověď do 2 týdnů Odpovězte teď a budete mezi prvními BRAINIO s.r.o. Jablonec nad Nisou",
+      "mzda_text": "",
+      "zverejneno": "",
+      "nalezeno": "2026-08-10T06:19:26.498306+00:00",
+      "mzda": {
+        "text": "Marketing manager Přidáno včera 70 000 ‍–‍ 100 000 Kč Odpověď do 2 týdnů Odpovězte teď a budete mezi prvními BRAINIO s.r",
+        "mena": "CZK",
+        "obdobi": "mesic",
+        "min": 70000.0,
+        "max": 100000.0,
+        "czk_mesic_min": 70000,
+        "czk_mesic_max": 100000,
+        "kurz_datum": "07.08.2026",
+        "prepocteno": false
+      },
+      "skore": 10,
+      "duvod": "Pozice je v Jablonci nad Nisou bez zmínky o remote, což neodpovídá požadavku na Prahu nebo remote.",
+      "deadline": ""
+    },
+    {
       "id": "0acd1630ff2f33ed",
       "odkazy": [
         {
@@ -6404,8 +6834,8 @@
       "deadline": ""
     }
   ],
-  "posledni_beh": "2026-08-08T16:13:51.371254+00:00",
-  "novych_dnes": 292,
+  "posledni_beh": "2026-08-10T06:20:49.707006+00:00",
+  "novych_dnes": 18,
   "navrhy_vyrazu": [],
   "chyby": []
 }
