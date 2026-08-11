@@ -1,6 +1,650 @@
 {
   "nabidky": [
     {
+      "id": "9c5a72d8e702a195",
+      "odkazy": [
+        {
+          "zdroj": "EU Remote Jobs",
+          "url": "https://euremotejobs.com/job/marketing-manager-apprenticeships/"
+        }
+      ],
+      "nazev": "Marketing Manager – Apprenticeships KnowledgeBrief 📍 UK ⏰ Full time 📂 Marketing 💰 £45,000 - £50,000 per annum",
+      "firma": "Marketing Manager –",
+      "lokalita": "",
+      "popis": "Marketing Manager – Apprenticeships KnowledgeBrief 📍 UK ⏰ Full time 📂 Marketing 💰 £45,000 - £50,000 per annum Posted 20 hours ago",
+      "mzda_text": "",
+      "zverejneno": "",
+      "nalezeno": "2026-08-11T06:01:30.467889+00:00",
+      "mzda": {
+        "text": "Marketing Manager – Apprenticeships KnowledgeBrief 📍 UK ⏰ Full time 📂 Marketing 💰 £45,000 - £50,000 per annum Posted 20 ",
+        "mena": "GBP",
+        "obdobi": "hodina",
+        "min": 20.0,
+        "max": 50000.0,
+        "czk_mesic_min": 90700,
+        "czk_mesic_max": 226728000,
+        "kurz_datum": "10.08.2026",
+        "prepocteno": true
+      },
+      "skore": 15,
+      "duvod": "Pozice je v UK bez zmínky o remote práci z Prahy, což nesplňuje požadavek na Prahu nebo remote.",
+      "deadline": ""
+    },
+    {
+      "id": "cc4bfd6d47053731",
+      "odkazy": [
+        {
+          "zdroj": "EU Remote Jobs",
+          "url": "https://euremotejobs.com/job/fashion-content-assistant/"
+        }
+      ],
+      "nazev": "Fashion Content Assistant Betterme 📍 Worldwide ⏰ Full time 📂 Marketing",
+      "firma": "Fashion Content Assistant",
+      "lokalita": "",
+      "popis": "Fashion Content Assistant Betterme 📍 Worldwide ⏰ Full time 📂 Marketing Posted 20 hours ago",
+      "mzda_text": "",
+      "zverejneno": "",
+      "nalezeno": "2026-08-11T06:01:30.467353+00:00",
+      "skore": 10,
+      "duvod": "Pozice \"Assistant\" je juniorní a nesouvisí s požadovaným content lead nebo brand manager zaměřením.",
+      "deadline": ""
+    },
+    {
+      "id": "873fe0d69209912c",
+      "odkazy": [
+        {
+          "zdroj": "EU Remote Jobs",
+          "url": "https://euremotejobs.com/job/digital-marketing-specialist-5/"
+        }
+      ],
+      "nazev": "Digital Marketing Specialist Betterme 📍 Worldwide ⏰ Full time 📂 Marketing",
+      "firma": "Digital Marketing Specialist",
+      "lokalita": "",
+      "popis": "Digital Marketing Specialist Betterme 📍 Worldwide ⏰ Full time 📂 Marketing Posted 20 hours ago",
+      "mzda_text": "",
+      "zverejneno": "",
+      "nalezeno": "2026-08-11T06:01:30.466920+00:00",
+      "skore": 35,
+      "duvod": "Digital Marketing Specialist bez uvedené seniority a bez zaměření na strategii, spíše exekuční role.",
+      "deadline": ""
+    },
+    {
+      "id": "df558a2fe9a980f5",
+      "odkazy": [
+        {
+          "zdroj": "EU Remote Jobs",
+          "url": "https://euremotejobs.com/job/junior-digital-marketing-specialist-2/"
+        }
+      ],
+      "nazev": "Junior Digital Marketing Specialist Betterme 📍 Worldwide ⏰ Full time 📂 Marketing",
+      "firma": "Junior Digital Marketing",
+      "lokalita": "",
+      "popis": "Junior Digital Marketing Specialist Betterme 📍 Worldwide ⏰ Full time 📂 Marketing Posted 20 hours ago",
+      "mzda_text": "",
+      "zverejneno": "",
+      "nalezeno": "2026-08-11T06:01:30.466444+00:00",
+      "skore": 5,
+      "duvod": "Juniorní Digital Marketing Specialist neodpovídá požadavku na seniorní roli.",
+      "deadline": ""
+    },
+    {
+      "id": "40714392a905b4e8",
+      "odkazy": [
+        {
+          "zdroj": "EU Remote Jobs",
+          "url": "https://euremotejobs.com/job/growth-product-manager/"
+        }
+      ],
+      "nazev": "Growth Product Manager Betterme 📍 Worldwide ⏰ Full time 📂 Marketing",
+      "firma": "Growth Product Manager",
+      "lokalita": "",
+      "popis": "Growth Product Manager Betterme 📍 Worldwide ⏰ Full time 📂 Marketing Posted 20 hours ago",
+      "mzda_text": "",
+      "zverejneno": "",
+      "nalezeno": "2026-08-11T06:01:30.465892+00:00",
+      "skore": 25,
+      "duvod": "Growth Product Manager je produktová, ne marketingová role, a nejde o žádnou z preferovaných pozic (product marketing, brand, content lead).",
+      "deadline": ""
+    },
+    {
+      "id": "e746d03da4eff6d1",
+      "odkazy": [
+        {
+          "zdroj": "EU Remote Jobs",
+          "url": "https://euremotejobs.com/job/junior-growth-product-manager-health-coaching/"
+        }
+      ],
+      "nazev": "Junior Growth Product Manager Health Coaching Betterme 📍 Worldwide ⏰ Full time 📂 Marketing",
+      "firma": "Junior Growth Product",
+      "lokalita": "",
+      "popis": "Junior Growth Product Manager Health Coaching Betterme 📍 Worldwide ⏰ Full time 📂 Marketing Posted 20 hours ago",
+      "mzda_text": "",
+      "zverejneno": "",
+      "nalezeno": "2026-08-11T06:01:30.465433+00:00",
+      "skore": 5,
+      "duvod": "Jde o juniorní pozici, kterou uživatelka výslovně odmítá.",
+      "deadline": ""
+    },
+    {
+      "id": "1f2960c9c7db1d53",
+      "odkazy": [
+        {
+          "zdroj": "EU Remote Jobs",
+          "url": "https://euremotejobs.com/job/growth-manager/"
+        }
+      ],
+      "nazev": "Growth Manager Scrambly 📍 Europe ⏰ Full time 📂 Marketing",
+      "firma": "Growth Manager Scrambly",
+      "lokalita": "",
+      "popis": "Growth Manager Scrambly 📍 Europe ⏰ Full time 📂 Marketing Posted 20 hours ago",
+      "mzda_text": "",
+      "zverejneno": "",
+      "nalezeno": "2026-08-11T06:01:30.465000+00:00",
+      "skore": 30,
+      "duvod": "Growth Manager je jiná disciplína než product marketing/brand/content a popis neuvádí seniorní úroveň ani vliv na strategii.",
+      "deadline": ""
+    },
+    {
+      "id": "9820c32d63f8d3d2",
+      "odkazy": [
+        {
+          "zdroj": "EU Remote Jobs",
+          "url": "https://euremotejobs.com/job/brand-strategy-operations-lead/"
+        }
+      ],
+      "nazev": "Brand Strategy & Operations Lead Omos Media 📍 Europe, Germany ⏰ Full time 📂 Marketing",
+      "firma": "Brand Strategy &",
+      "lokalita": "",
+      "popis": "Brand Strategy & Operations Lead Omos Media 📍 Europe, Germany ⏰ Full time 📂 Marketing Posted 6 hours ago",
+      "mzda_text": "",
+      "zverejneno": "",
+      "nalezeno": "2026-08-11T06:01:30.464559+00:00",
+      "skore": 40,
+      "duvod": "Brand Strategy Lead odpovídá zájmu o brand management a strategii, ale lokalita Evropa/Německo bez potvrzeného remote snižuje vhodnost.",
+      "deadline": ""
+    },
+    {
+      "id": "9e836fe8d0098307",
+      "odkazy": [
+        {
+          "zdroj": "EU Remote Jobs",
+          "url": "https://euremotejobs.com/job/head-of-retention-m-w-d/"
+        }
+      ],
+      "nazev": "Head of Retention (m/w/d) Omos Media 📍 Germany ⏰ Full time 📂 Marketing",
+      "firma": "Head of Retention",
+      "lokalita": "",
+      "popis": "Head of Retention (m/w/d) Omos Media 📍 Germany ⏰ Full time 📂 Marketing Posted 6 hours ago",
+      "mzda_text": "",
+      "zverejneno": "",
+      "nalezeno": "2026-08-11T06:01:30.464105+00:00",
+      "skore": 25,
+      "duvod": "Head of Retention je sice seniorní role, ale neodpovídá požadovaným titulům a je v Německu bez remote.",
+      "deadline": ""
+    },
+    {
+      "id": "810e9bb64dd581dc",
+      "odkazy": [
+        {
+          "zdroj": "EU Remote Jobs",
+          "url": "https://euremotejobs.com/job/performance-marketing-lead-meta-m-w-d/"
+        }
+      ],
+      "nazev": "Performance Marketing Lead Meta (m/w/d) Omos Media 📍 Germany ⏰ Full time 📂 Marketing",
+      "firma": "Performance Marketing Lead",
+      "lokalita": "",
+      "popis": "Performance Marketing Lead Meta (m/w/d) Omos Media 📍 Germany ⏰ Full time 📂 Marketing Posted 6 hours ago",
+      "mzda_text": "",
+      "zverejneno": "",
+      "nalezeno": "2026-08-11T06:01:30.463673+00:00",
+      "skore": 10,
+      "duvod": "Jde o performance marketing, což uživatelka explicitně nechce, navíc lokalita Německo bez remote.",
+      "deadline": ""
+    },
+    {
+      "id": "b1c830749240d2dd",
+      "odkazy": [
+        {
+          "zdroj": "EU Remote Jobs",
+          "url": "https://euremotejobs.com/job/lead-impower-academy-m-w-d/"
+        }
+      ],
+      "nazev": "Lead Impower Academy (m/w/d) Impower 📍 Europe ⏰ Full time 📂 Marketing",
+      "firma": "Lead Impower Academy",
+      "lokalita": "",
+      "popis": "Lead Impower Academy (m/w/d) Impower 📍 Europe ⏰ Full time 📂 Marketing Posted 6 hours ago",
+      "mzda_text": "",
+      "zverejneno": "",
+      "nalezeno": "2026-08-11T06:01:30.463099+00:00",
+      "skore": 15,
+      "duvod": "Nejasně definovaná pozice 'Lead Academy' bez konkrétního marketingového zaměření a lokalita jen 'Europe'.",
+      "deadline": ""
+    },
+    {
+      "id": "d74f853433d0c43c",
+      "odkazy": [
+        {
+          "zdroj": "EU Remote Jobs",
+          "url": "https://euremotejobs.com/job/brand-and-content-executive/"
+        }
+      ],
+      "nazev": "Brand and Content Executive Global University Systems 📍 UK ⏰ Full time 📂 Marketing 💰 £30,000 - £35,000/year",
+      "firma": "Brand and Content",
+      "lokalita": "",
+      "popis": "Brand and Content Executive Global University Systems 📍 UK ⏰ Full time 📂 Marketing 💰 £30,000 - £35,000/year Posted 5 hours ago",
+      "mzda_text": "",
+      "zverejneno": "",
+      "nalezeno": "2026-08-11T06:01:30.462663+00:00",
+      "mzda": {
+        "text": "Brand and Content Executive Global University Systems 📍 UK ⏰ Full time 📂 Marketing 💰 £30,000 - £35,000/year Posted 5 hou",
+        "mena": "GBP",
+        "obdobi": "hodina",
+        "min": 5.0,
+        "max": 35000.0,
+        "czk_mesic_min": 22700,
+        "czk_mesic_max": 158709600,
+        "kurz_datum": "10.08.2026",
+        "prepocteno": true
+      },
+      "skore": 20,
+      "duvod": "Pozice 'Executive' s platem 30-35k GBP působí jako nižší než seniorní role a je v UK bez zmínky o remote.",
+      "deadline": ""
+    },
+    {
+      "id": "35d9347f18c87092",
+      "odkazy": [
+        {
+          "zdroj": "EU Remote Jobs",
+          "url": "https://euremotejobs.com/job/marketing-project-manager-middle/"
+        }
+      ],
+      "nazev": "Marketing Project Manager – Middle Softswiss 📍 Poland ⏰ Full time 📂 Marketing",
+      "firma": "Marketing Project Manager",
+      "lokalita": "",
+      "popis": "Marketing Project Manager – Middle Softswiss 📍 Poland ⏰ Full time 📂 Marketing Posted 5 hours ago",
+      "mzda_text": "",
+      "zverejneno": "",
+      "nalezeno": "2026-08-11T06:01:30.462144+00:00",
+      "skore": 15,
+      "duvod": "Jde o projektového manažera marketingu v Polsku bez remote, neodpovídá požadovaným rolím ani lokalitě.",
+      "deadline": ""
+    },
+    {
+      "id": "68d331e285f4bf6f",
+      "odkazy": [
+        {
+          "zdroj": "EU Remote Jobs",
+          "url": "https://euremotejobs.com/job/senior-coordinator-agent-communication-engagement-and-events/"
+        }
+      ],
+      "nazev": "Senior Coordinator – Agent Communication, Engagement, and Events Global University Systems 📍 India ⏰ Freelance 📂 Marketing",
+      "firma": "Senior Coordinator –",
+      "lokalita": "",
+      "popis": "Senior Coordinator – Agent Communication, Engagement, and Events Global University Systems 📍 India ⏰ Freelance 📂 Marketing Posted 5 hours ago",
+      "mzda_text": "",
+      "zverejneno": "",
+      "nalezeno": "2026-08-11T06:01:30.461697+00:00",
+      "skore": 5,
+      "duvod": "Freelance koordinátorská role v Indii zaměřená na komunikaci s agenty neodpovídá seniorní marketingové strategické pozici ani lokalitě.",
+      "deadline": ""
+    },
+    {
+      "id": "57bec1b865c3344b",
+      "odkazy": [
+        {
+          "zdroj": "EU Remote Jobs",
+          "url": "https://euremotejobs.com/job/business-development-manager-for-international-student-recruitment/"
+        }
+      ],
+      "nazev": "Business Development Manager for International Student Recruitment Global University Systems 📍 Europe ⏰ Full time 📂 Marketing",
+      "firma": "Business Development Manager",
+      "lokalita": "",
+      "popis": "Business Development Manager for International Student Recruitment Global University Systems 📍 Europe ⏰ Full time 📂 Marketing Posted 5 hours ago",
+      "mzda_text": "",
+      "zverejneno": "",
+      "nalezeno": "2026-08-11T06:01:30.461214+00:00",
+      "skore": 5,
+      "duvod": "Business Development Manager je sales role, ne marketingová pozice, a je mimo Prahu bez remote.",
+      "deadline": ""
+    },
+    {
+      "id": "cdf8f94f1b85ce59",
+      "odkazy": [
+        {
+          "zdroj": "EU Remote Jobs",
+          "url": "https://euremotejobs.com/job/pr-manager-senior/"
+        }
+      ],
+      "nazev": "PR Manager – Senior Softswiss 📍 Europe ⏰ Full time 📂 Marketing",
+      "firma": "PR Manager –",
+      "lokalita": "",
+      "popis": "PR Manager – Senior Softswiss 📍 Europe ⏰ Full time 📂 Marketing Posted 5 hours ago",
+      "mzda_text": "",
+      "zverejneno": "",
+      "nalezeno": "2026-08-11T06:01:30.460765+00:00",
+      "skore": 25,
+      "duvod": "Senior PR Manager je alespoň seniorní marketingová role, ale jde o PR a ne o product marketing/brand, lokace Europe bez remote specifikace.",
+      "deadline": ""
+    },
+    {
+      "id": "82c124202f79ba7a",
+      "odkazy": [
+        {
+          "zdroj": "EU Remote Jobs",
+          "url": "https://euremotejobs.com/job/field-marketing-manager-us-full-time/"
+        }
+      ],
+      "nazev": "Field Marketing Manager – US (Full time) Kolsquare 📍 US ⏰ Full time 📂 Marketing",
+      "firma": "Field Marketing Manager",
+      "lokalita": "",
+      "popis": "Field Marketing Manager – US (Full time) Kolsquare 📍 US ⏰ Full time 📂 Marketing Posted 5 hours ago",
+      "mzda_text": "",
+      "zverejneno": "",
+      "nalezeno": "2026-08-11T06:01:30.460291+00:00",
+      "skore": 10,
+      "duvod": "Field Marketing Manager v USA je exekuční regionální role bez remote a mimo Prahu, neodpovídá zadání.",
+      "deadline": ""
+    },
+    {
+      "id": "38ba1612d3d3aedc",
+      "odkazy": [
+        {
+          "zdroj": "EU Remote Jobs",
+          "url": "https://euremotejobs.com/job/international-markets-manager-m-f-d/"
+        }
+      ],
+      "nazev": "International Markets Manager (m/f/d) Yfood Labs 📍 Germany ⏰ Full time 📂 Marketing",
+      "firma": "International Markets Manager",
+      "lokalita": "",
+      "popis": "International Markets Manager (m/f/d) Yfood Labs 📍 Germany ⏰ Full time 📂 Marketing Posted 5 hours ago",
+      "mzda_text": "",
+      "zverejneno": "",
+      "nalezeno": "2026-08-11T06:01:30.459733+00:00",
+      "skore": 10,
+      "duvod": "International Markets Manager v Německu je operativní role bez remote možnosti a neodpovídá požadovaným titulům ani strategickému zaměření.",
+      "deadline": ""
+    },
+    {
+      "id": "641a32d1bd5f316b",
+      "odkazy": [
+        {
+          "zdroj": "EU Remote Jobs",
+          "url": "https://euremotejobs.com/job/amazon-marketplace-manager-m-w-d/"
+        }
+      ],
+      "nazev": "Amazon Marketplace Manager (m/w/d) Edurino 📍 Germany, UK ⏰ Full time 📂 Marketing 💰 50,000 - 75,000 EUR/year",
+      "firma": "Amazon Marketplace Manager",
+      "lokalita": "",
+      "popis": "Amazon Marketplace Manager (m/w/d) Edurino 📍 Germany, UK ⏰ Full time 📂 Marketing 💰 50,000 - 75,000 EUR/year Posted 5 hours ago",
+      "mzda_text": "50,000 - 75,000 EUR/year Posted 5 hours ago",
+      "zverejneno": "",
+      "nalezeno": "2026-08-11T06:01:30.459247+00:00",
+      "mzda": {
+        "text": "50,000 - 75,000 EUR/year Posted 5 hours ago",
+        "mena": "EUR",
+        "obdobi": "hodina",
+        "min": 5.0,
+        "max": 75000.0,
+        "czk_mesic_min": 19400,
+        "czk_mesic_max": 291060000,
+        "kurz_datum": "10.08.2026",
+        "prepocteno": true
+      },
+      "skore": 15,
+      "duvod": "Jde o pozici v Německu/UK bez zmínky o remote a spíše o marketplace operations než o product marketing/brand strategii.",
+      "deadline": ""
+    },
+    {
+      "id": "5a26f1040575f156",
+      "odkazy": [
+        {
+          "zdroj": "EU Remote Jobs",
+          "url": "https://euremotejobs.com/job/interim-senior-brand-designer-m-f-d-full-or-part-time/"
+        }
+      ],
+      "nazev": "Interim Senior Brand Designer (m/f/d) | Full- or Part-Time Edurino 📍 Germany, UK ⏰ Full time 📂 Marketing 💰 51,000 - 64,000 EUR per year",
+      "firma": "Interim Senior Brand",
+      "lokalita": "",
+      "popis": "Interim Senior Brand Designer (m/f/d) | Full- or Part-Time Edurino 📍 Germany, UK ⏰ Full time 📂 Marketing 💰 51,000 - 64,000 EUR per year Posted 5 hours ago",
+      "mzda_text": "51,000 - 64,000 EUR per year Posted 5 hours ago",
+      "zverejneno": "",
+      "nalezeno": "2026-08-11T06:01:30.458642+00:00",
+      "mzda": {
+        "text": "51,000 - 64,000 EUR per year Posted 5 hours ago",
+        "mena": "EUR",
+        "obdobi": "hodina",
+        "min": 5.0,
+        "max": 64000.0,
+        "czk_mesic_min": 19400,
+        "czk_mesic_max": 248371200,
+        "kurz_datum": "10.08.2026",
+        "prepocteno": true
+      },
+      "skore": 15,
+      "duvod": "Lokalita Německo/UK bez remote pro ČR a jde o designérskou roli, ne o marketingovou manažerskou pozici s vlivem na strategii.",
+      "deadline": ""
+    },
+    {
+      "id": "0ebd1c5215f5c22c",
+      "odkazy": [
+        {
+          "zdroj": "Jobs.cz",
+          "url": "https://www.atmoskop.cz/nazory-na-zamestnavatele/2957529-publicis-groupe"
+        }
+      ],
+      "nazev": "53 hodnocení na Atmoskopu",
+      "firma": "",
+      "lokalita": "",
+      "popis": "53 hodnocení na Atmoskopu",
+      "mzda_text": "",
+      "zverejneno": "",
+      "nalezeno": "2026-08-11T06:00:57.769978+00:00",
+      "skore": 0,
+      "duvod": "Nejde o pracovní nabídku, pouze o fragment textu s hodnocením firmy.",
+      "deadline": ""
+    },
+    {
+      "id": "74b94f39e7c3c612",
+      "odkazy": [
+        {
+          "zdroj": "Jobs.cz",
+          "url": "https://www.jobs.cz/rpd/2001236560/"
+        }
+      ],
+      "nazev": "Senior Media Strategy Planner",
+      "firma": "",
+      "lokalita": "",
+      "popis": "Senior Media Strategy Planner Přidáno včera Odpovězte teď a budete mezi prvními Publicis Groupe Praha – Libeň 53 hodnocení na Atmoskopu",
+      "mzda_text": "",
+      "zverejneno": "",
+      "nalezeno": "2026-08-11T06:00:57.769300+00:00",
+      "skore": 40,
+      "duvod": "Seniorní pozice v Praze, ale jde o media planning v reklamní agentuře, což je jiná disciplína než product/brand marketing s vlivem na strategii.",
+      "deadline": ""
+    },
+    {
+      "id": "bc9f74f95b1806cd",
+      "odkazy": [
+        {
+          "zdroj": "Jobs.cz",
+          "url": "https://www.jobs.cz/rpd/2001317184/"
+        }
+      ],
+      "nazev": "Marketing & Project Lead - vyprávěj příběh našich značek!",
+      "firma": "",
+      "lokalita": "",
+      "popis": "Marketing & Project Lead - vyprávěj příběh našich značek! Přidáno včera Odpověď do 2 týdnů Možnost občasné práce z domova Acomware Praha – Michle",
+      "mzda_text": "",
+      "zverejneno": "",
+      "nalezeno": "2026-08-11T06:00:57.754279+00:00",
+      "skore": 55,
+      "duvod": "Praha s možností home office a zaměření na storytelling/značky odpovídá content/brand roli, ale název 'Project Lead' napovídá více exekutivní než strategickou pozici.",
+      "deadline": ""
+    },
+    {
+      "id": "ac55e510e37a86dd",
+      "odkazy": [
+        {
+          "zdroj": "Jobs.cz",
+          "url": "https://www.jobs.cz/rpd/2001367643/"
+        }
+      ],
+      "nazev": "Marketingový manažer",
+      "firma": "",
+      "lokalita": "",
+      "popis": "Marketingový manažer Přidáno včera Odpovězte teď a budete mezi prvními LETIŠTĚ BRNO a.s. Brno – Tuřany",
+      "mzda_text": "",
+      "zverejneno": "",
+      "nalezeno": "2026-08-11T06:00:55.980908+00:00",
+      "skore": 8,
+      "duvod": "Lokalita Brno bez zmínky o remote, nesplňuje požadavek na Prahu nebo remote.",
+      "deadline": ""
+    },
+    {
+      "id": "aca6d1aee87be301",
+      "odkazy": [
+        {
+          "zdroj": "Jobs.cz",
+          "url": "https://www.jobs.cz/rpd/2001367676/"
+        }
+      ],
+      "nazev": "Manažer/ka marketingu a komunikace pro Centrum Seňorina",
+      "firma": "",
+      "lokalita": "",
+      "popis": "Manažer/ka marketingu a komunikace pro Centrum Seňorina Přidáno včera 20 000 Kč Centrum Seňorina, z.s. Praha – Staré Město",
+      "mzda_text": "",
+      "zverejneno": "",
+      "nalezeno": "2026-08-11T06:00:54.101497+00:00",
+      "mzda": {
+        "text": "Manažer/ka marketingu a komunikace pro Centrum Seňorina Přidáno včera 20 000 Kč Centrum Seňorina, z.s.",
+        "mena": "CZK",
+        "obdobi": "mesic",
+        "min": 20000.0,
+        "max": null,
+        "czk_mesic_min": 20000,
+        "czk_mesic_max": null,
+        "kurz_datum": "10.08.2026",
+        "prepocteno": false
+      },
+      "skore": 12,
+      "duvod": "Nízký plat 20 000 Kč a nesouvisí s B2B/tech/retail, jde o menší komunikaci pro neziskovou organizaci, ne seniorní strategickou roli.",
+      "deadline": ""
+    },
+    {
+      "id": "90a0173dd31ca3fa",
+      "odkazy": [
+        {
+          "zdroj": "Jobs.cz",
+          "url": "https://www.jobs.cz/rpd/2001367431/"
+        }
+      ],
+      "nazev": "Holdingový obchodní ředitel pro lékárny a retail",
+      "firma": "",
+      "lokalita": "",
+      "popis": "Holdingový obchodní ředitel pro lékárny a retail Příležitost dne Možnost občasné práce z domova Simply You Pharmaceuticals a.s. Vítkov + 2 další lokality 65 hodnocení na Atmoskopu",
+      "mzda_text": "",
+      "zverejneno": "",
+      "nalezeno": "2026-08-11T06:00:52.263700+00:00",
+      "skore": 5,
+      "duvod": "Jde o obchodní ředitelskou pozici mimo Prahu, nikoliv o marketingovou roli.",
+      "deadline": ""
+    },
+    {
+      "id": "031b19b458577aae",
+      "odkazy": [
+        {
+          "zdroj": "Jobs.cz",
+          "url": "https://www.jobs.cz/rpd/2001367514/"
+        }
+      ],
+      "nazev": "CRM & Retention Manager (E-mail marketing)",
+      "firma": "",
+      "lokalita": "",
+      "popis": "CRM & Retention Manager (E-mail marketing) Přidáno včera Odpověď do 2 týdnů Možnost občasné práce z domova Odpovězte teď a budete mezi prvními fabini brand s.r.o. Praha – Holešovice",
+      "mzda_text": "",
+      "zverejneno": "",
+      "nalezeno": "2026-08-11T06:00:50.440884+00:00",
+      "skore": 55,
+      "duvod": "Marketingová role v e-commerce firmě v Praze, ale úzce zaměřená na CRM/e-mail, ne na strategický brand či content marketing.",
+      "deadline": ""
+    },
+    {
+      "id": "f5175e24a3118720",
+      "odkazy": [
+        {
+          "zdroj": "Jobs.cz",
+          "url": "https://www.jobs.cz/rpd/2001367392/"
+        }
+      ],
+      "nazev": "Brand Manager – Pepsi portfolio pro CZ/SK",
+      "firma": "",
+      "lokalita": "",
+      "popis": "Brand Manager – Pepsi portfolio pro CZ/SK Přidáno včera Odpověď do 2 týdnů Možnost občasné práce z domova Mattoni 1873 a.s. Praha 179 hodnocení na Atmoskopu",
+      "mzda_text": "",
+      "zverejneno": "",
+      "nalezeno": "2026-08-11T06:00:50.410972+00:00",
+      "skore": 82,
+      "duvod": "Brand Manager pro velké FMCG portfolio v Praze přesně odpovídá hledané roli i preferenci vlivu na strategii.",
+      "deadline": ""
+    },
+    {
+      "id": "5ef07485ecc0a070",
+      "odkazy": [
+        {
+          "zdroj": "Jobs.cz",
+          "url": "https://www.jobs.cz/rpd/2001320648/"
+        }
+      ],
+      "nazev": "Produktový/á specialista/ka komerčního bankovnictví",
+      "firma": "",
+      "lokalita": "",
+      "popis": "Produktový/á specialista/ka komerčního bankovnictví 9. srpna MONETA Money Bank, a.s. Praha – Michle 587 hodnocení na Atmoskopu",
+      "mzda_text": "",
+      "zverejneno": "",
+      "nalezeno": "2026-08-11T06:00:48.449564+00:00",
+      "skore": 10,
+      "duvod": "Produktový specialista v bankovnictví není marketingová role a neodpovídá požadovanému zaměření.",
+      "deadline": ""
+    },
+    {
+      "id": "ab637cbc13058a0b",
+      "odkazy": [
+        {
+          "zdroj": "Jobs.cz",
+          "url": "https://www.jobs.cz/rpd/2001366889/"
+        }
+      ],
+      "nazev": "Product Development Specialist (Food, Cosmetics & Supplements)",
+      "firma": "",
+      "lokalita": "",
+      "popis": "Product Development Specialist (Food, Cosmetics & Supplements) Přidáno včera Možnost občasné práce z domova Odpovězte teď a budete mezi prvními ŠUFAN s.r.o. Olomouc – Nová Ulice",
+      "mzda_text": "",
+      "zverejneno": "",
+      "nalezeno": "2026-08-11T06:00:46.567897+00:00",
+      "skore": 5,
+      "duvod": "Jde o vývoj produktu, ne marketing, a navíc je v Olomouci bez zmínky o remote.",
+      "deadline": ""
+    },
+    {
+      "id": "876c0a5a906a7ee1",
+      "odkazy": [
+        {
+          "zdroj": "Jobs.cz",
+          "url": "https://www.jobs.cz/rpd/2001367837/"
+        }
+      ],
+      "nazev": "Trade Marketing Specialist",
+      "firma": "",
+      "lokalita": "",
+      "popis": "Trade Marketing Specialist Přidáno včera Možnost občasné práce z domova Košík.cz s.r.o. Praha – Dejvice",
+      "mzda_text": "",
+      "zverejneno": "",
+      "nalezeno": "2026-08-11T06:00:46.535627+00:00",
+      "skore": 35,
+      "duvod": "Trade marketing specialist je spíš exekuční pozice bez jasného vlivu na strategii a název neodpovídá hledaným rolím.",
+      "deadline": ""
+    },
+    {
       "id": "d5fe2a574444f1ae",
       "odkazy": [
         {
@@ -6834,8 +7478,8 @@
       "deadline": ""
     }
   ],
-  "posledni_beh": "2026-08-10T06:20:49.707006+00:00",
-  "novych_dnes": 18,
+  "posledni_beh": "2026-08-11T06:02:54.522233+00:00",
+  "novych_dnes": 31,
   "navrhy_vyrazu": [],
   "chyby": []
 }
