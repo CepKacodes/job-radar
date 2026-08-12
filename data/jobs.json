@@ -1,6 +1,368 @@
 {
   "nabidky": [
     {
+      "id": "bb811c85ad6fa2c2",
+      "odkazy": [
+        {
+          "zdroj": "Jobs.cz",
+          "url": "https://www.atmoskop.cz/nazory-na-zamestnavatele/2980736-dhl-solutions-k-s"
+        }
+      ],
+      "nazev": "110 hodnocení na Atmoskopu",
+      "firma": "",
+      "lokalita": "",
+      "popis": "110 hodnocení na Atmoskopu",
+      "mzda_text": "",
+      "zverejneno": "",
+      "nalezeno": "2026-08-12T06:24:49.775172+00:00",
+      "skore": 0,
+      "duvod": "Nejde o pracovní nabídku, pouze fragment textu bez obsahu.",
+      "deadline": ""
+    },
+    {
+      "id": "2718fcbf1f869a61",
+      "odkazy": [
+        {
+          "zdroj": "Jobs.cz",
+          "url": "https://www.jobs.cz/rpd/2001369480/"
+        }
+      ],
+      "nazev": "Data Scientist",
+      "firma": "",
+      "lokalita": "",
+      "popis": "Data Scientist Přidáno včera DHL Solutions k.s. Praha 110 hodnocení na Atmoskopu",
+      "mzda_text": "",
+      "zverejneno": "",
+      "nalezeno": "2026-08-12T06:24:49.774516+00:00",
+      "skore": 2,
+      "duvod": "Data Scientist je technická analytická role, nemá nic společného s marketingovou strategií.",
+      "deadline": ""
+    },
+    {
+      "id": "3d9f497f84efb51c",
+      "odkazy": [
+        {
+          "zdroj": "Jobs.cz",
+          "url": "https://www.jobs.cz/rpd/2001369184/"
+        }
+      ],
+      "nazev": "📞 Senior specialista/ka na sjednávání schůzek | 50–75 000 Kč po zaučení",
+      "firma": "",
+      "lokalita": "",
+      "popis": "📞 Senior specialista/ka na sjednávání schůzek | 50–75 000 Kč po zaučení Přidáno včera Odpověď do 2 týdnů Odpovězte teď a budete mezi prvními ATLAS GROUP Ostrava – Moravská Ostrava",
+      "mzda_text": "",
+      "zverejneno": "",
+      "nalezeno": "2026-08-12T06:24:48.020812+00:00",
+      "mzda": {
+        "text": "📞 Senior specialista/ka na sjednávání schůzek | 50–75 000 Kč po zaučení Přidáno včera Odpověď do 2 týdnů Odpovězte teď a",
+        "mena": "CZK",
+        "obdobi": "mesic",
+        "min": 75000.0,
+        "max": null,
+        "czk_mesic_min": 75000,
+        "czk_mesic_max": null,
+        "kurz_datum": "11.08.2026",
+        "prepocteno": false
+      },
+      "skore": 3,
+      "duvod": "Jde o telesales/sjednávání schůzek v Ostravě, nesouvisí s marketingem ani strategií.",
+      "deadline": ""
+    },
+    {
+      "id": "abf49ed19c6c796b",
+      "odkazy": [
+        {
+          "zdroj": "Jobs.cz",
+          "url": "https://www.jobs.cz/rpd/2001369715/"
+        }
+      ],
+      "nazev": "Head of Marketing / Marketing & HighLevel Manager",
+      "firma": "",
+      "lokalita": "",
+      "popis": "Head of Marketing / Marketing & HighLevel Manager Přidáno včera Odpovězte teď a budete mezi prvními NAVIGO Praha z.s. Praha – Vysočany",
+      "mzda_text": "",
+      "zverejneno": "",
+      "nalezeno": "2026-08-12T06:24:44.272647+00:00",
+      "skore": 30,
+      "duvod": "Nejasně definovaná role 'Marketing & HighLevel Manager' u neziskové organizace nepůsobí jako seniorní strategická pozice v požadovaném oboru.",
+      "deadline": ""
+    },
+    {
+      "id": "f6cf88cded93a4a0",
+      "odkazy": [
+        {
+          "zdroj": "Jobs.cz",
+          "url": "https://www.jobs.cz/rpd/2001369875/"
+        }
+      ],
+      "nazev": "▶ MARKETING MANAGER | B2B | REAL ESTATE",
+      "firma": "",
+      "lokalita": "",
+      "popis": "▶ MARKETING MANAGER | B2B | REAL ESTATE Přidáno včera 80 000 ‍–‍ 110 000 Kč Odpověď do 2 týdnů Možnost občasné práce z domova Prušák Group s.r.o. Praha",
+      "mzda_text": "",
+      "zverejneno": "",
+      "nalezeno": "2026-08-12T06:24:44.269810+00:00",
+      "mzda": {
+        "text": "▶ MARKETING MANAGER | B2B | REAL ESTATE Přidáno včera 80 000 ‍–‍ 110 000 Kč Odpověď do 2 týdnů Možnost občasné práce z d",
+        "mena": "CZK",
+        "obdobi": "mesic",
+        "min": 80000.0,
+        "max": 110000.0,
+        "czk_mesic_min": 80000,
+        "czk_mesic_max": 110000,
+        "kurz_datum": "11.08.2026",
+        "prepocteno": false
+      },
+      "skore": 75,
+      "duvod": "Seniorní marketing manager v B2B segmentu v Praze s možností částečné práce z domova přesně odpovídá zadání.",
+      "deadline": ""
+    },
+    {
+      "id": "be6adc7e04557956",
+      "odkazy": [
+        {
+          "zdroj": "Jobs.cz",
+          "url": "https://www.jobs.cz/rpd/2001367915/"
+        }
+      ],
+      "nazev": "🚀 Start kariéry ve financích a obchodu - vše tě naučíme!",
+      "firma": "",
+      "lokalita": "",
+      "popis": "🚀 Start kariéry ve financích a obchodu - vše tě naučíme! Příležitost dne 40 000 ‍–‍ 70 000 Kč Odpověď do 2 týdnů Odpovězte teď a budete mezi prvními #digitalnimarketing s.r.o. Praha – Libeň",
+      "mzda_text": "",
+      "zverejneno": "",
+      "nalezeno": "2026-08-12T06:24:44.254885+00:00",
+      "mzda": {
+        "text": "Příležitost dne 40 000 ‍–‍ 70 000 Kč Odpověď do 2 týdnů Odpovězte teď a budete mezi prvními #digitalnimarketing s.r.o.",
+        "mena": "CZK",
+        "obdobi": "mesic",
+        "min": 40000.0,
+        "max": 70000.0,
+        "czk_mesic_min": 40000,
+        "czk_mesic_max": 70000,
+        "kurz_datum": "11.08.2026",
+        "prepocteno": false
+      },
+      "skore": 5,
+      "duvod": "Jde o vstupní pozici v obchodu a financích typu 'vše tě naučíme', ne o seniorní marketingovou roli.",
+      "deadline": ""
+    },
+    {
+      "id": "ef20a38b02ef5636",
+      "odkazy": [
+        {
+          "zdroj": "Jobs.cz",
+          "url": "https://www.jobs.cz/rpd/2001369357/"
+        }
+      ],
+      "nazev": "VEDOUCÍ VÝROBY / PRODUCTION MANAGER | Moderní automatizovaný provoz (m/ž)",
+      "firma": "",
+      "lokalita": "",
+      "popis": "VEDOUCÍ VÝROBY / PRODUCTION MANAGER | Moderní automatizovaný provoz (m/ž) Přidáno včera MORACELL s.r.o. Žabčice",
+      "mzda_text": "",
+      "zverejneno": "",
+      "nalezeno": "2026-08-12T06:24:42.173758+00:00",
+      "skore": 0,
+      "duvod": "Výrobní/produkční manažer je technická provozní role, ne marketing.",
+      "deadline": ""
+    },
+    {
+      "id": "e2d31b566674c4e1",
+      "odkazy": [
+        {
+          "zdroj": "Jobs.cz",
+          "url": "https://www.jobs.cz/rpd/2001370981/"
+        }
+      ],
+      "nazev": "Vedoucí autorizovaného servisu Škoda",
+      "firma": "",
+      "lokalita": "",
+      "popis": "Vedoucí autorizovaného servisu Škoda Přidáno před hodinou 40 000 ‍–‍ 70 000 Kč Autocentrum Jičín s.r.o. Jičín – Valdické Předměstí",
+      "mzda_text": "",
+      "zverejneno": "",
+      "nalezeno": "2026-08-12T06:24:42.172306+00:00",
+      "mzda": {
+        "text": "Vedoucí autorizovaného servisu Škoda Přidáno před hodinou 40 000 ‍–‍ 70 000 Kč Autocentrum Jičín s.r.o.",
+        "mena": "CZK",
+        "obdobi": "hodina",
+        "min": 40000.0,
+        "max": 70000.0,
+        "czk_mesic_min": 6400000,
+        "czk_mesic_max": 11200000,
+        "kurz_datum": "11.08.2026",
+        "prepocteno": false
+      },
+      "skore": 0,
+      "duvod": "Pozice vedoucího servisu automobilů nemá s marketingem nic společného.",
+      "deadline": ""
+    },
+    {
+      "id": "583809487efff81c",
+      "odkazy": [
+        {
+          "zdroj": "Jobs.cz",
+          "url": "https://www.atmoskop.cz/nazory-na-zamestnavatele/3030006-lagardere-travel-retail-a-s"
+        }
+      ],
+      "nazev": "338 hodnocení na Atmoskopu",
+      "firma": "",
+      "lokalita": "",
+      "popis": "338 hodnocení na Atmoskopu",
+      "mzda_text": "",
+      "zverejneno": "",
+      "nalezeno": "2026-08-12T06:24:42.158697+00:00",
+      "skore": 0,
+      "duvod": "Nejde o pracovní nabídku, jen text s hodnocením firmy na Atmoskopu.",
+      "deadline": ""
+    },
+    {
+      "id": "2a21d65684c82ee8",
+      "odkazy": [
+        {
+          "zdroj": "Jobs.cz",
+          "url": "https://www.jobs.cz/rpd/2001345705/"
+        }
+      ],
+      "nazev": "Tým Bageterie Boulevard na Letišti Václava Havla hledá vedoucí/ho směny!",
+      "firma": "",
+      "lokalita": "",
+      "popis": "Tým Bageterie Boulevard na Letišti Václava Havla hledá vedoucí/ho směny! 27. července 38 000 ‍–‍ 46 000 Kč Odpověď do 2 týdnů Lagardere Travel Retail, a.s. Praha – Ruzyně 338 hodnocení na Atmoskopu",
+      "mzda_text": "",
+      "zverejneno": "",
+      "nalezeno": "2026-08-12T06:24:42.158009+00:00",
+      "mzda": {
+        "text": "července 38 000 ‍–‍ 46 000 Kč Odpověď do 2 týdnů Lagardere Travel Retail, a.s.",
+        "mena": "CZK",
+        "obdobi": "mesic",
+        "min": 38000.0,
+        "max": 46000.0,
+        "czk_mesic_min": 38000,
+        "czk_mesic_max": 46000,
+        "kurz_datum": "11.08.2026",
+        "prepocteno": false
+      },
+      "skore": 0,
+      "duvod": "Provozní pozice v gastronomii na letišti, nemá nic společného s marketingovou strategií ani požadovanými rolemi.",
+      "deadline": ""
+    },
+    {
+      "id": "f3100426761ed05d",
+      "odkazy": [
+        {
+          "zdroj": "Jobs.cz",
+          "url": "https://www.jobs.cz/rpd/2001362313/"
+        }
+      ],
+      "nazev": "Skladník - mzda až 45.000 Kč",
+      "firma": "",
+      "lokalita": "",
+      "popis": "Skladník - mzda až 45.000 Kč Příležitost dne 40 000 ‍–‍ 48 000 Kč HAVI Logistics s.r.o. Kladno",
+      "mzda_text": "",
+      "zverejneno": "",
+      "nalezeno": "2026-08-12T06:24:42.141567+00:00",
+      "mzda": {
+        "text": "Skladník - mzda až 45.000 Kč Příležitost dne 40 000 ‍–‍ 48 000 Kč HAVI Logistics s.r.o.",
+        "mena": "CZK",
+        "obdobi": "mesic",
+        "min": 40000.0,
+        "max": 48000.0,
+        "czk_mesic_min": 40000,
+        "czk_mesic_max": 48000,
+        "kurz_datum": "11.08.2026",
+        "prepocteno": false
+      },
+      "skore": 0,
+      "duvod": "Skladnická pozice zcela mimo obor marketingu a mimo seniorní zaměření uživatelky.",
+      "deadline": ""
+    },
+    {
+      "id": "85e403b13d090f11",
+      "odkazy": [
+        {
+          "zdroj": "Jobs.cz",
+          "url": "https://www.jobs.cz/rpd/2001369137/"
+        }
+      ],
+      "nazev": "Brand Retail Store Manager pro IQOS (m/ž)",
+      "firma": "",
+      "lokalita": "",
+      "popis": "Brand Retail Store Manager pro IQOS (m/ž) Přidáno včera 42 000 ‍–‍ 60 000 Kč Randstad HR Solutions s.r.o. Pardubice",
+      "mzda_text": "",
+      "zverejneno": "",
+      "nalezeno": "2026-08-12T06:24:39.907542+00:00",
+      "mzda": {
+        "text": "Brand Retail Store Manager pro IQOS (m/ž) Přidáno včera 42 000 ‍–‍ 60 000 Kč Randstad HR Solutions s.r.o.",
+        "mena": "CZK",
+        "obdobi": "mesic",
+        "min": 42000.0,
+        "max": 60000.0,
+        "czk_mesic_min": 42000,
+        "czk_mesic_max": 60000,
+        "kurz_datum": "11.08.2026",
+        "prepocteno": false
+      },
+      "skore": 15,
+      "duvod": "Přes slovo 'Brand' v názvu jde o operativní řízení prodejny v Pardubicích bez remote, ne o strategickou marketingovou roli.",
+      "deadline": ""
+    },
+    {
+      "id": "3733edc376c23b3c",
+      "odkazy": [
+        {
+          "zdroj": "Jobs.cz",
+          "url": "https://www.atmoskop.cz/nazory-na-zamestnavatele/3099796-l-i-n-e-t-spol-s-r-o"
+        }
+      ],
+      "nazev": "126 hodnocení na Atmoskopu",
+      "firma": "",
+      "lokalita": "",
+      "popis": "126 hodnocení na Atmoskopu",
+      "mzda_text": "",
+      "zverejneno": "",
+      "nalezeno": "2026-08-12T06:24:36.096577+00:00",
+      "skore": 0,
+      "duvod": "Nejde o skutečnou pracovní nabídku, pouze o fragment hodnocení firmy na Atmoskopu.",
+      "deadline": ""
+    },
+    {
+      "id": "1ff35557f0f7d81a",
+      "odkazy": [
+        {
+          "zdroj": "Jobs.cz",
+          "url": "https://www.jobs.cz/rpd/2001369229/"
+        }
+      ],
+      "nazev": "Technical Product Manager",
+      "firma": "",
+      "lokalita": "",
+      "popis": "Technical Product Manager Přidáno včera Možnost občasné práce z domova Linet spol. s r.o. Slaný 126 hodnocení na Atmoskopu",
+      "mzda_text": "",
+      "zverejneno": "",
+      "nalezeno": "2026-08-12T06:24:36.095873+00:00",
+      "skore": 10,
+      "duvod": "Jedná se o technický product management mimo Prahu (Slaný, jen občasný home office), nikoli o marketingovou roli z požadovaného seznamu.",
+      "deadline": ""
+    },
+    {
+      "id": "99f82460487a7f2a",
+      "odkazy": [
+        {
+          "zdroj": "Jobs.cz",
+          "url": "https://www.jobs.cz/rpd/2001370517/"
+        }
+      ],
+      "nazev": "Product Executive ORSAY",
+      "firma": "",
+      "lokalita": "",
+      "popis": "Product Executive ORSAY Přidáno včera ORSAY Praha – Smíchov",
+      "mzda_text": "",
+      "zverejneno": "",
+      "nalezeno": "2026-08-12T06:24:36.094367+00:00",
+      "skore": 15,
+      "duvod": "Jde o produktovou/nákupní pozici v retailu, ne o marketingovou roli se strategickým vlivem, a titul 'Executive' napovídá nižší seniority.",
+      "deadline": ""
+    },
+    {
       "id": "9c5a72d8e702a195",
       "odkazy": [
         {
@@ -7478,8 +7840,8 @@
       "deadline": ""
     }
   ],
-  "posledni_beh": "2026-08-11T06:02:54.522233+00:00",
-  "novych_dnes": 31,
+  "posledni_beh": "2026-08-12T06:25:51.476046+00:00",
+  "novych_dnes": 15,
   "navrhy_vyrazu": [],
   "chyby": []
 }
