@@ -1,6 +1,172 @@
 {
   "nabidky": [
     {
+      "id": "f3aa1cc49402821d",
+      "odkazy": [
+        {
+          "zdroj": "Jobs.cz",
+          "url": "https://www.jobs.cz/rpd/2001372155/"
+        }
+      ],
+      "nazev": "Influencer & Community Manager",
+      "firma": "",
+      "lokalita": "",
+      "popis": "Influencer & Community Manager Přidáno včera Odpověď do 2 týdnů P&G - Prague General Office Praha – Karlín",
+      "mzda_text": "",
+      "zverejneno": "",
+      "nalezeno": "2026-08-13T06:40:52.429475+00:00",
+      "skore": 30,
+      "duvod": "Pozice je zaměřená na komunitní a influencer marketing, což je spíše exekuční role a neodpovídá požadovaným seniorním titulům jako product marketing manager nebo brand manager.",
+      "deadline": ""
+    },
+    {
+      "id": "ed3afba5591005b2",
+      "odkazy": [
+        {
+          "zdroj": "Jobs.cz",
+          "url": "https://www.jobs.cz/rpd/2001371410/"
+        }
+      ],
+      "nazev": "🚀🛒 Rozhoduj, co bude Alza prodávat a marketingově komunikovat! 💚(absolventi)(JPO31677)",
+      "firma": "",
+      "lokalita": "",
+      "popis": "🚀🛒 Rozhoduj, co bude Alza prodávat a marketingově komunikovat! 💚(absolventi)(JPO31677) Přidáno včera Odpověď do 2 týdnů Možnost občasné práce z domova Alza.cz a.s. Praha – Holešovice 496 hodnocení na Atmoskopu",
+      "mzda_text": "",
+      "zverejneno": "",
+      "nalezeno": "2026-08-13T06:40:48.785749+00:00",
+      "skore": 2,
+      "duvod": "Pozice je výslovně určena pro absolventy, což uživatelka jasně vylučuje.",
+      "deadline": ""
+    },
+    {
+      "id": "5329982249b1ba08",
+      "odkazy": [
+        {
+          "zdroj": "Jobs.cz",
+          "url": "https://www.jobs.cz/rpd/2001371137/"
+        }
+      ],
+      "nazev": "HR manažer a PR / marketingový asistent a recepční",
+      "firma": "",
+      "lokalita": "",
+      "popis": "HR manažer a PR / marketingový asistent a recepční Přidáno včera 35 000 ‍–‍ 45 000 Kč Odpověď do 2 týdnů Odpovězte teď a budete mezi prvními Technologické centrum a.s. Holubice",
+      "mzda_text": "",
+      "zverejneno": "",
+      "nalezeno": "2026-08-13T06:40:48.780524+00:00",
+      "mzda": {
+        "text": "HR manažer a PR / marketingový asistent a recepční Přidáno včera 35 000 ‍–‍ 45 000 Kč Odpověď do 2 týdnů Odpovězte teď a",
+        "mena": "CZK",
+        "obdobi": "mesic",
+        "min": 35000.0,
+        "max": 45000.0,
+        "czk_mesic_min": 35000,
+        "czk_mesic_max": 45000,
+        "kurz_datum": "12.08.2026",
+        "prepocteno": false
+      },
+      "skore": 5,
+      "duvod": "Kombinovaná pozice HR/PR/asistent/recepční mimo Prahu bez remote je nízkoúrovňová a nesourodá s hledanou rolí.",
+      "deadline": ""
+    },
+    {
+      "id": "e7c3579a30b2155a",
+      "odkazy": [
+        {
+          "zdroj": "Jobs.cz",
+          "url": "https://www.jobs.cz/rpd/2001371708/"
+        }
+      ],
+      "nazev": "Marketingový manager pro speedlo",
+      "firma": "",
+      "lokalita": "",
+      "popis": "Marketingový manager pro speedlo Přidáno včera 40 000 ‍–‍ 50 000 Kč Odpověď do 2 týdnů Odpovězte teď a budete mezi prvními speedlo s.r.o. Pardubice – Zelené Předměstí",
+      "mzda_text": "",
+      "zverejneno": "",
+      "nalezeno": "2026-08-13T06:40:48.778994+00:00",
+      "mzda": {
+        "text": "Marketingový manager pro speedlo Přidáno včera 40 000 ‍–‍ 50 000 Kč Odpověď do 2 týdnů Odpovězte teď a budete mezi první",
+        "mena": "CZK",
+        "obdobi": "mesic",
+        "min": 40000.0,
+        "max": 50000.0,
+        "czk_mesic_min": 40000,
+        "czk_mesic_max": 50000,
+        "kurz_datum": "12.08.2026",
+        "prepocteno": false
+      },
+      "skore": 8,
+      "duvod": "Marketingový manažer v Pardubicích bez remote a s nízkým platem neodpovídá seniorní roli v Praze.",
+      "deadline": ""
+    },
+    {
+      "id": "4cd5a1772c59971a",
+      "odkazy": [
+        {
+          "zdroj": "Jobs.cz",
+          "url": "https://www.jobs.cz/rpd/2001357919/"
+        }
+      ],
+      "nazev": "Asistent/ka vedoucího prodejny - Praha 6",
+      "firma": "",
+      "lokalita": "",
+      "popis": "Asistent/ka vedoucího prodejny - Praha 6 11. srpna 35 000 Kč Medialink Communications Consult s.r.o. Praha",
+      "mzda_text": "",
+      "zverejneno": "",
+      "nalezeno": "2026-08-13T06:40:44.879022+00:00",
+      "mzda": {
+        "text": "srpna 35 000 Kč Medialink Communications Consult s.r.o.",
+        "mena": "CZK",
+        "obdobi": "mesic",
+        "min": 35000.0,
+        "max": null,
+        "czk_mesic_min": 35000,
+        "czk_mesic_max": null,
+        "kurz_datum": "12.08.2026",
+        "prepocteno": false
+      },
+      "skore": 3,
+      "duvod": "Jde o asistenta vedoucího prodejny, což nemá s marketingem ani strategií nic společného.",
+      "deadline": ""
+    },
+    {
+      "id": "a004123d2a657a46",
+      "odkazy": [
+        {
+          "zdroj": "Jobs.cz",
+          "url": "https://www.jobs.cz/rpd/2001151483/"
+        }
+      ],
+      "nazev": "Produktový/á manažer/ka pro investiční životní pojištění",
+      "firma": "",
+      "lokalita": "",
+      "popis": "Produktový/á manažer/ka pro investiční životní pojištění Přidáno včera Možnost občasné práce z domova Komerční pojišťovna, a.s. Praha – Stodůlky",
+      "mzda_text": "",
+      "zverejneno": "",
+      "nalezeno": "2026-08-13T06:40:40.916728+00:00",
+      "skore": 30,
+      "duvod": "Je to produktový manažer pro pojištění v Praze, ale role je zaměřená na finanční produkt, ne na marketing ani strategii značky.",
+      "deadline": ""
+    },
+    {
+      "id": "ea68f9cdf4d32e43",
+      "odkazy": [
+        {
+          "zdroj": "Jobs.cz",
+          "url": "https://www.jobs.cz/rpd/2001371907/"
+        }
+      ],
+      "nazev": "Product Manager",
+      "firma": "",
+      "lokalita": "",
+      "popis": "Product Manager Přidáno včera Odpověď do 2 týdnů Možnost občasné práce z domova Alliance Laundry CE s.r.o. Příbor",
+      "mzda_text": "",
+      "zverejneno": "",
+      "nalezeno": "2026-08-13T06:40:38.961944+00:00",
+      "skore": 10,
+      "duvod": "Jde o produktového manažera ve výrobní firmě mimo Prahu bez remote a bez marketingového zaměření.",
+      "deadline": ""
+    },
+    {
       "id": "bb811c85ad6fa2c2",
       "odkazy": [
         {
@@ -7840,8 +8006,8 @@
       "deadline": ""
     }
   ],
-  "posledni_beh": "2026-08-12T06:25:51.476046+00:00",
-  "novych_dnes": 15,
+  "posledni_beh": "2026-08-13T06:41:34.755959+00:00",
+  "novych_dnes": 7,
   "navrhy_vyrazu": [],
   "chyby": []
 }
