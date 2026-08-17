@@ -1,6 +1,531 @@
 {
   "nabidky": [
     {
+      "id": "5ba384c8262f6183",
+      "odkazy": [
+        {
+          "zdroj": "Prace.cz",
+          "url": "https://www.prace.cz/nabidka/06c9b374-4bfc-4b7f-ad2b-bc1219c6daa5/"
+        }
+      ],
+      "nazev": "Buyer",
+      "firma": "",
+      "lokalita": "",
+      "popis": "Buyer Lokalita : Praha-Holešovice, Náchod-Staré Město nad Metují Název firmy : ASTRATEX a.s. Typ úvazku : Plný úvazek Plat : 50 000 – 60 000 Kč/měsíc 57 zaměstnanců hodnotilo firmu na Atmoskop.cz Číst hodnocení 2 dny",
+      "mzda_text": "",
+      "zverejneno": "",
+      "nalezeno": "2026-08-17T05:46:30.118457+00:00",
+      "mzda": {
+        "text": "Typ úvazku : Plný úvazek Plat : 50 000 – 60 000 Kč/měsíc 57 zaměstnanců hodnotilo firmu na Atmoskop.cz Číst hodnocení 2 ",
+        "mena": "CZK",
+        "obdobi": "mesic",
+        "min": 50000.0,
+        "max": 60000.0,
+        "czk_mesic_min": 50000,
+        "czk_mesic_max": 60000,
+        "kurz_datum": "14.08.2026",
+        "prepocteno": false
+      },
+      "skore": 3,
+      "duvod": "Nákupčí pozice, zcela mimo obor marketingu.",
+      "deadline": ""
+    },
+    {
+      "id": "68bc435528396dfb",
+      "odkazy": [
+        {
+          "zdroj": "Prace.cz",
+          "url": "https://www.prace.cz/nabidka/2e382f34-612a-4eaf-9067-802841441219/"
+        }
+      ],
+      "nazev": "Marketingový specialista / specialistka (z53180)",
+      "firma": "",
+      "lokalita": "",
+      "popis": "Marketingový specialista / specialistka (z53180) Lokalita : Hlavní město Praha Název firmy : Barlett & Cenbright s.r.o. Typ úvazku : Plný úvazek 2 dny",
+      "mzda_text": "",
+      "zverejneno": "",
+      "nalezeno": "2026-08-17T05:46:28.581983+00:00",
+      "skore": 22,
+      "duvod": "Titul neuvádí seniorní úroveň ani strategický vliv, firma působí jako náborová/personální agentura, což zadání vylučuje.",
+      "deadline": ""
+    },
+    {
+      "id": "ebc491111f73b000",
+      "odkazy": [
+        {
+          "zdroj": "Prace.cz",
+          "url": "https://www.prace.cz/nabidka/706279a8-6267-4cc1-b930-993ec6a3afa0/"
+        }
+      ],
+      "nazev": "Development Specialist & Designer",
+      "firma": "",
+      "lokalita": "",
+      "popis": "Development Specialist & Designer Lokalita : Praha-Holešovice, Náchod-Staré Město nad Metují Název firmy : ASTRATEX a.s. Typ úvazku : Plný úvazek Plat : 50 000 – 60 000 Kč/měsíc 57 zaměstnanců hodnotilo firmu na Atmoskop.cz Číst hodnocení 2 dny",
+      "mzda_text": "",
+      "zverejneno": "",
+      "nalezeno": "2026-08-17T05:46:28.554425+00:00",
+      "mzda": {
+        "text": "Typ úvazku : Plný úvazek Plat : 50 000 – 60 000 Kč/měsíc 57 zaměstnanců hodnotilo firmu na Atmoskop.cz Číst hodnocení 2 ",
+        "mena": "CZK",
+        "obdobi": "mesic",
+        "min": 50000.0,
+        "max": 60000.0,
+        "czk_mesic_min": 50000,
+        "czk_mesic_max": 60000,
+        "kurz_datum": "14.08.2026",
+        "prepocteno": false
+      },
+      "skore": 8,
+      "duvod": "Jde o designérskou/vývojářskou roli v módní firmě, nemá nic společného s marketingem.",
+      "deadline": ""
+    },
+    {
+      "id": "938b3ea53d3f6a71",
+      "odkazy": [
+        {
+          "zdroj": "Prace.cz",
+          "url": "https://www.prace.cz/nabidka/c9df22df-89b8-4119-af11-6d701185d9d2/"
+        }
+      ],
+      "nazev": "Head of Marketing / Marketing & HighLevel Manager",
+      "firma": "",
+      "lokalita": "",
+      "popis": "Head of Marketing / Marketing & HighLevel Manager Lokalita : Praha-Vysočany Název firmy : NAVIGO Praha z.s. Typ úvazku : Plný úvazek Plat : 150 000 – 200 000 Kč/měsíc 2 dny",
+      "mzda_text": "",
+      "zverejneno": "",
+      "nalezeno": "2026-08-17T05:46:26.977182+00:00",
+      "mzda": {
+        "text": "Typ úvazku : Plný úvazek Plat : 150 000 – 200 000 Kč/měsíc 2 dny",
+        "mena": "CZK",
+        "obdobi": "mesic",
+        "min": 150000.0,
+        "max": 200000.0,
+        "czk_mesic_min": 150000,
+        "czk_mesic_max": 200000,
+        "kurz_datum": "14.08.2026",
+        "prepocteno": false
+      },
+      "skore": 40,
+      "duvod": "Seniorní pozice s vlivem na strategii, ale firma je nezisková organizace/vzdělávací spolek, ne B2B, tech, retail či e-commerce firma dle zadání.",
+      "deadline": ""
+    },
+    {
+      "id": "f40f5c6981d805fb",
+      "odkazy": [
+        {
+          "zdroj": "Jobs.cz",
+          "url": "https://www.jobs.cz/rpd/2001376250/"
+        }
+      ],
+      "nazev": "Head of Social",
+      "firma": "",
+      "lokalita": "",
+      "popis": "Head of Social 14. srpna Ogilvy, s.r.o. Praha – Holešovice",
+      "mzda_text": "",
+      "zverejneno": "",
+      "nalezeno": "2026-08-17T05:46:25.106008+00:00",
+      "skore": 55,
+      "duvod": "Seniorní marketingová role v Praze, ale zaměřená úzce na social media v reklamní agentuře, ne na product marketing či brand strategii v B2B/tech firmě.",
+      "deadline": ""
+    },
+    {
+      "id": "96ac3ea5fbeef874",
+      "odkazy": [
+        {
+          "zdroj": "Jobs.cz",
+          "url": "https://www.jobs.cz/rpd/2001306738/"
+        }
+      ],
+      "nazev": "C++ Gameplay Programmer Magic Madness VR / CQB Reloaded (CZK 80,000 – 150,000 / month)",
+      "firma": "",
+      "lokalita": "",
+      "popis": "C++ Gameplay Programmer Magic Madness VR / CQB Reloaded (CZK 80,000 – 150,000 / month) 14. srpna 80 000 ‍–‍ 150 000 Kč Victoria VR Group, a.s. Praha – Nové Město",
+      "mzda_text": "",
+      "zverejneno": "",
+      "nalezeno": "2026-08-17T05:46:25.088194+00:00",
+      "mzda": {
+        "text": "C++ Gameplay Programmer Magic Madness VR / CQB Reloaded (CZK 80,000 – 150,000 / month) 14.",
+        "mena": "CZK",
+        "obdobi": "mesic",
+        "min": 80000.0,
+        "max": 150000.0,
+        "czk_mesic_min": 80000,
+        "czk_mesic_max": 150000,
+        "kurz_datum": "14.08.2026",
+        "prepocteno": false
+      },
+      "skore": 0,
+      "duvod": "Jde o programátorskou pozici v gamedevu, zcela mimo marketingové zaměření.",
+      "deadline": ""
+    },
+    {
+      "id": "a9eff0e3008f9fa5",
+      "odkazy": [
+        {
+          "zdroj": "Jobs.cz",
+          "url": "https://www.jobs.cz/rpd/2001342098/"
+        }
+      ],
+      "nazev": "Senior obchodník / obchodnice - B2B, s odpovědností za procesy a budování týmu (ČR + EU)",
+      "firma": "",
+      "lokalita": "",
+      "popis": "Senior obchodník / obchodnice - B2B, s odpovědností za procesy a budování týmu (ČR + EU) 13. srpna Zdravé stravování s.r.o. Jihomoravský kraj",
+      "mzda_text": "",
+      "zverejneno": "",
+      "nalezeno": "2026-08-17T05:46:23.337622+00:00",
+      "skore": 5,
+      "duvod": "Jde o obchodní pozici mimo Prahu bez zmínky o remote, ne o marketingovou roli.",
+      "deadline": ""
+    },
+    {
+      "id": "a738610c50977811",
+      "odkazy": [
+        {
+          "zdroj": "Jobs.cz",
+          "url": "https://www.atmoskop.cz/nazory-na-zamestnavatele/75605-skupina-cez"
+        }
+      ],
+      "nazev": "1075 hodnocení na Atmoskopu",
+      "firma": "",
+      "lokalita": "",
+      "popis": "1075 hodnocení na Atmoskopu",
+      "mzda_text": "",
+      "zverejneno": "",
+      "nalezeno": "2026-08-17T05:46:23.336333+00:00",
+      "skore": 0,
+      "duvod": "Jde jen o útržek hodnocení firmy na Atmoskopu, nejde o pracovní nabídku.",
+      "deadline": ""
+    },
+    {
+      "id": "2f99fe9bf2dfa470",
+      "odkazy": [
+        {
+          "zdroj": "Jobs.cz",
+          "url": "https://www.jobs.cz/rpd/2001304080/"
+        }
+      ],
+      "nazev": "Senior UX designér / UX designérka",
+      "firma": "",
+      "lokalita": "",
+      "popis": "Senior UX designér / UX designérka 31. července Odpověď do 2 týdnů Skupina ČEZ Praha – Michle 1075 hodnocení na Atmoskopu",
+      "mzda_text": "",
+      "zverejneno": "",
+      "nalezeno": "2026-08-17T05:46:23.335661+00:00",
+      "skore": 0,
+      "duvod": "Jde o UX designérskou pozici, nemá nic společného s marketingem.",
+      "deadline": ""
+    },
+    {
+      "id": "40c4456e9fbabf4f",
+      "odkazy": [
+        {
+          "zdroj": "Jobs.cz",
+          "url": "https://www.jobs.cz/rpd/2001376330/"
+        }
+      ],
+      "nazev": "Trade Marketing & Customer Strategy Lead CZSK",
+      "firma": "",
+      "lokalita": "",
+      "popis": "Trade Marketing & Customer Strategy Lead CZSK 14. srpna 75 000 ‍–‍ 90 000 Kč Magnum ICC ČR, spol. s r.o. Praha – Libeň",
+      "mzda_text": "",
+      "zverejneno": "",
+      "nalezeno": "2026-08-17T05:46:23.312857+00:00",
+      "mzda": {
+        "text": "srpna 75 000 ‍–‍ 90 000 Kč Magnum ICC ČR, spol.",
+        "mena": "CZK",
+        "obdobi": "mesic",
+        "min": 75000.0,
+        "max": 90000.0,
+        "czk_mesic_min": 75000,
+        "czk_mesic_max": 90000,
+        "kurz_datum": "14.08.2026",
+        "prepocteno": false
+      },
+      "skore": 50,
+      "duvod": "Trade Marketing Lead je seniorní marketingová role v Praze, ale zaměřuje se na obchodní strategii a retail kanály, ne na product marketing, brand nebo content jako preferuje zadání.",
+      "deadline": ""
+    },
+    {
+      "id": "29cb24c0991deefd",
+      "odkazy": [
+        {
+          "zdroj": "Jobs.cz",
+          "url": "https://www.atmoskop.cz/nazory-na-zamestnavatele/4612662-kalkulator-cz-s-r-o"
+        }
+      ],
+      "nazev": "26 hodnocení na Atmoskopu",
+      "firma": "",
+      "lokalita": "",
+      "popis": "26 hodnocení na Atmoskopu",
+      "mzda_text": "",
+      "zverejneno": "",
+      "nalezeno": "2026-08-17T05:46:23.294200+00:00",
+      "skore": 0,
+      "duvod": "Jde jen o útržek hodnocení firmy na Atmoskopu, nejde o pracovní nabídku.",
+      "deadline": ""
+    },
+    {
+      "id": "d312d7e405dd0417",
+      "odkazy": [
+        {
+          "zdroj": "Jobs.cz",
+          "url": "https://www.jobs.cz/rpd/2001333985/"
+        }
+      ],
+      "nazev": "Senior Performance Marketing Specialist",
+      "firma": "",
+      "lokalita": "",
+      "popis": "Senior Performance Marketing Specialist 14. srpna 70 000 ‍–‍ 90 000 Kč Možnost občasné práce z domova Odpovězte teď a budete mezi prvními kalkulator.cz, s.r.o. Praha – Libeň 26 hodnocení na Atmoskopu",
+      "mzda_text": "",
+      "zverejneno": "",
+      "nalezeno": "2026-08-17T05:46:23.293492+00:00",
+      "mzda": {
+        "text": "srpna 70 000 ‍–‍ 90 000 Kč Možnost občasné práce z domova Odpovězte teď a budete mezi prvními kalkulator.cz, s.r.o.",
+        "mena": "CZK",
+        "obdobi": "mesic",
+        "min": 70000.0,
+        "max": 90000.0,
+        "czk_mesic_min": 70000,
+        "czk_mesic_max": 90000,
+        "kurz_datum": "14.08.2026",
+        "prepocteno": false
+      },
+      "skore": 10,
+      "duvod": "Jde o performance marketing pozici, kterou uživatelka explicitně vylučuje, i když je seniorní a v Praze.",
+      "deadline": ""
+    },
+    {
+      "id": "95a8f842b889561e",
+      "odkazy": [
+        {
+          "zdroj": "Jobs.cz",
+          "url": "https://www.jobs.cz/rpd/2001376728/"
+        }
+      ],
+      "nazev": "Marketingový specialista / specialistka (z53180)",
+      "firma": "",
+      "lokalita": "",
+      "popis": "Marketingový specialista / specialistka (z53180) 14. srpna Odpověď do 2 týdnů Barlett & Cenbright s.r.o. Hlavní město Praha",
+      "mzda_text": "",
+      "zverejneno": "",
+      "nalezeno": "2026-08-17T05:46:21.480565+00:00",
+      "skore": 30,
+      "duvod": "Obecný marketingový specialista v Praze, ale bez zmínky o seniorní úrovni nebo vlivu na strategii, spíše exekuční role.",
+      "deadline": ""
+    },
+    {
+      "id": "73b90570dee94bdf",
+      "odkazy": [
+        {
+          "zdroj": "Jobs.cz",
+          "url": "https://www.jobs.cz/rpd/2001343891/"
+        }
+      ],
+      "nazev": "Projektový manažer pro influencer marketing",
+      "firma": "",
+      "lokalita": "",
+      "popis": "Projektový manažer pro influencer marketing 24. července Práce převážně z domova ManpowerGroup s.r.o. Praha",
+      "mzda_text": "",
+      "zverejneno": "",
+      "nalezeno": "2026-08-17T05:46:19.579720+00:00",
+      "skore": 10,
+      "duvod": "Jde o pozici přes personální agenturu ManpowerGroup, kterou uživatelka výslovně odmítá.",
+      "deadline": ""
+    },
+    {
+      "id": "b38181c55aaef393",
+      "odkazy": [
+        {
+          "zdroj": "Jobs.cz",
+          "url": "https://www.jobs.cz/rpd/2001374152/"
+        }
+      ],
+      "nazev": "Marketing Manager",
+      "firma": "",
+      "lokalita": "",
+      "popis": "Marketing Manager 13. srpna DHL Solutions k.s. Jirny 110 hodnocení na Atmoskopu",
+      "mzda_text": "",
+      "zverejneno": "",
+      "nalezeno": "2026-08-17T05:46:19.575033+00:00",
+      "skore": 30,
+      "duvod": "Marketing Manager u DHL Solutions je v Jirnech mimo Prahu bez zmínky o remote a popis neuvádí seniorní ani strategický charakter role.",
+      "deadline": ""
+    },
+    {
+      "id": "f8f6d17baccffd84",
+      "odkazy": [
+        {
+          "zdroj": "Jobs.cz",
+          "url": "https://www.jobs.cz/rpd/2001376261/"
+        }
+      ],
+      "nazev": "🚀 Growth & Marketing Manager",
+      "firma": "",
+      "lokalita": "",
+      "popis": "🚀 Growth & Marketing Manager 14. srpna Možnost občasné práce z domova Odpovězte teď a budete mezi prvními Bohemian Estates International s.r.o. Brno – Staré Brno",
+      "mzda_text": "",
+      "zverejneno": "",
+      "nalezeno": "2026-08-17T05:46:19.567343+00:00",
+      "skore": 30,
+      "duvod": "Growth & Marketing Manager může mít strategický přesah, ale je v Brně jen s občasným home office, ne plný remote ani Praha.",
+      "deadline": ""
+    },
+    {
+      "id": "de3e812294c21f19",
+      "odkazy": [
+        {
+          "zdroj": "Jobs.cz",
+          "url": "https://www.jobs.cz/rpd/2001377388/"
+        }
+      ],
+      "nazev": "Vedoucí třídírny vajec",
+      "firma": "",
+      "lokalita": "",
+      "popis": "Vedoucí třídírny vajec 15. srpna 45 000 ‍–‍ 60 000 Kč Odpovězte teď a budete mezi prvními ARC Integrity s.r.o. Jílové u Prahy",
+      "mzda_text": "",
+      "zverejneno": "",
+      "nalezeno": "2026-08-17T05:46:17.428934+00:00",
+      "mzda": {
+        "text": "srpna 45 000 ‍–‍ 60 000 Kč Odpovězte teď a budete mezi prvními ARC Integrity s.r.o.",
+        "mena": "CZK",
+        "obdobi": "mesic",
+        "min": 45000.0,
+        "max": 60000.0,
+        "czk_mesic_min": 45000,
+        "czk_mesic_max": 60000,
+        "kurz_datum": "14.08.2026",
+        "prepocteno": false
+      },
+      "skore": 0,
+      "duvod": "Zcela nesouvisí s marketingem, jde o provozní pozici v potravinářství.",
+      "deadline": ""
+    },
+    {
+      "id": "2fbe64a5808a23c3",
+      "odkazy": [
+        {
+          "zdroj": "Jobs.cz",
+          "url": "https://www.jobs.cz/rpd/2001360720/"
+        }
+      ],
+      "nazev": "Produkční / Project Manager",
+      "firma": "",
+      "lokalita": "",
+      "popis": "Produkční / Project Manager 12. srpna Možnost občasné práce z domova Design Wave s.r.o. Praha – Libeň",
+      "mzda_text": "",
+      "zverejneno": "",
+      "nalezeno": "2026-08-17T05:46:15.199070+00:00",
+      "skore": 10,
+      "duvod": "Pozice Project/Produkční managera neodpovídá požadované marketingové roli.",
+      "deadline": ""
+    },
+    {
+      "id": "a65d7d221805fd6c",
+      "odkazy": [
+        {
+          "zdroj": "Jobs.cz",
+          "url": "https://www.jobs.cz/rpd/2001377264/"
+        }
+      ],
+      "nazev": "Grafik / DTP grafik / produktový designér – značka Zopa",
+      "firma": "",
+      "lokalita": "",
+      "popis": "Grafik / DTP grafik / produktový designér – značka Zopa 15. srpna BABY DIREKT s.r.o. Brno – Tuřany",
+      "mzda_text": "",
+      "zverejneno": "",
+      "nalezeno": "2026-08-17T05:46:13.254511+00:00",
+      "skore": 5,
+      "duvod": "Jde o grafickou/designérskou pozici, ne o marketingovou roli s vlivem na strategii.",
+      "deadline": ""
+    },
+    {
+      "id": "289c744210034c45",
+      "odkazy": [
+        {
+          "zdroj": "Jobs.cz",
+          "url": "https://www.jobs.cz/rpd/2001263349/"
+        }
+      ],
+      "nazev": "Manažer/ka produktového týmu – spotřebitelské úvěry",
+      "firma": "",
+      "lokalita": "",
+      "popis": "Manažer/ka produktového týmu – spotřebitelské úvěry 14. srpna MONETA Money Bank, a.s. Praha – Michle 612 hodnocení na Atmoskopu",
+      "mzda_text": "",
+      "zverejneno": "",
+      "nalezeno": "2026-08-17T05:46:13.240057+00:00",
+      "skore": 15,
+      "duvod": "Pozice je zaměřena na produktový management ve finančním sektoru, nikoli na marketing.",
+      "deadline": ""
+    },
+    {
+      "id": "7390e0e29c447a94",
+      "odkazy": [
+        {
+          "zdroj": "Jobs.cz",
+          "url": "https://www.jobs.cz/rpd/2001375960/"
+        }
+      ],
+      "nazev": "Product Manager - zemní plyn",
+      "firma": "",
+      "lokalita": "",
+      "popis": "Product Manager - zemní plyn 14. srpna Odpověď do 2 týdnů Možnost občasné práce z domova innogy Česká republika a.s. Praha – Strašnice + 2 další lokality 821 hodnocení na Atmoskopu",
+      "mzda_text": "",
+      "zverejneno": "",
+      "nalezeno": "2026-08-17T05:46:11.308058+00:00",
+      "skore": 15,
+      "duvod": "Jde o Product Managera v energetice, ne o marketingovou roli a obor neodpovídá preferovaným technologiím ani e-commerce.",
+      "deadline": ""
+    },
+    {
+      "id": "c3a03d190b49abb7",
+      "odkazy": [
+        {
+          "zdroj": "Jobs.cz",
+          "url": "https://www.jobs.cz/rpd/2001375399/"
+        }
+      ],
+      "nazev": "Marketingový specialista – produktový & brand marketing (B2B)",
+      "firma": "",
+      "lokalita": "",
+      "popis": "Marketingový specialista – produktový & brand marketing (B2B) 14. srpna 40 000 ‍–‍ 60 000 Kč Odpověď do 2 týdnů Odpovězte teď a budete mezi prvními LIKOV s.r.o. Kuřim",
+      "mzda_text": "",
+      "zverejneno": "",
+      "nalezeno": "2026-08-17T05:46:11.275883+00:00",
+      "mzda": {
+        "text": "srpna 40 000 ‍–‍ 60 000 Kč Odpověď do 2 týdnů Odpovězte teď a budete mezi prvními LIKOV s.r.o.",
+        "mena": "CZK",
+        "obdobi": "mesic",
+        "min": 40000.0,
+        "max": 60000.0,
+        "czk_mesic_min": 40000,
+        "czk_mesic_max": 60000,
+        "kurz_datum": "14.08.2026",
+        "prepocteno": false
+      },
+      "skore": 45,
+      "duvod": "Náplň (produktový a brand marketing v B2B) sedí, ale lokalita je Kuřim bez zmínky o remote a mzda 40-60k neodpovídá seniorní roli.",
+      "deadline": ""
+    },
+    {
+      "id": "6668a348168f2c26",
+      "odkazy": [
+        {
+          "zdroj": "Jobs.cz",
+          "url": "https://www.jobs.cz/rpd/2001367771/"
+        }
+      ],
+      "nazev": "Marketing Performance Analyst (m/f)",
+      "firma": "",
+      "lokalita": "",
+      "popis": "Marketing Performance Analyst (m/f) 10. srpna British American Tobacco (Czech Republic), s.r.o. Hlavní město Praha",
+      "mzda_text": "",
+      "zverejneno": "",
+      "nalezeno": "2026-08-17T05:46:11.271278+00:00",
+      "skore": 5,
+      "duvod": "Jde o čistě performance/analytickou pozici, kterou uživatelka výslovně odmítá.",
+      "deadline": ""
+    },
+    {
       "id": "13785fc50e15d17b",
       "odkazy": [
         {
@@ -8313,8 +8838,8 @@
       "deadline": ""
     }
   ],
-  "posledni_beh": "2026-08-14T06:25:19.707970+00:00",
-  "novych_dnes": 15,
+  "posledni_beh": "2026-08-17T05:47:47.149856+00:00",
+  "novych_dnes": 23,
   "navrhy_vyrazu": [],
   "chyby": []
 }
