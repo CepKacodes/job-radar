@@ -1,6 +1,365 @@
 {
   "nabidky": [
     {
+      "id": "50f601e52f209ec6",
+      "odkazy": [
+        {
+          "zdroj": "Prace.cz",
+          "url": "https://oniverse.jobs.cz/pd/2001343654"
+        }
+      ],
+      "nazev": "E-commerce & Digital Media Manager",
+      "firma": "",
+      "lokalita": "",
+      "popis": "E-commerce & Digital Media Manager Lokalita : Praha-Karlín Název firmy : Oniverse Typ úvazku : Plný úvazek 215 zaměstnanců hodnotilo firmu na Atmoskop.cz Číst hodnocení Méně než měsíc",
+      "mzda_text": "",
+      "zverejneno": "",
+      "nalezeno": "2026-08-18T05:40:34.401031+00:00",
+      "mzda": {
+        "text": "E-commerce & Digital Media Manager Lokalita : Praha-Karlín Název firmy : Oniverse Typ úvazku : Plný úvazek 215 zaměstnan",
+        "mena": "PLN",
+        "obdobi": "mesic",
+        "min": 215.0,
+        "max": null,
+        "czk_mesic_min": 1200,
+        "czk_mesic_max": null,
+        "kurz_datum": "17.08.2026",
+        "prepocteno": true
+      },
+      "skore": 58,
+      "duvod": "E-commerce a digitální média v Praze zapadají do zájmu o e-commerce a technologie, ale titul napovídá spíš exekutivní než strategickou roli jako product marketing či brand manager.",
+      "deadline": ""
+    },
+    {
+      "id": "eee37d75b5918835",
+      "odkazy": [
+        {
+          "zdroj": "Prace.cz",
+          "url": "https://www.prace.cz/nabidka/5f28a06a-e5c4-419f-9c18-679b6e3e39ed/"
+        }
+      ],
+      "nazev": "Demand Planning / Forecasting Manager",
+      "firma": "",
+      "lokalita": "",
+      "popis": "Demand Planning / Forecasting Manager Lokalita : Praha-Karlín Název firmy : rohlik.cz Typ úvazku : Plný úvazek Dnešní 209 zaměstnanců hodnotilo firmu na Atmoskop.cz Číst hodnocení",
+      "mzda_text": "",
+      "zverejneno": "",
+      "nalezeno": "2026-08-18T05:40:32.666051+00:00",
+      "mzda": {
+        "text": "Demand Planning / Forecasting Manager Lokalita : Praha-Karlín Název firmy : rohlik.cz Typ úvazku : Plný úvazek Dnešní 20",
+        "mena": "PLN",
+        "obdobi": "rok",
+        "min": 209.0,
+        "max": null,
+        "czk_mesic_min": 100,
+        "czk_mesic_max": null,
+        "kurz_datum": "17.08.2026",
+        "prepocteno": true
+      },
+      "skore": 10,
+      "duvod": "Demand Planning/Forecasting je operativní logistická role, nemá nic společného s marketingem ani strategií značky.",
+      "deadline": ""
+    },
+    {
+      "id": "a136609689a77140",
+      "odkazy": [
+        {
+          "zdroj": "Jobs.cz",
+          "url": "https://www.jobs.cz/rpd/2001378992/"
+        }
+      ],
+      "nazev": "Senior Sales Manager",
+      "firma": "",
+      "lokalita": "",
+      "popis": "Senior Sales Manager Přidáno včera Odpověď do 2 týdnů Odpovězte teď a budete mezi prvními UNiBON Production s.r.o. Praha – Holešovice",
+      "mzda_text": "",
+      "zverejneno": "",
+      "nalezeno": "2026-08-18T05:40:28.532944+00:00",
+      "skore": 8,
+      "duvod": "Jedná se o obchodní (sales) roli, ne o marketingovou pozici, takže neodpovídá zadání.",
+      "deadline": ""
+    },
+    {
+      "id": "e552138ff363c238",
+      "odkazy": [
+        {
+          "zdroj": "Jobs.cz",
+          "url": "https://www.jobs.cz/rpd/2001378772/"
+        }
+      ],
+      "nazev": "Senior obchodní manažer/ka - personální agentura",
+      "firma": "",
+      "lokalita": "",
+      "popis": "Senior obchodní manažer/ka - personální agentura Přidáno včera Odpověď do 2 týdnů Odpovězte teď a budete mezi prvními Max People s.r.o. Ostrava",
+      "mzda_text": "",
+      "zverejneno": "",
+      "nalezeno": "2026-08-18T05:40:28.523796+00:00",
+      "skore": 3,
+      "duvod": "Jde o obchodní pozici v personální agentuře mimo Prahu, což uživatelka výslovně odmítá.",
+      "deadline": ""
+    },
+    {
+      "id": "f120334eec1d9e87",
+      "odkazy": [
+        {
+          "zdroj": "Jobs.cz",
+          "url": "https://www.jobs.cz/rpd/2001312542/"
+        }
+      ],
+      "nazev": "Business Unit Manager SENCOR",
+      "firma": "",
+      "lokalita": "",
+      "popis": "Business Unit Manager SENCOR 24. července Odpovězte teď a budete mezi prvními FAST ČR, a.s. Říčany",
+      "mzda_text": "",
+      "zverejneno": "",
+      "nalezeno": "2026-08-18T05:40:26.676177+00:00",
+      "skore": 15,
+      "duvod": "Business Unit Manager je obchodně-provozní role mimo marketing, navíc lokalita Říčany bez zmínky o remote nevyhovuje.",
+      "deadline": ""
+    },
+    {
+      "id": "ff99b06f1c8bfe6c",
+      "odkazy": [
+        {
+          "zdroj": "Jobs.cz",
+          "url": "https://www.jobs.cz/rpd/2001377994/"
+        }
+      ],
+      "nazev": "Marketing Manager / Vedoucí marketingu – MY CLINIC",
+      "firma": "",
+      "lokalita": "",
+      "popis": "Marketing Manager / Vedoucí marketingu – MY CLINIC Přidáno včera Odpověď do 2 týdnů Možnost občasné práce z domova MyClinic s.r.o. Praha – Dejvice",
+      "mzda_text": "",
+      "zverejneno": "",
+      "nalezeno": "2026-08-18T05:40:24.472999+00:00",
+      "skore": 45,
+      "duvod": "Marketing Manager v Praze zní zajímavě, ale u malé kliniky jde spíš o operativní řízení marketingu než o strategickou B2B/produktovou roli a nabízí jen občasný home office.",
+      "deadline": ""
+    },
+    {
+      "id": "cbe4ddfa97ad35e8",
+      "odkazy": [
+        {
+          "zdroj": "Jobs.cz",
+          "url": "https://www.atmoskop.cz/nazory-na-zamestnavatele/2962835-alma-career-czechia-s-r-o"
+        }
+      ],
+      "nazev": "249 hodnocení na Atmoskopu",
+      "firma": "",
+      "lokalita": "",
+      "popis": "249 hodnocení na Atmoskopu",
+      "mzda_text": "",
+      "zverejneno": "",
+      "nalezeno": "2026-08-18T05:40:24.446519+00:00",
+      "skore": 0,
+      "duvod": "Nejde o pracovní nabídku, jen fragment hodnocení firmy na Atmoskopu bez konkrétního obsahu.",
+      "deadline": ""
+    },
+    {
+      "id": "5af6cac7c68b5e44",
+      "odkazy": [
+        {
+          "zdroj": "Jobs.cz",
+          "url": "https://www.jobs.cz/rpd/2001378660/"
+        }
+      ],
+      "nazev": "Sales Team Leader – Small Enterprises",
+      "firma": "",
+      "lokalita": "",
+      "popis": "Sales Team Leader – Small Enterprises Příležitost dne 80 000 ‍–‍ 90 000 Kč Odpověď do 2 týdnů Alma Career Czechia s.r.o. Praha – Libeň 249 hodnocení na Atmoskopu",
+      "mzda_text": "",
+      "zverejneno": "",
+      "nalezeno": "2026-08-18T05:40:24.445711+00:00",
+      "mzda": {
+        "text": "Sales Team Leader – Small Enterprises Příležitost dne 80 000 ‍–‍ 90 000 Kč Odpověď do 2 týdnů Alma Career Czechia s.r.o.",
+        "mena": "CZK",
+        "obdobi": "mesic",
+        "min": 80000.0,
+        "max": 90000.0,
+        "czk_mesic_min": 80000,
+        "czk_mesic_max": 90000,
+        "kurz_datum": "17.08.2026",
+        "prepocteno": false
+      },
+      "skore": 3,
+      "duvod": "Obchodní pozice (Sales Team Leader) přes personální agenturu, zcela mimo marketingové zaměření.",
+      "deadline": ""
+    },
+    {
+      "id": "2d12356b16f15e56",
+      "odkazy": [
+        {
+          "zdroj": "Jobs.cz",
+          "url": "https://www.jobs.cz/rpd/2001378754/"
+        }
+      ],
+      "nazev": "Vedoucí prodeje nových vozů – prémiový automotive segment",
+      "firma": "",
+      "lokalita": "",
+      "popis": "Vedoucí prodeje nových vozů – prémiový automotive segment Přidáno včera HR Advisors CZ s.r.o. Hlavní město Praha",
+      "mzda_text": "",
+      "zverejneno": "",
+      "nalezeno": "2026-08-18T05:40:22.561734+00:00",
+      "skore": 5,
+      "duvod": "Jedná se o vedení prodeje aut, nemá nic společného s marketingem ani strategií značky.",
+      "deadline": ""
+    },
+    {
+      "id": "e6d99fff9c1ab6ba",
+      "odkazy": [
+        {
+          "zdroj": "Jobs.cz",
+          "url": "https://www.jobs.cz/rpd/2001366766/"
+        }
+      ],
+      "nazev": "Brand Retail Store Manager pro IQOS (m/ž). Mzda až 60000 Kč měsíčně.",
+      "firma": "",
+      "lokalita": "",
+      "popis": "Brand Retail Store Manager pro IQOS (m/ž). Mzda až 60000 Kč měsíčně. Přidáno včera 42 000 ‍–‍ 60 000 Kč Randstad HR Solutions s.r.o. Plzeň",
+      "mzda_text": "",
+      "zverejneno": "",
+      "nalezeno": "2026-08-18T05:40:20.558856+00:00",
+      "mzda": {
+        "text": "Mzda až 60000 Kč měsíčně.",
+        "mena": "CZK",
+        "obdobi": "mesic",
+        "min": 60000.0,
+        "max": null,
+        "czk_mesic_min": 60000,
+        "czk_mesic_max": null,
+        "kurz_datum": "17.08.2026",
+        "prepocteno": false
+      },
+      "skore": 8,
+      "duvod": "Jde o řízení kamenné prodejny cigaret přes personální agenturu v Plzni, nikoli o marketingovou strategickou roli v Praze/remote.",
+      "deadline": ""
+    },
+    {
+      "id": "ecc06e889296f7d3",
+      "odkazy": [
+        {
+          "zdroj": "Jobs.cz",
+          "url": "https://www.jobs.cz/rpd/2001379129/"
+        }
+      ],
+      "nazev": "BRAND MANAGER – 3rd Party Brand",
+      "firma": "",
+      "lokalita": "",
+      "popis": "BRAND MANAGER – 3rd Party Brand Přidáno včera Možnost občasné práce z domova STOCK Plzeň-Božkov s.r.o. Praha – Jinonice 70 hodnocení na Atmoskopu",
+      "mzda_text": "",
+      "zverejneno": "",
+      "nalezeno": "2026-08-18T05:40:20.548513+00:00",
+      "skore": 68,
+      "duvod": "Brand Manager pozice v Praze u výrobní firmy, relevantní k požadovanému typu role, i když obor (alkohol) není přímo zmíněný zájem.",
+      "deadline": ""
+    },
+    {
+      "id": "34630d710fa01d33",
+      "odkazy": [
+        {
+          "zdroj": "Jobs.cz",
+          "url": "https://www.jobs.cz/rpd/2001379146/"
+        }
+      ],
+      "nazev": "BRAND MANAGER privátních značek",
+      "firma": "",
+      "lokalita": "",
+      "popis": "BRAND MANAGER privátních značek Přidáno včera Možnost občasné práce z domova PHOENIX lékárenský velkoobchod, s.r.o. Praha – Hostivař",
+      "mzda_text": "",
+      "zverejneno": "",
+      "nalezeno": "2026-08-18T05:40:20.547079+00:00",
+      "skore": 70,
+      "duvod": "Brand Manager v retailovém/velkoobchodním prostředí v Praze odpovídá zájmu o retail a strategickou roli.",
+      "deadline": ""
+    },
+    {
+      "id": "a7dbba8dfd92785b",
+      "odkazy": [
+        {
+          "zdroj": "Jobs.cz",
+          "url": "https://www.jobs.cz/rpd/2001378761/"
+        }
+      ],
+      "nazev": "Brand Manager",
+      "firma": "",
+      "lokalita": "",
+      "popis": "Brand Manager Přidáno včera Možnost občasné práce z domova Sirowa Czech s.r.o. Praha – Nusle",
+      "mzda_text": "",
+      "zverejneno": "",
+      "nalezeno": "2026-08-18T05:40:20.537564+00:00",
+      "skore": 75,
+      "duvod": "Brand Manager v Praze u produktové firmy odpovídá přesně jedné z požadovaných rolí a úrovni odpovědnosti.",
+      "deadline": ""
+    },
+    {
+      "id": "c694ee0a960f5783",
+      "odkazy": [
+        {
+          "zdroj": "Jobs.cz",
+          "url": "https://www.jobs.cz/rpd/2001379549/"
+        }
+      ],
+      "nazev": "Trainee program - produktový manažer junior",
+      "firma": "",
+      "lokalita": "",
+      "popis": "Trainee program - produktový manažer junior Přidáno včera 30 000 ‍–‍ 40 000 Kč AGROTEC a.s. Hustopeče",
+      "mzda_text": "",
+      "zverejneno": "",
+      "nalezeno": "2026-08-18T05:40:16.686572+00:00",
+      "mzda": {
+        "text": "Trainee program - produktový manažer junior Přidáno včera 30 000 ‍–‍ 40 000 Kč AGROTEC a.s.",
+        "mena": "CZK",
+        "obdobi": "mesic",
+        "min": 30000.0,
+        "max": 40000.0,
+        "czk_mesic_min": 30000,
+        "czk_mesic_max": 40000,
+        "kurz_datum": "17.08.2026",
+        "prepocteno": false
+      },
+      "skore": 3,
+      "duvod": "Trainee a juniorní pozice mimo Prahu bez remote, přesně to, co uživatelka odmítá.",
+      "deadline": ""
+    },
+    {
+      "id": "c0ef27b86b6e8655",
+      "odkazy": [
+        {
+          "zdroj": "Jobs.cz",
+          "url": "https://www.jobs.cz/rpd/2001372180/"
+        }
+      ],
+      "nazev": "Senior Product Specialist - pro oblast fixního internetu",
+      "firma": "",
+      "lokalita": "",
+      "popis": "Senior Product Specialist - pro oblast fixního internetu Přidáno včera Odpověď do 2 týdnů Práce převážně z domova Vodafone Czech Republic a.s. Praha – Stodůlky 309 hodnocení na Atmoskopu",
+      "mzda_text": "",
+      "zverejneno": "",
+      "nalezeno": "2026-08-18T05:40:16.684531+00:00",
+      "skore": 25,
+      "duvod": "Jde o produktovou/technickou roli u telco operátora, ne o marketingovou pozici, kterou hledá.",
+      "deadline": ""
+    },
+    {
+      "id": "632447193c26b166",
+      "odkazy": [
+        {
+          "zdroj": "Jobs.cz",
+          "url": "https://www.jobs.cz/rpd/2001379665/"
+        }
+      ],
+      "nazev": "Junior Automotive Product Content Specialist",
+      "firma": "",
+      "lokalita": "",
+      "popis": "Junior Automotive Product Content Specialist Přidáno včera Možnost občasné práce z domova VOLKSWAGEN GROUP SERVICES, s.r.o. Praha – Michle",
+      "mzda_text": "",
+      "zverejneno": "",
+      "nalezeno": "2026-08-18T05:40:16.678808+00:00",
+      "skore": 5,
+      "duvod": "Jde o juniorní pozici, kterou uživatelka výslovně odmítá.",
+      "deadline": ""
+    },
+    {
       "id": "5ba384c8262f6183",
       "odkazy": [
         {
@@ -8838,8 +9197,8 @@
       "deadline": ""
     }
   ],
-  "posledni_beh": "2026-08-17T05:47:47.149856+00:00",
-  "novych_dnes": 23,
+  "posledni_beh": "2026-08-18T05:41:28.852938+00:00",
+  "novych_dnes": 16,
   "navrhy_vyrazu": [],
   "chyby": []
 }
