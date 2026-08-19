@@ -1,6 +1,455 @@
 {
   "nabidky": [
     {
+      "id": "80daf5164563fbe6",
+      "odkazy": [
+        {
+          "zdroj": "Prace.cz",
+          "url": "https://cheil.jobs.cz/pd/2001381519"
+        }
+      ],
+      "nazev": "Senior Social Media Specialist pro Samsung",
+      "firma": "",
+      "lokalita": "",
+      "popis": "Senior Social Media Specialist pro Samsung Lokalita : Praha-Chodov Název firmy : Cheil Germany GmbH, organizační složka Typ úvazku : Plný úvazek Dnešní 32 zaměstnanců hodnotilo firmu na Atmoskop.cz Číst hodnocení",
+      "mzda_text": "",
+      "zverejneno": "",
+      "nalezeno": "2026-08-19T05:41:19.227516+00:00",
+      "skore": 35,
+      "duvod": "Jde o exekutivní roli správy sociálních sítí bez zjevného strategického dosahu, což neodpovídá požadavku na vliv na strategii.",
+      "deadline": ""
+    },
+    {
+      "id": "96857115d6eb4316",
+      "odkazy": [
+        {
+          "zdroj": "Prace.cz",
+          "url": "https://www.prace.cz/nabidka/864d4fca-edec-4d5f-8e0d-663449cdfa02/"
+        }
+      ],
+      "nazev": "manažer inzerce / redaktor",
+      "firma": "",
+      "lokalita": "",
+      "popis": "manažer inzerce / redaktor Lokalita : Praha-Vinohrady Název firmy : Profi Press s.r.o. Typ úvazku : Plný úvazek Plat : 50 000 – 55 000 Kč/měsíc Dnešní",
+      "mzda_text": "",
+      "zverejneno": "",
+      "nalezeno": "2026-08-19T05:41:16.008876+00:00",
+      "mzda": {
+        "text": "Typ úvazku : Plný úvazek Plat : 50 000 – 55 000 Kč/měsíc Dnešní",
+        "mena": "CZK",
+        "obdobi": "mesic",
+        "min": 50000.0,
+        "max": 55000.0,
+        "czk_mesic_min": 50000,
+        "czk_mesic_max": 55000,
+        "kurz_datum": "18.08.2026",
+        "prepocteno": false
+      },
+      "skore": 25,
+      "duvod": "Pozice manažer inzerce/redaktor v Praze je spíše obchodně-redakční, nejde o strategickou marketingovou roli, kterou uživatelka hledá.",
+      "deadline": ""
+    },
+    {
+      "id": "81f47e0ec8357bf1",
+      "odkazy": [
+        {
+          "zdroj": "Jobs.cz",
+          "url": "https://www.jobs.cz/rpd/2001380758/"
+        }
+      ],
+      "nazev": "Campaign Systems & Analytics II",
+      "firma": "",
+      "lokalita": "",
+      "popis": "Campaign Systems & Analytics II Přidáno včera ZEBRA TECHNOLOGIES EUROPE LIMITED Brno – Trnitá 58 hodnocení na Atmoskopu",
+      "mzda_text": "",
+      "zverejneno": "",
+      "nalezeno": "2026-08-19T05:41:13.713652+00:00",
+      "skore": 10,
+      "duvod": "Analytická pozice v Brně bez marketingového strategického přesahu a bez remote možnosti.",
+      "deadline": ""
+    },
+    {
+      "id": "4ab3aae27e856248",
+      "odkazy": [
+        {
+          "zdroj": "Jobs.cz",
+          "url": "https://www.atmoskop.cz/nazory-na-zamestnavatele/75551-skupina-e-on"
+        }
+      ],
+      "nazev": "325 hodnocení na Atmoskopu",
+      "firma": "",
+      "lokalita": "",
+      "popis": "325 hodnocení na Atmoskopu",
+      "mzda_text": "",
+      "zverejneno": "",
+      "nalezeno": "2026-08-19T05:41:11.898505+00:00",
+      "skore": 0,
+      "duvod": "Nejde o skutečnou pracovní nabídku, pouze fragment hodnocení firmy bez obsahu.",
+      "deadline": ""
+    },
+    {
+      "id": "e638510ff49aad62",
+      "odkazy": [
+        {
+          "zdroj": "Jobs.cz",
+          "url": "https://www.jobs.cz/rpd/2001381612/"
+        }
+      ],
+      "nazev": "Manažer Customer Life Cycle managementu senior (m/ž)",
+      "firma": "",
+      "lokalita": "",
+      "popis": "Manažer Customer Life Cycle managementu senior (m/ž) Přidáno včera Odpověď do 2 týdnů Skupina E.ON České Budějovice + 1 další lokalita 325 hodnocení na Atmoskopu",
+      "mzda_text": "",
+      "zverejneno": "",
+      "nalezeno": "2026-08-19T05:41:11.897883+00:00",
+      "skore": 20,
+      "duvod": "Jde o CRM/Customer Life Cycle management, ne o marketingovou strategii, a lokalita je České Budějovice bez zmínky o remote.",
+      "deadline": ""
+    },
+    {
+      "id": "7d66d1368cb01f69",
+      "odkazy": [
+        {
+          "zdroj": "Jobs.cz",
+          "url": "https://www.jobs.cz/rpd/2001381519/"
+        }
+      ],
+      "nazev": "Senior Social Media Specialist pro Samsung",
+      "firma": "",
+      "lokalita": "",
+      "popis": "Senior Social Media Specialist pro Samsung Přidáno včera Možnost občasné práce z domova Cheil Germany GmbH, organizační složka Praha – Chodov 32 hodnocení na Atmoskopu",
+      "mzda_text": "",
+      "zverejneno": "",
+      "nalezeno": "2026-08-19T05:41:11.874347+00:00",
+      "skore": 55,
+      "duvod": "Senior pozice v Praze s možností home office a technologickým klientem (Samsung), ale jde o úzké social media zaměření bez zjevného vlivu na celkovou strategii.",
+      "deadline": ""
+    },
+    {
+      "id": "b821a511ba1043e1",
+      "odkazy": [
+        {
+          "zdroj": "Jobs.cz",
+          "url": "https://www.jobs.cz/rpd/2001352692/"
+        }
+      ],
+      "nazev": "Obchodní a marketingový ředitel | Fitness & E-commerce",
+      "firma": "",
+      "lokalita": "",
+      "popis": "Obchodní a marketingový ředitel | Fitness & E-commerce 13. srpna Recrutech s.r.o. Liberec",
+      "mzda_text": "",
+      "zverejneno": "",
+      "nalezeno": "2026-08-19T05:41:10.009298+00:00",
+      "skore": 15,
+      "duvod": "Lokalita Liberec bez remote a inzeruje personální agentura, navíc jde o ředitelskou pozici kombinující obchod a marketing, ne o čistě marketingovou roli.",
+      "deadline": ""
+    },
+    {
+      "id": "5db90a8cc68f7269",
+      "odkazy": [
+        {
+          "zdroj": "Jobs.cz",
+          "url": "https://www.jobs.cz/rpd/2001380543/"
+        }
+      ],
+      "nazev": "BACK OFFICE AND MARKETING MANAGER / KA",
+      "firma": "",
+      "lokalita": "",
+      "popis": "BACK OFFICE AND MARKETING MANAGER / KA Přidáno včera 40 000 Kč Odpovězte teď a budete mezi prvními COMPAG MLADÁ BOLESLAV s.r.o. Mladá Boleslav – Mladá Boleslav III",
+      "mzda_text": "",
+      "zverejneno": "",
+      "nalezeno": "2026-08-19T05:41:08.120691+00:00",
+      "mzda": {
+        "text": "BACK OFFICE AND MARKETING MANAGER / KA Přidáno včera 40 000 Kč Odpovězte teď a budete mezi prvními COMPAG MLADÁ BOLESLAV",
+        "mena": "CZK",
+        "obdobi": "mesic",
+        "min": 40000.0,
+        "max": null,
+        "czk_mesic_min": 40000,
+        "czk_mesic_max": null,
+        "kurz_datum": "18.08.2026",
+        "prepocteno": false
+      },
+      "skore": 15,
+      "duvod": "Kombinovaná pozice back office a marketing v Mladé Boleslavi bez zmínky o remote neodpovídá požadované seniorní strategické marketingové roli.",
+      "deadline": ""
+    },
+    {
+      "id": "c49284c2a64b693c",
+      "odkazy": [
+        {
+          "zdroj": "Jobs.cz",
+          "url": "https://www.atmoskop.cz/nazory-na-zamestnavatele/2764590-vseobecna-zdravotni-pojistovna-ceske-republiky"
+        }
+      ],
+      "nazev": "1223 hodnocení na Atmoskopu",
+      "firma": "",
+      "lokalita": "",
+      "popis": "1223 hodnocení na Atmoskopu",
+      "mzda_text": "",
+      "zverejneno": "",
+      "nalezeno": "2026-08-19T05:41:08.079288+00:00",
+      "skore": 0,
+      "duvod": "Nabídka neobsahuje žádný smysluplný popis pozice ani názvu, nelze posoudit relevanci.",
+      "deadline": ""
+    },
+    {
+      "id": "524fd4ebf566f638",
+      "odkazy": [
+        {
+          "zdroj": "Jobs.cz",
+          "url": "https://www.jobs.cz/rpd/2001381194/"
+        }
+      ],
+      "nazev": "MARKETING MANAGER / VEDOUCÍ ODDĚLENÍ MARKETINGU",
+      "firma": "",
+      "lokalita": "",
+      "popis": "MARKETING MANAGER / VEDOUCÍ ODDĚLENÍ MARKETINGU Přidáno včera Odpověď do 2 týdnů VŠEOBECNÁ ZDRAVOTNÍ POJIŠŤOVNA ČESKÉ REPUBLIKY Praha – Vinohrady 1223 hodnocení na Atmoskopu",
+      "mzda_text": "",
+      "zverejneno": "",
+      "nalezeno": "2026-08-19T05:41:08.078604+00:00",
+      "skore": 62,
+      "duvod": "Seniorní pozice Marketing Manager v Praze s vlivem na řízení oddělení odpovídá zadání, i když firma (VZP) není z preferovaného B2B/tech/retail segmentu.",
+      "deadline": ""
+    },
+    {
+      "id": "9f045d015866a638",
+      "odkazy": [
+        {
+          "zdroj": "Jobs.cz",
+          "url": "https://www.jobs.cz/rpd/2001381483/"
+        }
+      ],
+      "nazev": "Key Account Manager – parťák pro HRisty (Praha, jižní Čechy)",
+      "firma": "",
+      "lokalita": "",
+      "popis": "Key Account Manager – parťák pro HRisty (Praha, jižní Čechy) Příležitost dne 70 000 ‍–‍ 75 000 Kč Odpověď do 2 týdnů Možnost občasné práce z domova Alma Career Czechia s.r.o. Praha – Libeň 249 hodnocení na Atmoskopu",
+      "mzda_text": "",
+      "zverejneno": "",
+      "nalezeno": "2026-08-19T05:41:08.046320+00:00",
+      "mzda": {
+        "text": "Key Account Manager – parťák pro HRisty (Praha, jižní Čechy) Příležitost dne 70 000 ‍–‍ 75 000 Kč Odpověď do 2 týdnů Mož",
+        "mena": "CZK",
+        "obdobi": "mesic",
+        "min": 70000.0,
+        "max": 75000.0,
+        "czk_mesic_min": 70000,
+        "czk_mesic_max": 75000,
+        "kurz_datum": "18.08.2026",
+        "prepocteno": false
+      },
+      "skore": 25,
+      "duvod": "Jde o obchodní roli Key Account Managera zaměřenou na HR klienty, nikoli o marketingovou pozici, a lokalita zahrnuje i jižní Čechy.",
+      "deadline": ""
+    },
+    {
+      "id": "619905e21d994978",
+      "odkazy": [
+        {
+          "zdroj": "Jobs.cz",
+          "url": "https://www.jobs.cz/rpd/2001379368/"
+        }
+      ],
+      "nazev": "Chceš se posunout ve své kariéře? Staň se zástupcem vedoucího restaurace KFC Ladná.",
+      "firma": "",
+      "lokalita": "",
+      "popis": "Chceš se posunout ve své kariéře? Staň se zástupcem vedoucího restaurace KFC Ladná. Přidáno včera KFC Ladná",
+      "mzda_text": "",
+      "zverejneno": "",
+      "nalezeno": "2026-08-19T05:41:05.981674+00:00",
+      "skore": 2,
+      "duvod": "Zástupce vedoucího restaurace KFC je provozní pozice mimo obor marketing a mimo Prahu.",
+      "deadline": ""
+    },
+    {
+      "id": "1645e896531b71bb",
+      "odkazy": [
+        {
+          "zdroj": "Jobs.cz",
+          "url": "https://www.jobs.cz/rpd/2001378146/"
+        }
+      ],
+      "nazev": "Staň se vedoucím restaurace KFC v Ostravě.",
+      "firma": "",
+      "lokalita": "",
+      "popis": "Staň se vedoucím restaurace KFC v Ostravě. Přidáno včera 41 000 ‍–‍ 48 000 Kč KFC Ostrava",
+      "mzda_text": "",
+      "zverejneno": "",
+      "nalezeno": "2026-08-19T05:41:05.980403+00:00",
+      "mzda": {
+        "text": "Přidáno včera 41 000 ‍–‍ 48 000 Kč KFC Ostrava",
+        "mena": "CZK",
+        "obdobi": "mesic",
+        "min": 41000.0,
+        "max": 48000.0,
+        "czk_mesic_min": 41000,
+        "czk_mesic_max": 48000,
+        "kurz_datum": "18.08.2026",
+        "prepocteno": false
+      },
+      "skore": 2,
+      "duvod": "Provozní pozice v gastronomii mimo Prahu, nemá nic společného s marketingem.",
+      "deadline": ""
+    },
+    {
+      "id": "413b4e303535d7a1",
+      "odkazy": [
+        {
+          "zdroj": "Jobs.cz",
+          "url": "https://www.jobs.cz/rpd/2001380455/"
+        }
+      ],
+      "nazev": "SURVIVAL BRAND MANAGER / SALES CZ & SK",
+      "firma": "",
+      "lokalita": "",
+      "popis": "SURVIVAL BRAND MANAGER / SALES CZ & SK Přidáno včera 50 000 ‍–‍ 70 000 Kč Odpovězte teď a budete mezi prvními MORIS design s.r.o. Černíky",
+      "mzda_text": "",
+      "zverejneno": "",
+      "nalezeno": "2026-08-19T05:41:03.524829+00:00",
+      "mzda": {
+        "text": "SURVIVAL BRAND MANAGER / SALES CZ & SK Přidáno včera 50 000 ‍–‍ 70 000 Kč Odpovězte teď a budete mezi prvními MORIS desi",
+        "mena": "CZK",
+        "obdobi": "mesic",
+        "min": 50000.0,
+        "max": 70000.0,
+        "czk_mesic_min": 50000,
+        "czk_mesic_max": 70000,
+        "kurz_datum": "18.08.2026",
+        "prepocteno": false
+      },
+      "skore": 20,
+      "duvod": "Pozice kombinuje brand management se sales rolí, je mimo Prahu (Černíky) bez zmínky o remote, což nesplňuje zadání.",
+      "deadline": ""
+    },
+    {
+      "id": "158ca0105140ab9f",
+      "odkazy": [
+        {
+          "zdroj": "Jobs.cz",
+          "url": "https://www.jobs.cz/rpd/2001381189/"
+        }
+      ],
+      "nazev": "SENIOR GROUP BRAND MANAGER - TOP FMCG SPOLEČNOST - BRATISLAVA (hybrid) a PRAHA (2 pozice)",
+      "firma": "",
+      "lokalita": "",
+      "popis": "SENIOR GROUP BRAND MANAGER - TOP FMCG SPOLEČNOST - BRATISLAVA (hybrid) a PRAHA (2 pozice) Přidáno včera 90 000 ‍–‍ 140 000 Kč Odpověď do 2 týdnů Možnost občasné práce z domova DRILL Business Services Praha + 1 další lokalita",
+      "mzda_text": "",
+      "zverejneno": "",
+      "nalezeno": "2026-08-19T05:41:03.507077+00:00",
+      "mzda": {
+        "text": "SENIOR GROUP BRAND MANAGER - TOP FMCG SPOLEČNOST - BRATISLAVA (hybrid) a PRAHA (2 pozice) Přidáno včera 90 000 ‍–‍ 140 0",
+        "mena": "CZK",
+        "obdobi": "mesic",
+        "min": 90000.0,
+        "max": 140000.0,
+        "czk_mesic_min": 90000,
+        "czk_mesic_max": 140000,
+        "kurz_datum": "18.08.2026",
+        "prepocteno": false
+      },
+      "skore": 85,
+      "duvod": "Seniorní Brand Manager pozice v Praze s možností home office, dobrým platovým ohodnocením a strategickým dosahem, přesně odpovídá zadání.",
+      "deadline": ""
+    },
+    {
+      "id": "b7f2f9789db6ae89",
+      "odkazy": [
+        {
+          "zdroj": "Jobs.cz",
+          "url": "https://www.jobs.cz/rpd/2001381526/"
+        }
+      ],
+      "nazev": "🚀Product Manager – tvoř produkty, které se opravdu dostanou na trh",
+      "firma": "",
+      "lokalita": "",
+      "popis": "🚀Product Manager – tvoř produkty, které se opravdu dostanou na trh Přidáno včera Možnost občasné práce z domova Odpovězte teď a budete mezi prvními elem6 s.r.o. Praha – Strašnice",
+      "mzda_text": "",
+      "zverejneno": "",
+      "nalezeno": "2026-08-19T05:41:01.541301+00:00",
+      "skore": 30,
+      "duvod": "Jedná se spíš o produktového manažera (vývoj produktu) než o marketingovou roli, i když lokalita Praha s možností home office odpovídá.",
+      "deadline": ""
+    },
+    {
+      "id": "ef24a80826ab375b",
+      "odkazy": [
+        {
+          "zdroj": "Jobs.cz",
+          "url": "https://www.jobs.cz/rpd/2001380893/"
+        }
+      ],
+      "nazev": "Produktový manažer pro značku Dücker – CZ /SK /HU",
+      "firma": "",
+      "lokalita": "",
+      "popis": "Produktový manažer pro značku Dücker – CZ /SK /HU Přidáno včera 50 000 ‍–‍ 70 000 Kč AGROTEC a.s. Hustopeče",
+      "mzda_text": "",
+      "zverejneno": "",
+      "nalezeno": "2026-08-19T05:40:59.606383+00:00",
+      "mzda": {
+        "text": "Produktový manažer pro značku Dücker – CZ /SK /HU Přidáno včera 50 000 ‍–‍ 70 000 Kč AGROTEC a.s.",
+        "mena": "CZK",
+        "obdobi": "mesic",
+        "min": 50000.0,
+        "max": 70000.0,
+        "czk_mesic_min": 50000,
+        "czk_mesic_max": 70000,
+        "kurz_datum": "18.08.2026",
+        "prepocteno": false
+      },
+      "skore": 10,
+      "duvod": "Stejně jako předchozí pozice od AGROTEC - lokalita Hustopeče bez remote a obor neodpovídá preferovaným odvětvím.",
+      "deadline": ""
+    },
+    {
+      "id": "f837c0279c9af1c0",
+      "odkazy": [
+        {
+          "zdroj": "Jobs.cz",
+          "url": "https://www.jobs.cz/rpd/2001380944/"
+        }
+      ],
+      "nazev": "Produktový manažer - CZ/SK",
+      "firma": "",
+      "lokalita": "",
+      "popis": "Produktový manažer - CZ/SK Přidáno včera 50 000 ‍–‍ 70 000 Kč AGROTEC a.s. Hustopeče",
+      "mzda_text": "",
+      "zverejneno": "",
+      "nalezeno": "2026-08-19T05:40:59.602272+00:00",
+      "mzda": {
+        "text": "Produktový manažer - CZ/SK Přidáno včera 50 000 ‍–‍ 70 000 Kč AGROTEC a.s.",
+        "mena": "CZK",
+        "obdobi": "mesic",
+        "min": 50000.0,
+        "max": 70000.0,
+        "czk_mesic_min": 50000,
+        "czk_mesic_max": 70000,
+        "kurz_datum": "18.08.2026",
+        "prepocteno": false
+      },
+      "skore": 10,
+      "duvod": "Produktový manažer v zemědělské firmě AGROTEC v Hustopečích, mimo Prahu a bez remote, navíc mimo požadované obory technologie/retail/e-commerce.",
+      "deadline": ""
+    },
+    {
+      "id": "aebb47a646c742cd",
+      "odkazy": [
+        {
+          "zdroj": "Jobs.cz",
+          "url": "https://www.jobs.cz/rpd/2001380853/"
+        }
+      ],
+      "nazev": "Specialista produktového marketingu",
+      "firma": "",
+      "lokalita": "",
+      "popis": "Specialista produktového marketingu Přidáno včera Odpověď do 2 týdnů Odpovězte teď a budete mezi prvními BEWIT Natural Medicine, s.r.o. Ostrava",
+      "mzda_text": "",
+      "zverejneno": "",
+      "nalezeno": "2026-08-19T05:40:59.567389+00:00",
+      "skore": 15,
+      "duvod": "Pozice je v Ostravě bez zmínky o remote, což je v rozporu s požadavkem na Prahu nebo home office.",
+      "deadline": ""
+    },
+    {
       "id": "50f601e52f209ec6",
       "odkazy": [
         {
@@ -9197,8 +9646,8 @@
       "deadline": ""
     }
   ],
-  "posledni_beh": "2026-08-18T05:41:28.852938+00:00",
-  "novych_dnes": 16,
+  "posledni_beh": "2026-08-19T05:42:32.613905+00:00",
+  "novych_dnes": 19,
   "navrhy_vyrazu": [],
   "chyby": []
 }
