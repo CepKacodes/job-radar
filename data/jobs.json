@@ -1,6 +1,663 @@
 {
   "nabidky": [
     {
+      "id": "eaa3127eadab857f",
+      "odkazy": [
+        {
+          "zdroj": "EU Remote Jobs",
+          "url": "https://euremotejobs.com/job/marketing-analyst-senior/"
+        }
+      ],
+      "nazev": "Marketing Analyst – Senior Softswiss 📍 Europe, Poland ⏰ Full time 📂 Marketing",
+      "firma": "Marketing Analyst –",
+      "lokalita": "",
+      "popis": "Marketing Analyst – Senior Softswiss 📍 Europe, Poland ⏰ Full time 📂 Marketing Posted 2 days ago",
+      "mzda_text": "",
+      "zverejneno": "",
+      "nalezeno": "2026-08-20T05:42:09.529420+00:00",
+      "skore": 25,
+      "duvod": "Analytická pozice je spíše exekutivní a datová, neodpovídá požadavku na strategický vliv a není mezi preferovanými tituly.",
+      "deadline": ""
+    },
+    {
+      "id": "89bb8ee512be4aa5",
+      "odkazy": [
+        {
+          "zdroj": "EU Remote Jobs",
+          "url": "https://euremotejobs.com/job/director-of-marketing-ai-driven-drug-discovery/"
+        }
+      ],
+      "nazev": "Director of Marketing, AI-Driven Drug Discovery Apheris 📍 EMEA ⏰ Full time 📂 Marketing",
+      "firma": "Director of Marketing,",
+      "lokalita": "",
+      "popis": "Director of Marketing, AI-Driven Drug Discovery Apheris 📍 EMEA ⏰ Full time 📂 Marketing Posted 2 days ago",
+      "mzda_text": "",
+      "zverejneno": "",
+      "nalezeno": "2026-08-20T05:42:09.528996+00:00",
+      "skore": 55,
+      "duvod": "Jde o seniorní strategickou roli s remote možností v EMEA, ale obor biotech/drug discovery neodpovídá preferovaným B2B, tech, retail či e-commerce.",
+      "deadline": "",
+      "web": "https://directorofmarketing.com",
+      "kariera": "",
+      "ats": ""
+    },
+    {
+      "id": "fb6542f73f480d47",
+      "odkazy": [
+        {
+          "zdroj": "EU Remote Jobs",
+          "url": "https://euremotejobs.com/job/product-marketing-manager-trust-privacy-and-ai-uk-remote/"
+        }
+      ],
+      "nazev": "Product Marketing Manager, Trust, Privacy and AI (UK Remote) Turnitin, LLC 📍 UK ⏰ Full time 📂 Marketing",
+      "firma": "Product Marketing Manager,",
+      "lokalita": "",
+      "popis": "Product Marketing Manager, Trust, Privacy and AI (UK Remote) Turnitin, LLC 📍 UK ⏰ Full time 📂 Marketing Posted 1 day ago",
+      "mzda_text": "",
+      "zverejneno": "",
+      "nalezeno": "2026-08-20T05:42:09.528549+00:00",
+      "skore": 78,
+      "duvod": "Přesně odpovídá požadované roli product marketing manager v technologické B2B firmě s možností remote, i když je vázaná na UK.",
+      "deadline": "",
+      "web": "https://www.productmarketingmanager.com",
+      "kariera": "",
+      "ats": ""
+    },
+    {
+      "id": "621e260786713a0c",
+      "odkazy": [
+        {
+          "zdroj": "EU Remote Jobs",
+          "url": "https://euremotejobs.com/job/functional-expert-champion-re-nxt-ai-innovation/"
+        }
+      ],
+      "nazev": "High Salary Functional Expert Champion, RE NXT & AI Innovation Blackbaud 📍 US ⏰ Full time 📂 Marketing 💰 $87,700 - $114,200 USD yearly",
+      "firma": "High Salary Functional",
+      "lokalita": "",
+      "popis": "High Salary Functional Expert Champion, RE NXT & AI Innovation Blackbaud 📍 US ⏰ Full time 📂 Marketing 💰 $87,700 - $114,200 USD yearly Posted 21 hours ago",
+      "mzda_text": "$87,700 - $114,200 USD yearly Posted 21 hours ago",
+      "zverejneno": "",
+      "nalezeno": "2026-08-20T05:42:09.528006+00:00",
+      "mzda": {
+        "text": "$87,700 - $114,200 USD yearly Posted 21 hours ago",
+        "mena": "USD",
+        "obdobi": "hodina",
+        "min": 21.0,
+        "max": 114200.0,
+        "czk_mesic_min": 69900,
+        "czk_mesic_max": 380368200,
+        "kurz_datum": "19.08.2026",
+        "prepocteno": true
+      },
+      "skore": 10,
+      "duvod": "Pozice je určena pro US trh, nejde o remote pro ČR a titul neodpovídá požadovaným rolím v marketingu.",
+      "deadline": ""
+    },
+    {
+      "id": "374c809867fae45d",
+      "odkazy": [
+        {
+          "zdroj": "EU Remote Jobs",
+          "url": "https://euremotejobs.com/job/cro-specialist-dtc-e-commerce-100-remote-eu/"
+        }
+      ],
+      "nazev": "CRO Specialist | DTC E-commerce | 100% Remote EU Foxelli Group 📍 EMEA ⏰ Full time 📂 Marketing 💰 2000 - 3000 EUR month",
+      "firma": "CRO Specialist |",
+      "lokalita": "",
+      "popis": "CRO Specialist | DTC E-commerce | 100% Remote EU Foxelli Group 📍 EMEA ⏰ Full time 📂 Marketing 💰 2000 - 3000 EUR month Posted 15 hours ago",
+      "mzda_text": "2000 - 3000 EUR month Posted 15 hours ago",
+      "zverejneno": "",
+      "nalezeno": "2026-08-20T05:42:09.527436+00:00",
+      "mzda": {
+        "text": "2000 - 3000 EUR month Posted 15 hours ago",
+        "mena": "EUR",
+        "obdobi": "hodina",
+        "min": 15.0,
+        "max": 3000.0,
+        "czk_mesic_min": 58000,
+        "czk_mesic_max": 11596800,
+        "kurz_datum": "19.08.2026",
+        "prepocteno": true
+      },
+      "skore": 15,
+      "duvod": "Jde o specialistu na konverzní optimalizaci, což je blízké performance marketingu, který uživatelka explicitně odmítá.",
+      "deadline": ""
+    },
+    {
+      "id": "e1ae132aea4b4627",
+      "odkazy": [
+        {
+          "zdroj": "EU Remote Jobs",
+          "url": "https://euremotejobs.com/job/product-growth-partnerships-manager-based-in-europe/"
+        }
+      ],
+      "nazev": "Product Growth & Partnerships Manager | Based in Europe Hostinger 📍 Europe ⏰ Full time 📂 Marketing",
+      "firma": "Product Growth &",
+      "lokalita": "",
+      "popis": "Product Growth & Partnerships Manager | Based in Europe Hostinger 📍 Europe ⏰ Full time 📂 Marketing Posted 15 hours ago",
+      "mzda_text": "",
+      "zverejneno": "",
+      "nalezeno": "2026-08-20T05:42:09.526893+00:00",
+      "skore": 55,
+      "duvod": "Produktová firma v Evropě s možností remote a zaměřením na růst a partnerství, částečně odpovídá zájmu o product marketing, ale titul přesně neodpovídá požadovaným rolím.",
+      "deadline": "",
+      "web": "https://www.productgrowth.com",
+      "kariera": "",
+      "ats": ""
+    },
+    {
+      "id": "027e90251fc33cf3",
+      "odkazy": [
+        {
+          "zdroj": "EU Remote Jobs",
+          "url": "https://euremotejobs.com/job/growth-marketing-director/"
+        }
+      ],
+      "nazev": "High Salary Growth Marketing Director Xbow 📍 US ⏰ Full time 📂 Marketing 💰 $172,000 - $258,000 per year",
+      "firma": "High Salary Growth",
+      "lokalita": "",
+      "popis": "High Salary Growth Marketing Director Xbow 📍 US ⏰ Full time 📂 Marketing 💰 $172,000 - $258,000 per year Posted 15 hours ago",
+      "mzda_text": "",
+      "zverejneno": "",
+      "nalezeno": "2026-08-20T05:42:09.526438+00:00",
+      "mzda": {
+        "text": "High Salary Growth Marketing Director Xbow 📍 US ⏰ Full time 📂 Marketing 💰 $172,000 - $258,000 per year Posted 15 hours a",
+        "mena": "USD",
+        "obdobi": "hodina",
+        "min": 15.0,
+        "max": 258000.0,
+        "czk_mesic_min": 50000,
+        "czk_mesic_max": 859325800,
+        "kurz_datum": "19.08.2026",
+        "prepocteno": true
+      },
+      "skore": 15,
+      "duvod": "Lokalita je striktně US bez zmínky o remote, což nesplňuje požadavek Praha nebo remote, navíc jde o direktorskou úroveň nad rámec hledané role.",
+      "deadline": ""
+    },
+    {
+      "id": "99c9f7e10254e986",
+      "odkazy": [
+        {
+          "zdroj": "EU Remote Jobs",
+          "url": "https://euremotejobs.com/job/senior-designer-marketing-2/"
+        }
+      ],
+      "nazev": "Senior Designer, Marketing Sanity 📍 US ⏰ Full time 📂 Marketing",
+      "firma": "Senior Designer, Marketing",
+      "lokalita": "",
+      "popis": "Senior Designer, Marketing Sanity 📍 US ⏰ Full time 📂 Marketing Posted 15 hours ago",
+      "mzda_text": "",
+      "zverejneno": "",
+      "nalezeno": "2026-08-20T05:42:09.525945+00:00",
+      "skore": 25,
+      "duvod": "Pozice je designérská, nikoli marketingová strategická role jako product marketing manager nebo content lead.",
+      "deadline": ""
+    },
+    {
+      "id": "6b72642bbfdf45c2",
+      "odkazy": [
+        {
+          "zdroj": "EU Remote Jobs",
+          "url": "https://euremotejobs.com/job/staff-brand-designer-2/"
+        }
+      ],
+      "nazev": "Staff Brand Designer TRM Labs 📍 Worldwide ⏰ Full time 📂 Marketing",
+      "firma": "Staff Brand Designer",
+      "lokalita": "",
+      "popis": "Staff Brand Designer TRM Labs 📍 Worldwide ⏰ Full time 📂 Marketing Posted 15 hours ago",
+      "mzda_text": "",
+      "zverejneno": "",
+      "nalezeno": "2026-08-20T05:42:09.525495+00:00",
+      "skore": 30,
+      "duvod": "Jde o designérskou roli (Brand Designer), ne o brand manažera se strategickým vlivem, takže neodpovídá požadovanému zaměření.",
+      "deadline": ""
+    },
+    {
+      "id": "eefefda48b3e09c8",
+      "odkazy": [
+        {
+          "zdroj": "EU Remote Jobs",
+          "url": "https://euremotejobs.com/job/corporate-marketing-manager/"
+        }
+      ],
+      "nazev": "High Salary Corporate Marketing Manager Mural 📍 US, Worldwide ⏰ Full time 📂 Marketing 💰 107978 - 134973 USD per year",
+      "firma": "High Salary Corporate",
+      "lokalita": "",
+      "popis": "High Salary Corporate Marketing Manager Mural 📍 US, Worldwide ⏰ Full time 📂 Marketing 💰 107978 - 134973 USD per year Posted 15 hours ago",
+      "mzda_text": "107978 - 134973 USD per year Posted 15 hours ago",
+      "zverejneno": "",
+      "nalezeno": "2026-08-20T05:42:09.524953+00:00",
+      "mzda": {
+        "text": "107978 - 134973 USD per year Posted 15 hours ago",
+        "mena": "USD",
+        "obdobi": "hodina",
+        "min": 15.0,
+        "max": 134973.0,
+        "czk_mesic_min": 50000,
+        "czk_mesic_max": 449557300,
+        "kurz_datum": "19.08.2026",
+        "prepocteno": true
+      },
+      "skore": 60,
+      "duvod": "Seniorní marketingová pozice v B2B SaaS produktové firmě, lokalita 'Worldwide' naznačuje možnost remote, ale není jasné zda opravdu plně remote a role je spíš obecně korporátní marketing bez jasného zaměření na strategii.",
+      "deadline": "",
+      "web": "",
+      "kariera": "",
+      "ats": ""
+    },
+    {
+      "id": "70aed993a13287d9",
+      "odkazy": [
+        {
+          "zdroj": "EU Remote Jobs",
+          "url": "https://euremotejobs.com/job/head-of-growth-2/"
+        }
+      ],
+      "nazev": "Head of Growth – Paid Social Welltech 📍 Cyprus, EMEA, Ukraine ⏰ Full time 📂 Marketing",
+      "firma": "Head of Growth",
+      "lokalita": "",
+      "popis": "Head of Growth – Paid Social Welltech 📍 Cyprus, EMEA, Ukraine ⏰ Full time 📂 Marketing Posted 15 hours ago",
+      "mzda_text": "",
+      "zverejneno": "",
+      "nalezeno": "2026-08-20T05:42:09.524383+00:00",
+      "skore": 20,
+      "duvod": "Head of Growth zaměřený na Paid Social je čistě performance marketingová role, kterou uživatelka výslovně nechce.",
+      "deadline": ""
+    },
+    {
+      "id": "89641b1e32ba4d76",
+      "odkazy": [
+        {
+          "zdroj": "EU Remote Jobs",
+          "url": "https://euremotejobs.com/job/senior-amazon-brand-manager/"
+        }
+      ],
+      "nazev": "High Salary Senior Amazon Brand Manager OnHires 📍 AMER, EMEA ⏰ Full time 📂 Marketing 💰 250,000 - 350,000 USD/year",
+      "firma": "High Salary Senior",
+      "lokalita": "",
+      "popis": "High Salary Senior Amazon Brand Manager OnHires 📍 AMER, EMEA ⏰ Full time 📂 Marketing 💰 250,000 - 350,000 USD/year Posted 15 hours ago",
+      "mzda_text": "250,000 - 350,000 USD/year Posted 15 hours ago",
+      "zverejneno": "",
+      "nalezeno": "2026-08-20T05:42:09.523951+00:00",
+      "mzda": {
+        "text": "250,000 - 350,000 USD/year Posted 15 hours ago",
+        "mena": "USD",
+        "obdobi": "hodina",
+        "min": 15.0,
+        "max": 350000.0,
+        "czk_mesic_min": 50000,
+        "czk_mesic_max": 1165752000,
+        "kurz_datum": "19.08.2026",
+        "prepocteno": true
+      },
+      "skore": 60,
+      "duvod": "Senior Brand Manager odpovídá preferovanému titulu i retailu/e-commerce, ale lokalita AMER/EMEA bez jasné remote možnosti z Prahy snižuje jistotu shody.",
+      "deadline": "",
+      "web": "",
+      "kariera": "",
+      "ats": ""
+    },
+    {
+      "id": "e1256d0705cbb9cc",
+      "odkazy": [
+        {
+          "zdroj": "EU Remote Jobs",
+          "url": "https://euremotejobs.com/job/churn-specialist-dtc-e-commerce-100-remote-eu/"
+        }
+      ],
+      "nazev": "Churn Specialist | DTC E-commerce | 100% Remote EU Foxelli Group 📍 Europe ⏰ Full time 📂 Marketing",
+      "firma": "Churn Specialist |",
+      "lokalita": "",
+      "popis": "Churn Specialist | DTC E-commerce | 100% Remote EU Foxelli Group 📍 Europe ⏰ Full time 📂 Marketing Posted 11 hours ago",
+      "mzda_text": "",
+      "zverejneno": "",
+      "nalezeno": "2026-08-20T05:42:09.523324+00:00",
+      "mzda": {
+        "text": "Churn Specialist | DTC E-commerce | 100% Remote EU Foxelli Group 📍 Europe ⏰ Full time 📂 Marketing Posted 11 hours ago",
+        "mena": "EUR",
+        "obdobi": "hodina",
+        "min": 11.0,
+        "max": 100.0,
+        "czk_mesic_min": 42500,
+        "czk_mesic_max": 386600,
+        "kurz_datum": "19.08.2026",
+        "prepocteno": true
+      },
+      "skore": 35,
+      "duvod": "Remote EU a e-commerce sedí, ale Churn Specialist je exekuční performance role bez vlivu na strategii, mimo preferované tituly.",
+      "deadline": ""
+    },
+    {
+      "id": "4757b8659c99bdb3",
+      "odkazy": [
+        {
+          "zdroj": "EU Remote Jobs",
+          "url": "https://euremotejobs.com/job/marketing-associate/"
+        }
+      ],
+      "nazev": "Marketing Associate Griffin 📍 UK ⏰ Full time 📂 Marketing",
+      "firma": "Marketing Associate Griffin",
+      "lokalita": "",
+      "popis": "Marketing Associate Griffin 📍 UK ⏰ Full time 📂 Marketing Posted 11 hours ago",
+      "mzda_text": "",
+      "zverejneno": "",
+      "nalezeno": "2026-08-20T05:42:09.522887+00:00",
+      "skore": 10,
+      "duvod": "Marketing Associate je juniorní pozice ve Velké Británii, přesně to, co uživatelka odmítá.",
+      "deadline": ""
+    },
+    {
+      "id": "c4010d2b4b5992ff",
+      "odkazy": [
+        {
+          "zdroj": "EU Remote Jobs",
+          "url": "https://euremotejobs.com/job/marketing-strategy-operations-manager/"
+        }
+      ],
+      "nazev": "High Salary Marketing Strategy & Operations Manager Ashby 📍 Canada, US ⏰ Full time 📂 Marketing 💰 $150,000 - $207,000 USD per year",
+      "firma": "High Salary Marketing",
+      "lokalita": "",
+      "popis": "High Salary Marketing Strategy & Operations Manager Ashby 📍 Canada, US ⏰ Full time 📂 Marketing 💰 $150,000 - $207,000 USD per year Posted 11 hours ago",
+      "mzda_text": "$150,000 - $207,000 USD per year Posted 11 hours ago",
+      "zverejneno": "",
+      "nalezeno": "2026-08-20T05:42:09.522322+00:00",
+      "mzda": {
+        "text": "$150,000 - $207,000 USD per year Posted 11 hours ago",
+        "mena": "USD",
+        "obdobi": "hodina",
+        "min": 11.0,
+        "max": 207000.0,
+        "czk_mesic_min": 36600,
+        "czk_mesic_max": 689459000,
+        "kurz_datum": "19.08.2026",
+        "prepocteno": true
+      },
+      "skore": 35,
+      "duvod": "Seniorní strategická role, ale je to Marketing Strategy & Operations Manager v Kanadě/USA bez zmínky o remote pro Evropu, neodpovídá preferovaným titulům.",
+      "deadline": ""
+    },
+    {
+      "id": "10b79edb3bb12955",
+      "odkazy": [
+        {
+          "zdroj": "EU Remote Jobs",
+          "url": "https://euremotejobs.com/job/social-media-manager-4/"
+        }
+      ],
+      "nazev": "Social Media Manager Juniper Square 📍 US ⏰ Full time 📂 Marketing",
+      "firma": "Social Media Manager",
+      "lokalita": "",
+      "popis": "Social Media Manager Juniper Square 📍 US ⏰ Full time 📂 Marketing Posted 11 hours ago",
+      "mzda_text": "",
+      "zverejneno": "",
+      "nalezeno": "2026-08-20T05:42:09.521766+00:00",
+      "skore": 10,
+      "duvod": "Jde o Social Media Manager v US bez remote pro Evropu, neodpovídá požadovaným seniorním marketingovým rolím ani lokalitě.",
+      "deadline": ""
+    },
+    {
+      "id": "1aeee956cbc04ec7",
+      "odkazy": [
+        {
+          "zdroj": "EU Remote Jobs",
+          "url": "https://euremotejobs.com/job/product-marketing-manager-supplier-network-growth/"
+        }
+      ],
+      "nazev": "Product Marketing Manager, Supplier Network Growth Worldly 📍 APAC ⏰ Full time 📂 Marketing 💰 $28K - $48K",
+      "firma": "Product Marketing Manager,",
+      "lokalita": "",
+      "popis": "Product Marketing Manager, Supplier Network Growth Worldly 📍 APAC ⏰ Full time 📂 Marketing 💰 $28K - $48K Posted 11 hours ago",
+      "mzda_text": "",
+      "zverejneno": "",
+      "nalezeno": "2026-08-20T05:42:09.521307+00:00",
+      "mzda": {
+        "text": "Product Marketing Manager, Supplier Network Growth Worldly 📍 APAC ⏰ Full time 📂 Marketing 💰 $28K - $48K Posted 11 hours ",
+        "mena": "USD",
+        "obdobi": "hodina",
+        "min": 11.0,
+        "max": 48000.0,
+        "czk_mesic_min": 36600,
+        "czk_mesic_max": 159874600,
+        "kurz_datum": "19.08.2026",
+        "prepocteno": true
+      },
+      "skore": 45,
+      "duvod": "Titul Product Marketing Manager odpovídá zájmu, ale role je v APAC regionu s nízkým platem, remote z Prahy není potvrzen.",
+      "deadline": ""
+    },
+    {
+      "id": "5f194ba24a81848f",
+      "odkazy": [
+        {
+          "zdroj": "EU Remote Jobs",
+          "url": "https://euremotejobs.com/job/staff-product-manager-growth/"
+        }
+      ],
+      "nazev": "High Salary Staff Product Manager, Growth LiveKit 📍 US ⏰ Full time 📂 Marketing 💰 $225,000 - $265,000 USD per year",
+      "firma": "High Salary Staff",
+      "lokalita": "",
+      "popis": "High Salary Staff Product Manager, Growth LiveKit 📍 US ⏰ Full time 📂 Marketing 💰 $225,000 - $265,000 USD per year Posted 11 hours ago",
+      "mzda_text": "$225,000 - $265,000 USD per year Posted 11 hours ago",
+      "zverejneno": "",
+      "nalezeno": "2026-08-20T05:42:09.520848+00:00",
+      "mzda": {
+        "text": "$225,000 - $265,000 USD per year Posted 11 hours ago",
+        "mena": "USD",
+        "obdobi": "hodina",
+        "min": 11.0,
+        "max": 265000.0,
+        "czk_mesic_min": 36600,
+        "czk_mesic_max": 882640800,
+        "kurz_datum": "19.08.2026",
+        "prepocteno": true
+      },
+      "skore": 25,
+      "duvod": "Jde o produktového manažera pro growth v USA, ne o product marketing roli, a lokalita neumožňuje remote z Prahy.",
+      "deadline": ""
+    },
+    {
+      "id": "76416162a0db7315",
+      "odkazy": [
+        {
+          "zdroj": "EU Remote Jobs",
+          "url": "https://euremotejobs.com/job/senior-paid-search-specialist/"
+        }
+      ],
+      "nazev": "Senior Paid Search Specialist Darkroom 📍 Brazil, Portugal, Spain ⏰ Full time 📂 Marketing",
+      "firma": "Senior Paid Search",
+      "lokalita": "",
+      "popis": "Senior Paid Search Specialist Darkroom 📍 Brazil, Portugal, Spain ⏰ Full time 📂 Marketing Posted 11 hours ago",
+      "mzda_text": "",
+      "zverejneno": "",
+      "nalezeno": "2026-08-20T05:42:09.520242+00:00",
+      "skore": 5,
+      "duvod": "Jde o čistě performance/PPC pozici, kterou uživatelka výslovně odmítá, navíc lokalita mimo Prahu a remote není zmíněn.",
+      "deadline": ""
+    },
+    {
+      "id": "26167423e4b8445b",
+      "odkazy": [
+        {
+          "zdroj": "EU Remote Jobs",
+          "url": "https://euremotejobs.com/job/pflegepadagogin-als-educational-engagement-representative-bei-novaheal/"
+        }
+      ],
+      "nazev": "Pflegepädagog:in als Educational Engagement Representative bei Novaheal Amboss 📍 Germany ⏰ Full time 📂 Marketing",
+      "firma": "Pflegepädagog:in als Educational",
+      "lokalita": "",
+      "popis": "Pflegepädagog:in als Educational Engagement Representative bei Novaheal Amboss 📍 Germany ⏰ Full time 📂 Marketing Posted 11 hours ago",
+      "mzda_text": "",
+      "zverejneno": "",
+      "nalezeno": "2026-08-20T05:42:09.519767+00:00",
+      "skore": 10,
+      "duvod": "Jde o vzdělávací roli v Německu bez zmínky o remote z Prahy a nejde o marketingovou pozici odpovídající zadání.",
+      "deadline": ""
+    },
+    {
+      "id": "64cf5c8e7b00e17c",
+      "odkazy": [
+        {
+          "zdroj": "Holky z marketingu",
+          "url": "https://www.holkyzmarketingu.cz/volne-misto/content-manazer-manazerka/"
+        }
+      ],
+      "nazev": "Content manažer/manažerka",
+      "firma": "",
+      "lokalita": "Praha",
+      "popis": "Content manažer/manažerka Full time Mindwell Praha Mindwell , Vanesa Križanovičová Mindwell je medtech startup, který propojuje psychoterapii s digitálními technologiemi a zpřístupňuje odbornou pomoc online. Seniorita:",
+      "mzda_text": "",
+      "zverejneno": "",
+      "nalezeno": "2026-08-20T05:42:05.393454+00:00",
+      "skore": 62,
+      "duvod": "Content manažer v pražském medtech startupu odpovídá zájmu o content lead roli a produktové firmy, ale úroveň seniority není z popisu jasná.",
+      "deadline": ""
+    },
+    {
+      "id": "c3decaf6cacff4f8",
+      "odkazy": [
+        {
+          "zdroj": "Jobs.cz",
+          "url": "https://www.jobs.cz/rpd/2001382813/"
+        }
+      ],
+      "nazev": "✨MARKETING MANAGER - REZIDENČNÍ REAL ESTATE DEVELOPER🏢",
+      "firma": "",
+      "lokalita": "",
+      "popis": "✨MARKETING MANAGER - REZIDENČNÍ REAL ESTATE DEVELOPER🏢 Přidáno včera 90 000 ‍–‍ 110 000 Kč Odpověď do 2 týdnů Možnost občasné práce z domova Prušák Group s.r.o. Praha",
+      "mzda_text": "",
+      "zverejneno": "",
+      "nalezeno": "2026-08-20T05:41:44.334238+00:00",
+      "mzda": {
+        "text": "✨MARKETING MANAGER - REZIDENČNÍ REAL ESTATE DEVELOPER🏢 Přidáno včera 90 000 ‍–‍ 110 000 Kč Odpověď do 2 týdnů Možnost ob",
+        "mena": "CZK",
+        "obdobi": "mesic",
+        "min": 90000.0,
+        "max": 110000.0,
+        "czk_mesic_min": 90000,
+        "czk_mesic_max": 110000,
+        "kurz_datum": "19.08.2026",
+        "prepocteno": false
+      },
+      "skore": 30,
+      "duvod": "Jde o marketing managera, ale v real estate developmentu, což neodpovídá preferovaným oborům B2B, tech, retail či e-commerce.",
+      "deadline": ""
+    },
+    {
+      "id": "32654992ea855d1b",
+      "odkazy": [
+        {
+          "zdroj": "Jobs.cz",
+          "url": "https://www.atmoskop.cz/nazory-na-zamestnavatele/3099140-home-credit-a-s"
+        }
+      ],
+      "nazev": "211 hodnocení na Atmoskopu",
+      "firma": "",
+      "lokalita": "",
+      "popis": "211 hodnocení na Atmoskopu",
+      "mzda_text": "",
+      "zverejneno": "",
+      "nalezeno": "2026-08-20T05:41:44.312368+00:00",
+      "skore": 0,
+      "duvod": "Nejde o pracovní nabídku, jen fragment textu s hodnocením firmy.",
+      "deadline": ""
+    },
+    {
+      "id": "afa3da6adf28a44a",
+      "odkazy": [
+        {
+          "zdroj": "Jobs.cz",
+          "url": "https://www.jobs.cz/rpd/2001126451/"
+        }
+      ],
+      "nazev": "Manažer/ka zákaznických cest",
+      "firma": "",
+      "lokalita": "",
+      "popis": "Manažer/ka zákaznických cest Příležitost dne Možnost občasné práce z domova Home Credit a.s. Brno – Staré Brno 211 hodnocení na Atmoskopu",
+      "mzda_text": "",
+      "zverejneno": "",
+      "nalezeno": "2026-08-20T05:41:44.311654+00:00",
+      "skore": 25,
+      "duvod": "Jde o roli zaměřenou na zákaznickou zkušenost v Brně, ne o marketingovou strategickou pozici, a lokalita neodpovídá.",
+      "deadline": ""
+    },
+    {
+      "id": "cd40a228082f94fc",
+      "odkazy": [
+        {
+          "zdroj": "Jobs.cz",
+          "url": "https://www.jobs.cz/rpd/2001382647/"
+        }
+      ],
+      "nazev": "Brand Communications Manager",
+      "firma": "",
+      "lokalita": "",
+      "popis": "Brand Communications Manager Přidáno včera Odpovězte teď a budete mezi prvními Health Academy s.r.o. Praha – Smíchov",
+      "mzda_text": "",
+      "zverejneno": "",
+      "nalezeno": "2026-08-20T05:41:40.526734+00:00",
+      "skore": 78,
+      "duvod": "Brand Communications Manager v Praze je blízké content lead/brand manager rolím, které uživatelka hledá.",
+      "deadline": ""
+    },
+    {
+      "id": "059aa83fe6e46d28",
+      "odkazy": [
+        {
+          "zdroj": "Jobs.cz",
+          "url": "https://www.jobs.cz/rpd/2001382622/"
+        }
+      ],
+      "nazev": "Brand Manager",
+      "firma": "",
+      "lokalita": "",
+      "popis": "Brand Manager Přidáno včera Odpovězte teď a budete mezi prvními Health Academy s.r.o. Praha – Smíchov",
+      "mzda_text": "",
+      "zverejneno": "",
+      "nalezeno": "2026-08-20T05:41:40.504243+00:00",
+      "skore": 85,
+      "duvod": "Brand Manager v Praze přesně odpovídá požadované seniorní roli s vlivem na strategii.",
+      "deadline": ""
+    },
+    {
+      "id": "90f44d505ba0bd09",
+      "odkazy": [
+        {
+          "zdroj": "Jobs.cz",
+          "url": "https://www.atmoskop.cz/nazory-na-zamestnavatele/3076573-bauhaus-k-s"
+        }
+      ],
+      "nazev": "209 hodnocení na Atmoskopu",
+      "firma": "",
+      "lokalita": "",
+      "popis": "209 hodnocení na Atmoskopu",
+      "mzda_text": "",
+      "zverejneno": "",
+      "nalezeno": "2026-08-20T05:41:38.558496+00:00",
+      "skore": 0,
+      "duvod": "Nejde o pracovní nabídku, jen fragment textu s hodnocením firmy.",
+      "deadline": ""
+    },
+    {
+      "id": "4b65b6b4d4f54287",
+      "odkazy": [
+        {
+          "zdroj": "Jobs.cz",
+          "url": "https://www.jobs.cz/rpd/2001382809/"
+        }
+      ],
+      "nazev": "E-shop produktový specialista/ka",
+      "firma": "",
+      "lokalita": "",
+      "popis": "E-shop produktový specialista/ka Přidáno včera Odpověď do 2 týdnů Možnost občasné práce z domova BAUHAUS k.s. Brno – Štýřice 209 hodnocení na Atmoskopu",
+      "mzda_text": "",
+      "zverejneno": "",
+      "nalezeno": "2026-08-20T05:41:38.557761+00:00",
+      "skore": 15,
+      "duvod": "Jde o produktového specialistu v e-shopu v Brně bez remote, nikoli o marketingovou strategickou roli.",
+      "deadline": ""
+    },
+    {
       "id": "80daf5164563fbe6",
       "odkazy": [
         {
@@ -9646,8 +10303,8 @@
       "deadline": ""
     }
   ],
-  "posledni_beh": "2026-08-19T05:42:32.613905+00:00",
-  "novych_dnes": 19,
+  "posledni_beh": "2026-08-20T05:43:27.331542+00:00",
+  "novych_dnes": 28,
   "navrhy_vyrazu": [],
   "chyby": []
 }

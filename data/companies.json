@@ -22,5 +22,29 @@
     "web": "",
     "kariera": "",
     "ats": ""
+  },
+  "high salary corporate": {
+    "nazev": "High Salary Corporate",
+    "web": "",
+    "kariera": "",
+    "ats": ""
+  },
+  "product growth": {
+    "nazev": "Product Growth &",
+    "web": "https://www.productgrowth.com",
+    "kariera": "",
+    "ats": ""
+  },
+  "product marketing manager": {
+    "nazev": "Product Marketing Manager,",
+    "web": "https://www.productmarketingmanager.com",
+    "kariera": "",
+    "ats": ""
+  },
+  "director of marketing": {
+    "nazev": "Director of Marketing,",
+    "web": "https://directorofmarketing.com",
+    "kariera": "",
+    "ats": ""
   }
 }
